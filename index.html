@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>[ kiking] My Reading Notes </title>
+            <meta property = "og:image"
+                content="https://github.com/kiking0501/kiking0501.github.io/blob/master/polyhedramatics_hkapa2018/pic/TheBlueCrystal.png" />
+        <!-- Bootstrap 3-->
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+        <script src="//unpkg.com/3d-force-graph"></script>
+        <script type="importmap">{ "imports": { "three": "//unpkg.com/three/build/three.module.js" }}</script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://unpkg.com/pdfobject"></script>
+
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js" type="module"> </script>
+        <link rel="icon" type="image/png" href="media/favicon.png"/>
+        <style type="text/css" media="screen">
+        </style>
+    </head>
+    <script type="text/javascript" charset="utf-8">
+
+        const reading_info = {
+            1: {
+                'title': "01_concepts_of_modern_mathematics_ian_stewart",
+                'glink': "https://drive.google.com/file/d/1aj999WVy5KR5qG4QfV5iwjFjwrwMma9m/preview?usp=drive_link&rm=demo", // 01
+                'color': "#b4dcca",
+            },
+            2: {
+                'title': "02_introduction_to_topology_bert_mendelson",
+                'glink': "https://drive.google.com/file/d/1mn0MC9f2v9irbptyqeXW5oPvcU5QNjv6/preview?usp=drive_link&rm=demo", // 02
+                'color': "#e1923f",
+            },
+            3: {
+                'title': "03_introduction_to_real_analysis_robert_g_bartle",
+                'glink': "https://drive.google.com/file/d/1qHSV4srOr5LFaFLBKFjylXn4jMzScSH0/preview?usp=drive_link&rm=demo", // 03
+                'color': "#c2c303",
+            },
+            4: {
+                'title': "04_introduction_to_machine_learning_yaoliang_yu",
+                'glink': "https://drive.google.com/file/d/1Xtn_gUVcnvax-njcEFu5LEQgNlbsrnbY/preview?usp=drive_link&rm=demo", // 04
+                'color':"#d7d6d6", // "grey"
+            },
+            5: {
+                'title': "05_introduction_to_graph_theory_richard_j_trudeau",
+                'glink': "https://drive.google.com/file/d/1XlnAMA9w0gUu6YYxcB7Tz13DIUErb2FC/preview?usp=drive_link&rm=demo", // 05
+                'color': "#cee5ef",
+            },
+            6: {
+                'title': "06_deep_learning_ian_goodfellow_yoshua_bengio_aaron_courville_partI",
+                'glink': "https://drive.google.com/file/d/1OOXOT1ZmrSgsRtNByNtl6yuEra6tkQp2/preview?usp=drive_link&rm=demo", // 06
+                'color': "#6fa8db",
+            }
+        }
+
+        const order = [
+            4,
+            6,
+            3,
+            2,
+            5,
+            1,
+        ]
+
+        function add_thumbnail(title) {
+            const thumbnail = $("#img_" + title).clone();
+            thumbnail.removeAttr("id"); thumbnail.removeAttr("onclick"); thumbnail.removeAttr("style");
+            return thumbnail;
+        }
+
+        function load_book(book_key, page) {
+            var title = reading_info[book_key]['title'];
+            var glink = reading_info[book_key]['glink'];
+            if (typeof page === 'undefined') {
+                page = 1;
+                $("#message_selected_page").hide();
+            }
+
+            const pdf_options = {
+                pdfOpenParams: {
+                    view: 'FitV',
+                    pagemode: 'bookmarks',
+                    page: page,
+                }
+            };
+
+            $(".book_description").hide();
+            $(".book_cover").css("background-color", "inherit");
+
+            $("#section_reading_notes").find(".book_thumbnail:first").html(add_thumbnail(title));
+            $("#description_" + title).show();
+            $("#cover_" + title).css("background-color", "black");
+            
+            const fallbackLink = {
+                'fallbackLink': '<embed src="' + glink + '" width="100%" height="1200"/> '
+            };
+            PDFObject.embed(
+                "./notes_pdf/kiking_notes_" + title + ".pdf",
+                "#notes_pdf",
+                Object.assign({}, pdf_options, fallbackLink)
+            );
+        }
+    </script>
+
+    <body>
+
+        <div>
+            <h1 class="title"><a href="../" style="text-decoration: none; color:inherit">[ kiking ]</a> My Reading Notes</h1>
+            <h4></h4>
+
+            <div id="main_content" class="row">
+                <div class="col-lg-5" id="section_display" >
+                    <hr>
+ 
+                    <ul class="nav nav-pills" id="nav_pills_display">
+                      <li class="active" id="display_graph"><a href="#">Knowledge Graph</a></li>
+                      <li class="" id="display_standard"><a href="#">Bookshelf View</a></li>
+                    </ul>
+
+                    <br>
+
+                     <span style="font-size:18px">
+                     A collection of books that I have read. Click to checkout my notes - enjoy!
+                    </span>
+
+                    <span id="expand_toggle">
+                        Expand View >>
+                    </span>
+                    <span id="parallel_toggle" style="display:none;">
+                        << Parallel View
+                    </span>
+                    
+
+                    <br> <br>
+ 
+                    <div class="row display_tab" id="section_graph" style="display:none;">
+                    </div>
+                    <div class="row display_tab" id="section_book_cover" style="display:none;">
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-7" id="section_reading_notes">
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-sm-1 book_thumbnail"> 
+                        </div>
+                        <div class="col-sm-11">
+                             <span class="book_description" id="description_01_concepts_of_modern_mathematics_ian_stewart" style="font-size:18px; display:none;">
+                            [[ Concepts of Modern Mathematics ]] - Ian Stewart <br>
+                            <i>Last update: 2024-03-12</i>
+                            </span>
+                            <span class="book_description" id="description_02_introduction_to_topology_bert_mendelson" style="font-size:18px; display:none;">
+                            [[ Introduction to Topology ]] - Bert Mendelson <br>
+                            <i>Last update: 2024-07-02</i>
+                            </span>
+                            <span class="book_description" id="description_03_introduction_to_real_analysis_robert_g_bartle" style="font-size:18px; display:none;">
+                            [[ Introduction to Real Analaysis ]] - Robert G Bartle, Donald R. Sherbert <br>
+                            <i>Last update: 2024-07-07</i>
+                            </span>
+                            <span class="book_description" id="description_04_introduction_to_machine_learning_yaoliang_yu" style="font-size:18px; display:none;">
+                            [[ Introduction to Machine Learning ]] - Yaoliang Yu <span style="color:grey">(yyds)</span> <br>
+                            <a href="https://cs.uwaterloo.ca/~y328yu/mycourses/480/lecture.html">Course Homepage from University of Waterloo</a><br>
+                            <i>Last update: 2024-07-29</i>
+                            </span>
+                            <span class="book_description" id="description_05_introduction_to_graph_theory_richard_j_trudeau" style="font-size:18px; display:none;">
+                            [[ Introduction to Graph Theory ]] - Richard J. Trudeau <br>
+                            <i>Last update: 2024-08-04</i>
+                            </span>
+                            <span class="book_description" id="description_06_deep_learning_ian_goodfellow_yoshua_bengio_aaron_courville_partI" style="font-size:18px; display:none;">
+                            [[ Deep Learning ]] - Ian Goodfellow, Yoshua Bengio, Aaron Courville <br>
+                            Part I on <span style="color:lightblue"> Linear Algebra, Probability & Information Theory, Numerical Computation, and Machine Learning Basics </span> <br>
+                            <i>Last update: 2024-08-29</i>
+                            </span>
+                            <br>
+                            <span id="message_selected_page" style="display:none;"> Selecting: [Page <span class="page"></span>] <span class="title"></span> </span>
+                        </div>
+                        <br>
+                    </div>
+
+                    <div id="notes_pdf"> 
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="template_book_cover" style="display:none">
+            <div class="col-xs-4 book_cover">
+                 <img id="" src="" title="" style="cursor:pointer; padding-top:10px; padding-bottom:10px;" width="100%">
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    padding: 80px 80px 80px 80px;
+    background-image: url('./media/background.jpg');
+    background-size: cover;
+    color: white;
+    font-family:'Open Sans', sans-serif;
+}
+
+img.resize {
+  max-width:100%;
+  /*max-height:700px;*/
+}
+
+.book_cover:hover {
+    background-color: black;
+}
+
+.title {
+    font-family: "Lucida Console";
+}
+
+.pdfobject-container { height: 1200px;}
+.pdfobject { border: 1px solid #666; }
+
+#nav_pills_display {
+    display: flex;
+    justify-content: center;
+/*    background-color: white;*/
+}
+#nav_pills_display li{
+    background-color: white;
+}
+.book_thumbnail img{
+    height: 100px;
+    width: auto;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom: 10px;
+}
+#message_selected_page {
+    color: lightgrey;
+}
+
+#expand_toggle {
+    padding-left: 5px;
+    color: lightblue;
+    cursor: pointer;
+}
+#parallel_toggle {
+    padding-left: 5px;
+    color: lightblue;
+    cursor: pointer;
+}

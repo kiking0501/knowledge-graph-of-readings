@@ -1,2 +1,4 @@
-# reading-knowledge-graph
-Transform my readings into a Knowledge Graph!
+# Readings' Knowledge Graph
+![demo graph](./media/demo_graph.png)
+Transform my readings notes into a Knowledge Graph view
+
