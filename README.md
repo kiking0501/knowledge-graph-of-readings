@@ -1,4 +1,4 @@
-# Knowldge graph of Readings
+# Knowledge graph of my Readings
 
 Transform my readings notes into a Knowledge Graph view
 
