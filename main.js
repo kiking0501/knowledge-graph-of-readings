@@ -6,7 +6,7 @@ $( document ).ready(function() {
     });
     $("#display_graph").click();
 
-    var init_pos = order[0];
+    var init_pos = 4;
     load_book(init_pos);
 
     $("#expand_toggle").on('click', function() {
@@ -78,14 +78,19 @@ function display_graph() {
     const graph_file = './graph/complete_graph.json'
     const graph_container = document.getElementById('section_display');
 
-    const Graph = ForceGraph3D({ controlType: 'orbit' })(document.getElementById('section_graph'))
+    const Graph = ForceGraph3D(
+        { 
+            controlType: 'orbit', 
+            rendererConfig: { antialias: true, alpha: true },
+        }
+    )(document.getElementById('section_graph'))
       .width(graph_container.clientWidth)
       .height(1200)
       .backgroundColor('black')
       .showNavInfo(true)
       .jsonUrl(graph_file)
-      .dagMode('zin') 
-      .cameraPosition({x: -300, z: 1500})
+      .dagMode('zout') 
+      .cameraPosition({x: 0, z: 1200})
       .linkColor((link) => {
         if (link.type == "contains") { return reading_info[link.source[0]]['color'] };
         if (link.type == "related") { return 'red'}
@@ -124,7 +129,7 @@ function display_graph() {
         }
       })
 
-    Graph.d3Force('charge').strength(-100);
+    Graph.d3Force('charge').strength(-50);
     window.addEventListener('resize', () => {
         Graph.width(graph_container.clientWidth);
     });
