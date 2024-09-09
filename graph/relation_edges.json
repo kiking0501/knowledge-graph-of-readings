@@ -56,15 +56,9 @@
         },
         {
             "source": "1-16",
-            "target": "3-3-1",
+            "target": "3-3",
             "type": "related",
-            "remark": "Overview/Real Analysis ->  Real Analysis/Sequence and their limits"
-        },
-        {
-            "source": "1-16",
-            "target": "3-3-6",
-            "type": "related",
-            "remark": "Overview/Real Analysis ->  Real Analysis/Introduction to Infinite Series"
+            "remark": "Overview/Real Analysis ->  Real Analysis/Sequence and Series"
         },
         {
             "source": "1-16",
@@ -115,7 +109,13 @@
             "remark": "Topology/Homotopic Paths and the Fundamental Group ->  Overview/(Symmetry) Group"
         },
         {
-            "source": "3-11-2",
+            "source": "3-11",
+            "target": "2-1-1",
+            "type": "related",
+            "remark": "Real Analysis/Glipse of Topology ->  Topology/Theory of Sets"
+        },
+        {
+            "source": "3-11",
             "target": "2-5-2",
             "type": "related",
             "remark": "Real Analysis/Glipse of Topology ->  Topology/Compact Topological Spaces"
@@ -158,9 +158,9 @@
         },
         {
             "source": "4-08",
-            "target": "7-6",
+            "target": "7",
             "type": "related",
-            "remark": "Machine Learning/Multi-layer Perceptron ->  Deep Learning II/Deep Feedforward Networks"
+            "remark": "Machine Learning/Multi-layer Perceptron ->  Deep Learning II"
         },
         {
             "source": "4-13",
@@ -173,13 +173,7 @@
             "target": "7-7-11",
             "type": "related",
             "remark": "Machine Learning/Boosting vs Bagging (Ensembling) -> Deep Learning II/Bagging and Other Ensemble Methods"
-        },
-        {
-            "source": "6-5-2-2",
-            "target": "7-7-1",
-            "type": "related",
-            "remark": "Deep Learning/Regularization -> Deep Learning II/Parameter Norm Penalties"
-        },        
+        },    
         {
             "source": "6-3-12",
             "target": "3-10-4",
@@ -193,16 +187,22 @@
             "remark": "Deep Learning/Beyond the Gradient: Jacobian and Hessian Matrices -> Real Analysis/Taylor's Theorem"
         },
         {
-            "source": "7-6-2-1-1",
-            "target": "6-5-5-1",
+            "source": "6-5-9",
+            "target": "7-8-3-1",
             "type": "related",
-            "remark": "Deep Learning II/Learning Conditional Distributions with Maximum Likelihood -> Deep Learning/Conditional Log-Likelihood & Mean Squared Error"
+            "remark": "Deep Learning/Stochastic Gradient Descent -> Deep Learning II/Stochastic Gradient Descent"
         },
         {
-            "source": "7-6-2-1-2",
-            "target": "6-5-4-3",
+            "source": "7-6-2-1",
+            "target": "6-5-5",
             "type": "related",
-            "remark": "Deep Learning II/Learning Conditional Statistics -> Deep Learning/Variance and Standard Error"
+            "remark": "Deep Learning II/Cost Functions -> Deep Learning/Maximum Likelihood Estimation"
+        },
+        {
+            "source": "7-6-2-1",
+            "target": "6-5-4",
+            "type": "related",
+            "remark": "Deep Learning II/Cost Functions -> Deep Learning/Estimators, Bias and Variance"
         },         
         {
             "source": "7-6-2-2-1",
@@ -222,6 +222,12 @@
             "type": "related",
             "remark": "Deep Learning II/Softmax Units for Multinoulli Output Distributions -> Deep Learning/Multinoulli Distribution"
         },
+        {
+            "source": "7-7-1",
+            "target": "6-5-6",
+            "type": "related",
+            "remark": "Deep Learning II/Parameter Norm Penalties -> Deep Learning/Bayesian Statistics"
+        },    
         {
             "source": "7-7-2",
             "target": "6-4-4",

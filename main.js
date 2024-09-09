@@ -6,7 +6,7 @@ $( document ).ready(function() {
     });
     $("#display_graph").click();
 
-    var init_pos = 4;
+    var init_pos = 2;
     load_book(init_pos);
 
     $("#expand_toggle").on('click', function() {
@@ -89,8 +89,8 @@ function display_graph() {
       .backgroundColor('black')
       .showNavInfo(true)
       .jsonUrl(graph_file)
-      .dagMode('zout') 
-      .cameraPosition({x: 0, z: 1200})
+      .dagMode('td') 
+      .cameraPosition({x: 0, y: 1200, z: 1200})
       .linkColor((link) => {
         if (link.type == "contains") { return reading_info[link.source[0]]['color'] };
         if (link.type == "related") { return 'red'}
@@ -129,7 +129,7 @@ function display_graph() {
         }
       })
 
-    Graph.d3Force('charge').strength(-50);
+    Graph.d3Force('charge').strength(-80);
     window.addEventListener('resize', () => {
         Graph.width(graph_container.clientWidth);
     });
