@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 
@@ -95,14 +96,6 @@
                     page: page,
                 }
             };
-
-            $(".book_description").hide();
-            $(".book_cover").css("background-color", "inherit");
-
-            $("#section_reading_notes").find(".book_thumbnail:first").html(add_thumbnail(title));
-            $("#description_" + title).show();
-            $("#cover_" + title).css("background-color", "black");
-            
             const fallbackLink = {
                 'fallbackLink': '<embed src="' + glink + '" width="100%" height="1200"/> '
             };
@@ -111,6 +104,13 @@
                 "#notes_pdf",
                 Object.assign({}, pdf_options, fallbackLink)
             );
+
+            $(".book_description").hide();
+            $(".book_cover").css("background-color", "inherit");
+
+            $("#section_reading_notes").find(".book_thumbnail:first").html(add_thumbnail(title));
+            $("#description_" + title).show();
+            $("#cover_" + title).css("background-color", "black");
         }
     </script>
 
@@ -121,25 +121,25 @@
             <h4></h4>
 
             <div id="main_content" class="row">
-                <div class="col-lg-5" id="section_display" >
+                <div class="" id="section_display" >
                     <hr>
  
                     <ul class="nav nav-pills" id="nav_pills_display">
                       <li class="active" id="display_graph"><a href="#">Knowledge Graph</a></li>
-                      <li class="" id="display_standard"><a href="#">Bookshelf View</a></li>
+                      <li class="" id="display_standard"><a href="#">Bookshelf</a></li>
                     </ul>
 
                     <br>
 
                      <span style="font-size:18px">
-                     A collection of books that I have read. Click to checkout my notes - enjoy!
+                     A collection of books that I have read - enjoy!
                     </span>
 
-                    <span id="expand_toggle">
-                        Expand View >>
+                    <span id="expand_toggle" style="display:none;">
+                        <i class="fa fa-arrows-alt" aria-hidden="true"></i> Expand
                     </span>
-                    <span id="parallel_toggle" style="display:none;">
-                        << Parallel View
+                    <span id="parallel_toggle" style="">
+                        <i class="fa fa-columns" aria-hidden="true"></i> Notes
                     </span>
                     
 
@@ -153,13 +153,13 @@
 
                 </div>
 
-                <div class="col-lg-7" id="section_reading_notes">
+                <div class="" id="section_reading_notes">
                     <hr>
 
                     <div class="row">
-                        <div class="col-sm-1 book_thumbnail"> 
+                        <div class="col-sm-2 book_thumbnail">
                         </div>
-                        <div class="col-sm-11">
+                        <div class="col-sm-10">
                              <span class="book_description" id="description_01_concepts_of_modern_mathematics_ian_stewart" style="font-size:18px; display:none;">
                             [[ Concepts of Modern Mathematics ]] - Ian Stewart <br>
                             <i>Last update: 2024-03-12</i>
@@ -186,7 +186,6 @@
                             Part I on <span style="color:lightblue"> Linear Algebra, Probability & Information Theory, Numerical Computation, and Machine Learning Basics </span> <br>
                             <i>Last update: 2024-08-29</i>
                             </span>
-                            <br>
                             <span class="book_description" id="description_07_deep_learning_ian_goodfellow_yoshua_bengio_aaron_courville_partII" style="font-size:18px; display:none;">
                             [[ Deep Learning ]] - Ian Goodfellow, Yoshua Bengio, Aaron Courville <br>
                             Part II on <span style="color:lightblue"> Modern Practical Deep Networks </span> <br>
