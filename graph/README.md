@@ -9,7 +9,7 @@ Navigate to `bookmarks/`, follow instructions there to generate the bookmark fil
 
 Come back to `graph/`, run 
 ```
-python generate_graph_json.py --output_graph <output_graph>.json
+python generate_graph_json.py --output_path <output_graph>.json
 ````
 Currently `main.js` will look for `complete_graph.json` under this folder. Check the python code for more details on how the node and edges are defined
 

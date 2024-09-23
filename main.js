@@ -89,7 +89,7 @@ function display_graph() {
       .showNavInfo(true)
       .jsonUrl(graph_file)
       .dagMode('td') 
-      .cameraPosition({x: 0, y: 1200, z: 1200})
+      .cameraPosition({x: 0, y: 1200, z: 1200}) //y: 1200, 
       .linkColor((link) => {
         if (link.type == "contains") { return reading_info[link.source[0]]['color'] };
         if (link.type == "related") { return 'red'}
@@ -137,7 +137,7 @@ function display_graph() {
         };
       })
 
-    Graph.d3Force('charge').strength(-80);
+    Graph.d3Force('charge').strength(-100);
     window.addEventListener('resize', () => {
         Graph.width(graph_container.clientWidth);
     });

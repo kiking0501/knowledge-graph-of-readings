@@ -163,6 +163,12 @@
             "remark": "Machine Learning/Multi-layer Perceptron ->  Deep Learning II"
         },
         {
+            "source": "4-09",
+            "target": "7-9",
+            "type": "related",
+            "remark": "Machine Learning/Convolutional Neural Network->  Deep Learning II/Convolutional Network"
+        }, 
+        {
             "source": "4-13",
             "target": "6-5-7-3",
             "type": "related",
@@ -240,13 +246,17 @@
             "type": "related",
             "remark": "Deep Learning II/Regularization and Under-Constrained Problems -> Deep Learning/The Moore-Penrose Pseudoinverse"
         },
-
         {
             "source": "7-7-14",
             "target": "6-5-11-3",
             "type": "related",
             "remark": "Deep Learning II/Tangent Distance, Tangent Prop and Manifold Tangent Classifier -> Deep Learning/Manifold Learning"
+        },
+        {
+            "source": "7-12-4-5-1",
+            "target": "4-10",
+            "type": "related",
+            "remark": "Deep Learning II/Using an Attention Mechanism -> Machine Learning/Attention"
         }
-        
     ]
 }
