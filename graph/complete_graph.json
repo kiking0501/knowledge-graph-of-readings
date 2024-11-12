@@ -6,6 +6,11 @@
             "type": "img"
         },
         {
+            "id": "8",
+            "book_key": "8",
+            "type": "img"
+        },
+        {
             "id": "3",
             "book_key": "3",
             "type": "img"
@@ -213,6 +218,141 @@
             "bookmark_level": 1,
             "title": "Foundations",
             "book_key": "1",
+            "type": "text"
+        },
+        {
+            "id": "8-1",
+            "bookmark_name": "Chapter 1: Why Abstract Algebra?",
+            "bookmark_page": 1,
+            "bookmark_level": 1,
+            "title": "Why Abstract Algebra?",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-2",
+            "bookmark_name": "Chapter 2: Operations",
+            "bookmark_page": 1,
+            "bookmark_level": 1,
+            "title": "Operations",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-3",
+            "bookmark_name": "Chapter 3: The Definitions of Groups",
+            "bookmark_page": 2,
+            "bookmark_level": 1,
+            "title": "The Definitions of Groups",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-4",
+            "bookmark_name": "Chapter 4: Elementary Properties of Groups",
+            "bookmark_page": 4,
+            "bookmark_level": 1,
+            "title": "Elementary Properties of Groups",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-5",
+            "bookmark_name": "Chapter 5: Subgroups",
+            "bookmark_page": 5,
+            "bookmark_level": 1,
+            "title": "Subgroups",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-6",
+            "bookmark_name": "Chapter 6: Functions",
+            "bookmark_page": 7,
+            "bookmark_level": 1,
+            "title": "Functions",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-7",
+            "bookmark_name": "Chapter 7: Groups of Permutations",
+            "bookmark_page": 8,
+            "bookmark_level": 1,
+            "title": "Groups of Permutations",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-8",
+            "bookmark_name": "Chapter 8: Permutations of a Finite Set",
+            "bookmark_page": 8,
+            "bookmark_level": 1,
+            "title": "Permutations of a Finite Set",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-9",
+            "bookmark_name": "Chapter 9: Isomorphism",
+            "bookmark_page": 9,
+            "bookmark_level": 1,
+            "title": "Isomorphism",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-10",
+            "bookmark_name": "Chapter 10: Order of Group Elements",
+            "bookmark_page": 11,
+            "bookmark_level": 1,
+            "title": "Order of Group Elements",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-11",
+            "bookmark_name": "Chapter 11: Cyclic Groups",
+            "bookmark_page": 11,
+            "bookmark_level": 1,
+            "title": "Cyclic Groups",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-12",
+            "bookmark_name": "Chapter 12: Partitions and Equivalence Relations",
+            "bookmark_page": 11,
+            "bookmark_level": 1,
+            "title": "Partitions and Equivalence Relations",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-13",
+            "bookmark_name": "Chapter 13: Counting Cosets",
+            "bookmark_page": 13,
+            "bookmark_level": 1,
+            "title": "Counting Cosets",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-14",
+            "bookmark_name": "Chapter 14: Homomorphisms",
+            "bookmark_page": 17,
+            "bookmark_level": 1,
+            "title": "Homomorphisms",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-15",
+            "bookmark_name": "Chapter 15: Quotient Groups",
+            "bookmark_page": 18,
+            "bookmark_level": 1,
+            "title": "Quotient Groups",
+            "book_key": "8",
             "type": "text"
         },
         {
@@ -3351,6 +3491,81 @@
             "type": "contains"
         },
         {
+            "source": "8",
+            "target": "8-1",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-2",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-3",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-4",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-5",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-6",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-7",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-8",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-9",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-10",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-11",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-12",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-13",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-14",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-15",
+            "type": "contains"
+        },
+        {
             "source": "3",
             "target": "3-1",
             "type": "contains"
@@ -5036,6 +5251,30 @@
             "type": "contains"
         },
         {
+            "source": "1-7",
+            "target": "8-7",
+            "type": "related",
+            "remark": "Overview/(Symmetry) Group -> Abstract Algebra/Groups of Permutations"
+        },
+        {
+            "source": "1-7",
+            "target": "8-9",
+            "type": "related",
+            "remark": "Overview/(Symmetry) Group -> Abstract Algebra/Isomorphism"
+        },
+        {
+            "source": "1-7",
+            "target": "8-13",
+            "type": "related",
+            "remark": "Overview/(Symmetry) Group -> Abstract Algebra/Counting Cosets"
+        },
+        {
+            "source": "1-7",
+            "target": "8-7",
+            "type": "related",
+            "remark": "Overview/(Symmetry) Group -> Abstract Algebra/Groups of Permutations"
+        },
+        {
             "source": "1-10",
             "target": "2-3",
             "type": "related",
@@ -5114,6 +5353,12 @@
             "remark": "Overview/The theory of Probability ->  Deep Learning/Probability & Information Theory"
         },
         {
+            "source": "2-1-7",
+            "target": "8-12",
+            "type": "related",
+            "remark": "Topology/Relations -> Abstract Algebra/Partitions and Equivalence Relations"
+        },
+        {
             "source": "2-2-3",
             "target": "3-5",
             "type": "related",
@@ -5133,15 +5378,21 @@
         },
         {
             "source": "2-3-9",
-            "target": "1-7",
+            "target": "8-14",
             "type": "related",
-            "remark": "Topology/Categories and Functors ->  Overview/(Symmetry) Group"
+            "remark": "Topology/Categories and Functors -> Abstract Algebra/Homomorphisms"
         },
         {
             "source": "2-4-7",
-            "target": "1-7",
+            "target": "8-9",
             "type": "related",
-            "remark": "Topology/Homotopic Paths and the Fundamental Group ->  Overview/(Symmetry) Group"
+            "remark": "Topology/Homotopic Paths and the Fundamental Group -> Abstract Algebra/Isomorphism"
+        },
+        {
+            "source": "2-4-7",
+            "target": "8-4",
+            "type": "related",
+            "remark": "Topology/Homotopic Paths and the Fundamental Group -> Abstract Algebra/Homomorphisms"
         },
         {
             "source": "3-11",
@@ -5214,6 +5465,18 @@
             "target": "7-7-11",
             "type": "related",
             "remark": "Machine Learning/Boosting vs Bagging (Ensembling) -> Deep Learning II/Bagging and Other Ensemble Methods"
+        },
+        {
+            "source": "5-2",
+            "target": "8-9",
+            "type": "related",
+            "remark": "Graph Theory/Graphs -> Abstract Algebra/Isomorphism"
+        },
+        {
+            "source": "5-2",
+            "target": "8-11",
+            "type": "related",
+            "remark": "Graph Theory/Graphs -> Abstract Algebra/Cyclic Groups"
         },
         {
             "source": "6-3-12",

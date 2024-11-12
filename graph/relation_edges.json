@@ -1,6 +1,30 @@
 {
     "links": [
         {
+            "source": "1-7",
+            "target": "8-7",
+            "type": "related",
+            "remark": "Overview/(Symmetry) Group -> Abstract Algebra/Groups of Permutations"
+        },
+        {
+            "source": "1-7",
+            "target": "8-9",
+            "type": "related",
+            "remark": "Overview/(Symmetry) Group -> Abstract Algebra/Isomorphism"
+        },
+        {
+            "source": "1-7",
+            "target": "8-13",
+            "type": "related",
+            "remark": "Overview/(Symmetry) Group -> Abstract Algebra/Counting Cosets"
+        },
+        {
+            "source": "1-7",
+            "target": "8-7",
+            "type": "related",
+            "remark": "Overview/(Symmetry) Group -> Abstract Algebra/Groups of Permutations"
+        },
+        {
             "source": "1-10",
             "target": "2-3",
             "type": "related",
@@ -79,6 +103,12 @@
             "remark": "Overview/The theory of Probability ->  Deep Learning/Probability & Information Theory"
         },
         {
+            "source": "2-1-7",
+            "target": "8-12",
+            "type": "related",
+            "remark": "Topology/Relations -> Abstract Algebra/Partitions and Equivalence Relations"
+        },
+        {
             "source": "2-2-3",
             "target": "3-5",
             "type": "related",
@@ -98,15 +128,21 @@
         },
         {
             "source": "2-3-9",
-            "target": "1-7",
+            "target": "8-14",
             "type": "related",
-            "remark": "Topology/Categories and Functors ->  Overview/(Symmetry) Group"
+            "remark": "Topology/Categories and Functors -> Abstract Algebra/Homomorphisms"
         },
         {
             "source": "2-4-7",
-            "target": "1-7",
+            "target": "8-9",
             "type": "related",
-            "remark": "Topology/Homotopic Paths and the Fundamental Group ->  Overview/(Symmetry) Group"
+            "remark": "Topology/Homotopic Paths and the Fundamental Group -> Abstract Algebra/Isomorphism"
+        },
+        {
+            "source": "2-4-7",
+            "target": "8-4",
+            "type": "related",
+            "remark": "Topology/Homotopic Paths and the Fundamental Group -> Abstract Algebra/Homomorphisms"
         },
         {
             "source": "3-11",
@@ -179,7 +215,19 @@
             "target": "7-7-11",
             "type": "related",
             "remark": "Machine Learning/Boosting vs Bagging (Ensembling) -> Deep Learning II/Bagging and Other Ensemble Methods"
-        },    
+        }, 
+        {
+            "source": "5-2",
+            "target": "8-9",
+            "type": "related",
+            "remark": "Graph Theory/Graphs -> Abstract Algebra/Isomorphism"
+        }, 
+        {
+            "source": "5-2",
+            "target": "8-11",
+            "type": "related",
+            "remark": "Graph Theory/Graphs -> Abstract Algebra/Cyclic Groups"
+        }, 
         {
             "source": "6-3-12",
             "target": "3-10-4",

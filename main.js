@@ -11,6 +11,7 @@ $( document ).ready(function() {
 
     $("#expand_toggle").on('click', function() {adjust_column_display(true);});
     $("#parallel_toggle").on('click', function() {adjust_column_display(false);});
+    adjust_column_display(false);
 })
 
 function change_nav_pill(obj) {
@@ -20,6 +21,7 @@ function change_nav_pill(obj) {
     $(".display_tab").hide();
     if ($(obj).attr('id') == "display_standard") {
         $("#section_book_cover").show();
+         $("#section_change_log").show();
     }
     if ($(obj).attr('id') == "display_graph") {
         $("#section_graph").show();
@@ -89,7 +91,8 @@ function display_graph() {
       .showNavInfo(true)
       .jsonUrl(graph_file)
       .dagMode('td') 
-      .cameraPosition({x: 0, y: 1200, z: 1200}) //y: 1200, 
+      .cameraPosition({x: 1000, y: 0, z: 1800}) //y: 1200, 
+      // .cameraPosition({x: 0, y: 1200, z: 1200}) //y: 1200, 
       .linkColor((link) => {
         if (link.type == "contains") { return reading_info[link.source[0]]['color'] };
         if (link.type == "related") { return 'red'}
