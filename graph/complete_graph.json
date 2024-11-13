@@ -356,6 +356,24 @@
             "type": "text"
         },
         {
+            "id": "8-16",
+            "bookmark_name": "Chapter 16: The Fundamental Homomorphism Theorem",
+            "bookmark_page": 21,
+            "bookmark_level": 1,
+            "title": "The Fundamental Homomorphism Theorem",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
+            "id": "8-17",
+            "bookmark_name": "Chapter 17: Rings: definitions and elementary properties",
+            "bookmark_page": 23,
+            "bookmark_level": 1,
+            "title": "Rings: definitions and elementary properties",
+            "book_key": "8",
+            "type": "text"
+        },
+        {
             "id": "3-1",
             "bookmark_name": "Chapter 1: Preliminaries",
             "bookmark_page": 1,
@@ -3566,6 +3584,16 @@
             "type": "contains"
         },
         {
+            "source": "8",
+            "target": "8-16",
+            "type": "contains"
+        },
+        {
+            "source": "8",
+            "target": "8-17",
+            "type": "contains"
+        },
+        {
             "source": "3",
             "target": "3-1",
             "type": "contains"
@@ -5251,6 +5279,12 @@
             "type": "contains"
         },
         {
+            "source": "1-6",
+            "target": "8-17",
+            "type": "related",
+            "remark": "Overview/Abstract Algebra -> Abstract Algebra/Rings: definitions and elementary properties"
+        },
+        {
             "source": "1-7",
             "target": "8-7",
             "type": "related",
@@ -5270,9 +5304,9 @@
         },
         {
             "source": "1-7",
-            "target": "8-7",
+            "target": "8-16",
             "type": "related",
-            "remark": "Overview/(Symmetry) Group -> Abstract Algebra/Groups of Permutations"
+            "remark": "Overview/(Symmetry) Group -> Abstract Algebra/The Fundamental Homomorphism Theorem"
         },
         {
             "source": "1-10",
