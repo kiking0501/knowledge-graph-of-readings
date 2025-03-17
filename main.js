@@ -22,6 +22,8 @@ function change_nav_pill(obj) {
     if ($(obj).attr('id') == "display_standard") {
         $("#section_book_cover").show();
          $("#section_change_log").show();
+
+        $("#section_addl_book_cover").show(); 
     }
     if ($(obj).attr('id') == "display_graph") {
         $("#section_graph").show();
@@ -167,5 +169,4 @@ function display_book_covers(callback) {
     }
     callback();
 }
-
 

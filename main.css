@@ -53,3 +53,10 @@ img.resize {
     cursor: pointer;
     font-weight: bold;
 }
+
+.manifest_ul li a{
+    color: lightblue;
+}
+.manifest_chapter_header {
+    cursor: pointer;
+}

@@ -80,11 +80,19 @@
             5,
             1,
         ]
+        function show_description_with_thumbnail(title) {
+            function add_thumbnail(title) {
+                const thumbnail = $("#img_" + title).clone();
+                thumbnail.removeAttr("id"); thumbnail.removeAttr("onclick"); thumbnail.removeAttr("style");
+                return thumbnail;
+            }
 
-        function add_thumbnail(title) {
-            const thumbnail = $("#img_" + title).clone();
-            thumbnail.removeAttr("id"); thumbnail.removeAttr("onclick"); thumbnail.removeAttr("style");
-            return thumbnail;
+            $(".book_description").hide();
+            $(".book_cover").css("background-color", "inherit");
+
+            $("#section_reading_notes").find(".book_thumbnail:first").html(add_thumbnail(title));
+            $("#description_" + title).show();
+            $("#cover_" + title).css("background-color", "black");
         }
 
         function load_book(book_key, page) {
@@ -111,20 +119,32 @@
                 Object.assign({}, pdf_options, fallbackLink)
             );
 
-            $(".book_description").hide();
-            $(".book_cover").css("background-color", "inherit");
-
-            $("#section_reading_notes").find(".book_thumbnail:first").html(add_thumbnail(title));
-            $("#description_" + title).show();
-            $("#cover_" + title).css("background-color", "black");
+            show_description_with_thumbnail(title);
+            $("#notes_pdf").show(); $("#notes_manifest").hide();
         }
+
+        function load_book_manifest(title) {
+            show_description_with_thumbnail(title);
+            $("#notes_manifest").load("notes_manifest/html_" + title + ".html");
+            $("#notes_manifest").show(); $("#notes_pdf").hide();
+        }
+
+        function toggle_manifest_chapter(div) {
+            $(div).parent().find(".manifest_content").toggle(".1s");
+        }
+
     </script>
 
     <body>
 
         <div>
             <h1 class="title"><a href="../" style="text-decoration: none; color:inherit">[ kiking ]</a> Knowledge Graph of Readings</h1>
-            <h4></h4>
+            <h4>
+
+             <i>"One cannot help but be in awe when he contemplates the mysteries of eternity, of life, of the marvelous structure of reality."</i>
+
+
+            </h4>
 
             <div id="main_content" class="row">
                 <div class="" id="section_display" >
@@ -137,17 +157,15 @@
 
                     <br>
 
-                     <span style="font-size:18px">
-                     A collection of books that I have read - enjoy!
-                    </span>
+                    <span>
 
-                    <span id="expand_toggle" style="display:none;">
-                        <i class="fa fa-arrows-alt" aria-hidden="true"></i> Expand
+                        <span id="expand_toggle" style="display:none;">
+                            <i class="fa fa-arrows-alt" aria-hidden="true"></i> Expand View
+                        </span>
+                        <span id="parallel_toggle" style="">
+                            <i class="fa fa-columns" aria-hidden="true"></i> Parallel View
+                        </span>
                     </span>
-                    <span id="parallel_toggle" style="">
-                        <i class="fa fa-columns" aria-hidden="true"></i> Notes
-                    </span>
-                    
 
                     <br> <br>
  
@@ -155,11 +173,23 @@
                     </div>
                     <div class="row display_tab" id="section_book_cover" style="display:none;">
                     </div>
+                    <div class="row display_tab" id="section_addl_book_cover" style="display:none;">
+                        <div class="col-xs-3 book_cover" id="cover_b1_the_personal_mba_josh_kaufman">
+                             <img id="img_b1_the_personal_mba_josh_kaufman"
+                                  src="media/covers/cover_b1_the_personal_mba_josh_kaufman.png"
+                                  title=""
+                                  style="cursor:pointer; padding-top:10px; padding-bottom:10px;"
+                                  onclick="load_book_manifest('b1_the_personal_mba_josh_kaufman')"
+                                  width="100%">
+                        </div>
+                    </div>
                     <div class="row display_tab" id="section_change_log" style="display:none;">
                         <hr>
                         <span style="font-size:18px">
                         Reading History
                         </span>
+                        <h4>
+                            [B1] <i>2025-03-16</i>: Updated [[ The Personal MBA ]] - Josh Kaufman
                         <h4>
                             [08] <i>2024-11-12</i>: Updated [[ A Book of Abstract Algebra ]] - Charles C. Pinter
                         </h4>
@@ -185,8 +215,6 @@
                             [01] <i>2024-03-12</i>: Updated [[ Concepts of Modern Mathematics ]] - Ian Stewart            
                         </h4>
                     </div>
-                    
-
 
                 </div>
 
@@ -231,7 +259,13 @@
                             <span class="book_description" id="description_08_a_book_of_abstract_algebra_by_charles_c_pinter" style="font-size:18px; display:none;">
                             [[ A Book of Abstract Algebra ]] - Charles C. Pinter <br>
                             <i>Last update: 2024-11-12</i>
-                            </span>                            
+                            </span>
+
+                            <span class="book_description" id="description_b1_the_personal_mba_josh_kaufman" style="font-size:18px; display:none;">
+                            [[ The Personal MBA ]] - Josh Kaufman <br>
+                            <i>Last update: 2025-03-16</i>
+                            </span>
+
                             <br>
 
                             <span id="message_selected_page" style="display:none;"> Selecting: [Page <span class="page"></span>] <span class="title"></span> </span>
@@ -240,6 +274,9 @@
                     </div>
 
                     <div id="notes_pdf"> 
+                    </div>
+
+                    <div id="notes_manifest">
                     </div>
                 </div>
 
