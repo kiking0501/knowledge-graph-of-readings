@@ -1,0 +1,428 @@
+<h4 align="center"> Table of Content </h4> 
+<div style="border:1px solid; padding:10px"> 
+
+	<h4> <a class="manifest_chapter_header" onclick="load_book(6, 1, 'Chapter 1: Introduction')">
+		<i class="fa fa-pencil-square" aria-hidden="true"></i> Chapter 1: Introduction
+	</a> </h4>
+
+
+	<div class="manifest_chapter">
+		<h4 class="manifest_chapter_header" onclick="toggle_manifest_chapter(this);"> 
+		    <i class="fa fa-chevron-right"> </i> 
+		    Chapter 2: Linear Algebra
+		</h4>
+		<div class="row manifest_content" style="display:none">
+			<div class="col-xs-6">
+				<ul class="manifest_ul">
+					<li><a onclick="load_book(6, 2, '2.1: Scalars, Vectors, Matrices and Tensors')">
+					    Scalars, Vectors, Matrices and Tensors
+					</a></li>
+
+					<li><a onclick="load_book(6, 2, '2.2: Multiplying Matrices and Veectors')">
+					    Multiplying Matrices and Veectors
+					</a></li>
+
+					<li><a onclick="load_book(6, 2, '2.3: Identify and Inverse Matrices')">
+					    Identify and Inverse Matrices
+					</a></li>
+
+					<li><a onclick="load_book(6, 2, '2.4: Linear Dependence and Span')">
+					    Linear Dependence and Span
+					</a></li>
+
+					<li><a onclick="load_book(6, 3, '2.5: Norms')">
+					    Norms
+					</a></li>
+
+					<li><a onclick="load_book(6, 3, '2.6: Special kinds of Matrices and Vectors')">
+					    Special kinds of Matrices and Vectors
+					</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6">
+				<ul class="manifest_ul">
+					<li><a onclick="load_book(6, 4, '2.7: Eigendecomposition')">
+					    Eigendecomposition
+					</a></li>
+
+					<li><a onclick="load_book(6, 5, '2.8: Singular Value Decomposition (SVD)')">
+					    Singular Value Decomposition (SVD)
+					</a></li>
+
+					<li><a onclick="load_book(6, 5, '2.9: The Moore-Penrose Pseudoinverse')">
+					    The Moore-Penrose Pseudoinverse
+					</a></li>
+
+					<li><a onclick="load_book(6, 5, '2.10: The Trace Operator')">
+					    The Trace Operator
+					</a></li>
+
+					<li><a onclick="load_book(6, 6, '2.11: Determinant')">
+					    Determinant
+					</a></li>
+
+					<li><a onclick="load_book(6, 6, '2.12: Example: Principal Component Analysis (PCA)')">
+					    Example: Principal Component Analysis (PCA)
+					</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="manifest_chapter">
+		<h4 class="manifest_chapter_header" onclick="toggle_manifest_chapter(this);"> 
+		    <i class="fa fa-chevron-right"> </i> 
+		    Chapter 3: Probability and Information Theory
+		</h4>
+
+		<div class="row manifest_content" style="display:none">
+			<div class="col-xs-12">
+				<ul class="manifest_ul">
+					<li><a onclick="load_book(6, 7, '3.1: Why Probability?')">
+					    Why Probability?
+					</a></li>
+
+					<li><a onclick="load_book(6, 7, '3.2: Random Variables')">
+					    Random Variables
+					</a></li>
+
+					<li>
+					    Probability Distributions
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 7, '3.3.1: Discrete variables and Probability Mass Functions')">
+								    Discrete variables and Probability Mass Functions
+								</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 8, '3.3.2: Continuous variables and Probability Dense Functions')">
+								    Continuous variables and Probability Dense Functions
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li><a onclick="load_book(6, 8, '3.4: Marginal Probability')">
+					    Marginal Probability
+					</a></li>
+
+					<li><a onclick="load_book(6, 8, '3.5: Conditional Probability')">
+					    Conditional Probability
+					</a></li>
+
+					<li><a onclick="load_book(6, 8, '3.6: The Chain Rule of Conditional Probabilities')">
+					    The Chain Rule of Conditional Probabilities
+					</a></li>
+
+					<li><a onclick="load_book(6, 8, '3.7: Independence & Conditional Independence')">
+					    Independence & Conditional Independence
+					</a></li>
+
+					<li><a onclick="load_book(6, 9, '3.8: Expectation, Variance & Covariance')">
+					    Expectation, Variance & Covariance
+					</a></li>
+
+					<li>
+					    Common Probability Distributions
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 9, '3.9.1: Bernoulli Distribution')">
+								    Bernoulli Distribution
+								</a></li>
+
+								<li><a onclick="load_book(6, 10, '3.9.2: Multinoulli Distribution')">
+								    Multinoulli Distribution
+								</a></li>
+
+								<li><a onclick="load_book(6, 10, '3.9.3: Gaussian Distribution')">
+								    Gaussian Distribution
+								</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 10, '3.9.4: Exponential and Laplace Distributions')">
+								    Exponential and Laplace Distributions
+								</a></li>
+
+								<li><a onclick="load_book(6, 11, '3.9.5: The Dirac Distribution & Empirical Distribution')">
+								    The Dirac Distribution & Empirical Distribution
+								</a></li>
+
+								<li><a onclick="load_book(6, 11, '3.9.6: Mixtures of Distributions')">
+								    Mixtures of Distributions
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li><a onclick="load_book(6, 12, '3.10: Useful Properties of Common Functions')">
+					    Useful Properties of Common Functions
+					</a></li>
+
+					<li><a onclick="load_book(6, 12, '3.11: Bayes' Rule')">
+					    Bayes' Rule
+					</a></li>
+
+					<li><a onclick="load_book(6, 12, '3.12: Technical Details of Continuous Variables')">
+					    Technical Details of Continuous Variables
+					</a></li>
+
+					<li><a onclick="load_book(6, 12, '3.13: Information Theory')">
+					    Information Theory
+					</a></li>
+
+					<li><a onclick="load_book(6, 14, '3.14: Structured Probabilistic Models')">
+					    Structured Probabilistic Models
+					</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="manifest_chapter">
+		<h4 class="manifest_chapter_header" onclick="toggle_manifest_chapter(this);"> 
+		    <i class="fa fa-chevron-right"> </i> 
+		    Chapter 4: Numerical Computation
+		</h4>
+
+		<div class="row manifest_content" style="display:none">
+			<div class="col-xs-6">
+				<ul class="manifest_ul">
+					<li><a onclick="load_book(6, 15, '4.1: Overflow and Underflow')">
+					    Overflow and Underflow
+					</a></li>
+
+					<li><a onclick="load_book(6, 15, '4.2: Poor Conditioning')">
+					    Poor Conditioning
+					</a></li>
+
+					<li><a onclick="load_book(6, 15, '4.3: Gradiant-based Optimization')">
+					    Gradiant-based Optimization
+					</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6">
+				<ul class="manifest_ul">
+					<li><a onclick="load_book(6, 15, '4.3.1: Beyond the Gradiant: Jacobian & Hessian Matrices')">
+					    Beyond the Gradiant: Jacobian & Hessian Matrices
+					</a></li>
+
+					<li><a onclick="load_book(6, 17, '4.4: Constrained Optimization')">
+					    Constrained Optimization
+					</a></li>
+
+					<li><a onclick="load_book(6, 18, '4.5: Example: Linear Least Square')">
+					    Example: Linear Least Square
+					</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="manifest_chapter">
+		<h4 class="manifest_chapter_header" onclick="toggle_manifest_chapter(this);"> 
+		    <i class="fa fa-chevron-down"> </i> 
+		    Chapter 5: Machine Learning Basics
+		</h4>
+
+		<div class="row manifest_content">
+			<div class="col-xs-12">
+				<ul class="manifest_ul">
+					<li><a onclick="load_book(6, 19, '5.1: Learning Algorithms')">
+					    Learning Algorithms
+					</a></li>
+
+
+					<li>
+					    Capacity, Overfitting and Underfitting
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 20, '5.2.1: The No Free Lunch Theorem')">
+								    The No Free Lunch Theorem
+								</a></li>
+
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 20, '5.2.2: Regularization')">
+								    Regularization
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li>
+					    Hyperparameters and Validation Sets
+					</li>
+					<div class="row">
+						<div class="col-xs-12">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 21, '5.3.1: Cross-Validation')">
+								    Cross-Validation
+								</a></li>
+
+							</ul>
+						</div>
+					</div>
+
+					<li>
+					    Estimators, Bias and Variance
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 21, '5.4.1: Point Estimation')">
+								    Point Estimation
+								</a></li>
+
+								<li><a onclick="load_book(6, 21, '5.4.2: Bias')">
+								    Bias
+								</a></li>
+
+								<li><a onclick="load_book(6, 22, '5.4.3: Variance and Standard Error')">
+								    Variance and Standard Error
+								</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+
+								<li><a onclick="load_book(6, 22, '5.4.4: Trading off Bias and Variance to Minimize Mean Squared Error')">
+								    Trading off Bias and Variance to Minimize Mean Squared Error
+								</a></li>
+
+								<li><a onclick="load_book(6, 23, '5.4.5: Consistency')">
+								    Consistency
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li>
+					    Maximum Likelihood Estimation
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 23, '5.5.1: Conditional Log-Likelihood & Mean Squared Error')">
+								    Conditional Log-Likelihood & Mean Squared Error
+								</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 24, '5.5.2: Properties of Maximum Likelihood')">
+								    Properties of Maximum Likelihood
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li>
+					    Bayesian Statistics
+					</li>
+					<div class="row">
+						<div class="col-xs-12">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 26, '5.6.1: maximum a Posteriori (MAP) estimation')">
+								    maximum a Posteriori (MAP) estimation
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li>
+					    Supervised Learning Algorithms
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 26, '5.7.1: Probabilistic Supervised Learning')">
+								    Probabilistic Supervised Learning
+								</a></li>
+
+								<li><a onclick="load_book(6, 26, '5.7.2: Support Vector Machines')">
+								    Support Vector Machines
+								</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+
+								<li><a onclick="load_book(6, 27, '5.7.3: Other Simple Supervised Learning Algorithms')">
+								    Other Simple Supervised Learning Algorithms
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li>
+					    Unsupervised Learning Algorithms
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 28, '5.8.1: Principal Component Analysis')">
+								    Principal Component Analysis
+								</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 29, '5.8.2: k-means Clustering')">
+								    k-means Clustering
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li><a onclick="load_book(6, 29, '5.9: Stochastic Gradient Descent')">
+					    Stochastic Gradient Descent
+					</a></li>
+
+					<li><a onclick="load_book(6, 29, '5.10: Building a Machine Learning Algorithm')">
+					    Building a Machine Learning Algorithm
+					</a></li>
+
+					<li>
+					    Challenges Motivating Deep Learning
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 30, '5.11.1: The Curse of Dimensionality')">
+								    The Curse of Dimensionality
+								</a></li>
+								<li><a onclick="load_book(6, 30, '5.11.2: Local Constancy and Smoothness Regularization')">
+								    Local Constancy and Smoothness Regularization
+								</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(6, 31, '5.11.3: Manifold Learning')">
+								    Manifold Learning
+								</a></li>
+							</ul>
+						</div>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+</div>

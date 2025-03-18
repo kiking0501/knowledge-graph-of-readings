@@ -1,0 +1,835 @@
+<h4 align="center"> Table of Content </h4> 
+<div style="border:1px solid; padding:10px">
+
+	<div class="manifest_chapter">
+		<h4 class="manifest_chapter_header" onclick="toggle_manifest_chapter(this);"> 
+		    <i class="fa fa-chevron-right"> </i> 
+		    Chapter 6: Deep Feedforward Networks
+		</h4>
+
+		<div class="row manifest_content" style="display:none">
+			<div class="col-xs-12">
+				<ul class="manifest_ul">
+					<li><a onclick="load_book(7, 2, '6.1: Example: Learning XOR')">
+					    Example: Learning XOR
+					</a></li>
+
+					<li>
+					    Gradient-Based Learning
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li>
+									Cost Functions
+								</li>
+								<ul>
+									<div class="row">
+										<div class="col-xs-12">
+
+											<li><a onclick="load_book(7, 4, '6.2.1.1: Learning Conditional Distributions with Maximum Likelihood')">
+											    Learning Conditional Distributions with Maximum Likelihood
+											</a></li>
+
+											<li><a onclick="load_book(7, 4, '6.2.1.2: Learning Conditional Statistics')">
+											    Learning Conditional Statistics
+											</a></li>
+
+										</div>
+									</div>
+								</ul>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li>
+									Output Units
+								</li>
+								<ul> 
+									<div class="row">
+										<div class="col-xs-12">
+											<li><a onclick="load_book(7, 5, '6.2.2.1: Linear Units for Gaussian Output Distributions')">
+											    Linear Units for Gaussian Output Distributions
+											</a></li>
+
+											<li><a onclick="load_book(7, 5, '6.2.2.2: Sigmoid Unit for Bernoulli Output Distributions')">
+											    Sigmoid Unit for Bernoulli Output Distributions
+											</a></li>
+
+											<li><a onclick="load_book(7, 5, '6.2.2.3: Softmax Units for Multinoulli Output Distributions')">
+											    Softmax Units for Multinoulli Output Distributions
+											</a></li>
+
+											<li><a onclick="load_book(7, 6, '6.2.2.4: Other Output Types')">
+											    Other Output Types
+											</a></li>
+										</div>
+									</div>
+								</ul>
+							</ul>
+						</div>
+					</div>
+
+					<li>
+					    Hidden Units
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 6, '6.3.1: Rectified Linear Units and their Generalizations')">
+								    Rectified Linear Units and their Generalizations
+								</a></li>
+
+								<li><a onclick="load_book(7, 7, '6.3.2: Logistic Sigmoid and Hyperbolic Tangent')">
+								    Logistic Sigmoid and Hyperbolic Tangent
+								</a></li>
+
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 7, '6.3.3: Other Hidden Units')">
+								    Other Hidden Units
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li>
+						Architecture Design
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 8, '6.4.1: Universal Approximation Properties and Depth')">
+								    Universal Approximation Properties and Depth
+								</a></li>
+
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 8, '6.4.2: Other Architectural Considerations')">
+								    Other Architectural Considerations
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li><a onclick="load_book(7, 8, '6.5: Back-Propagation and Other Differentiation Algorithms')">
+					    Back-Propagation and Other Differentiation Algorithms
+					</a></li>
+
+					<li><a onclick="load_book(7, 10, '6.6: Historical Notes')">
+					    Historical Notes
+					</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="manifest_chapter">
+		<h4 class="manifest_chapter_header" onclick="toggle_manifest_chapter(this);"> 
+		    <i class="fa fa-chevron-right"> </i> 
+		    Chapter 7: Regularization for Deep Learning
+		</h4>
+
+		<div class="row manifest_content" style="display:none">
+			<div class="col-xs-12">
+				<ul class="manifest_ul">
+
+					<li>
+					    Parameter Norm Penalties
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 11, '7.1.1: L2 Regularization')">
+								    L2 Regularization
+								</a></li>
+
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 12, '7.1.2: L1 Regularization')">
+								    L1 Regularization
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li><a onclick="load_book(7, 13, '7.2: Norm Penalties as Constrained Optimzation')">
+					    Norm Penalties as Constrained Optimzation
+					</a></li>
+
+					<li><a onclick="load_book(7, 14, '7.3: Regularization and Under-Constrained Problems')">
+					    Regularization and Under-Constrained Problems
+					</a></li>
+
+					<li><a onclick="load_book(7, 14, '7.4: Dataset Augmentation')">
+					    Dataset Augmentation
+					</a></li>
+
+
+					<li>
+						Noise Robustness
+					</li>
+					<div class="row">
+						<div class="col-xs-12">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 15, '7.5.1: Injecting Noise at the Output Targets')">
+								    Injecting Noise at the Output Targets
+								</a></li>
+
+							</ul>
+						</div>
+					</div>
+
+
+
+					<li><a onclick="load_book(7, 16, '7.6: Semi-Supervised Learning')">
+					    Semi-Supervised Learning
+					</a></li>
+
+					<li><a onclick="load_book(7, 16, '7.7: Multitask Learning')">
+					    Multitask Learning
+					</a></li>
+
+					<li><a onclick="load_book(7, 16, '7.8: Early Stopping')">
+					    Early Stopping
+					</a></li>
+
+					<li>
+						Parameter Tying and Parameter Sharing
+					</li>
+					<div class="row">
+						<div class="col-xs-12">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 17, '7.9.1: Convolutional Neural Networks')">
+								    Convolutional Neural Networks
+								</a></li>
+
+
+							</ul>
+						</div>
+					</div>
+
+					<li><a onclick="load_book(7, 17, '7.10: Sparse Representations')">
+					    Sparse Representations
+					</a></li>
+
+					<li><a onclick="load_book(7, 18, '7.11: Bagging and Other Ensemble Methods')">
+					    Bagging and Other Ensemble Methods
+					</a></li>
+
+					<li><a onclick="load_book(7, 19, '7.12: Dropout')">
+					    Dropout
+					</a></li>
+
+					<li><a onclick="load_book(7, 20, '7.13: Adversarial Training')">
+					    Adversarial Training
+					</a></li>
+
+					<li><a onclick="load_book(7, 21, '7.14: Tangent Distance, Tangent Prop and Manifold Tangent Classifier')">
+					    Tangent Distance, Tangent Prop and Manifold Tangent Classifier
+					</a></li>
+
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="manifest_chapter">
+		<h4 class="manifest_chapter_header" onclick="toggle_manifest_chapter(this);"> 
+		    <i class="fa fa-chevron-right"> </i> 
+		    Chapter 8: Optimization for Training Deep Models
+		</h4>
+
+		<div class="row manifest_content" style="display:none">
+			<div class="col-xs-12">
+				<ul class="manifest_ul">
+
+					<li>
+					    How Learning differs from Pure Optimization
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 22, '8.1.1: Empirical Risk Minimization')">
+								    Empirical Risk Minimization
+								</a></li>
+
+								<li><a onclick="load_book(7, 23, '8.1.2: Surrogate Loss Functions and Early Stopping')">
+								    Surrogate Loss Functions and Early Stopping
+								</a></li>
+
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 23, '8.1.3: Batch and Minibatch Algorithms')">
+								    Batch and Minibatch Algorithms
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li>
+						Challenges in Neural Network Optimization
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 24, '8.2.1: Ill-Conditioning')">
+								    Ill-Conditioning
+								</a></li>
+
+								<li><a onclick="load_book(7, 25, '8.2.2: Local Minima')">
+								    Local Minima
+								</a></li>
+
+								<li><a onclick="load_book(7, 25, '8.2.3: Plateaus, Saddle Points and other Flat Regions')">
+								    Plateaus, Saddle Points and other Flat Regions
+								</a></li>
+
+								<li><a onclick="load_book(7, 25, '8.2.4: Cliffs and Exploding Gradient')">
+								    Cliffs and Exploding Gradient
+								</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 25, '8.2.5: Long-Term Dependencies')">
+								    Long-Term Dependencies
+								</a></li>
+
+								<li><a onclick="load_book(7, 25, '8.2.6: Inexact Gradiant')">
+								    Inexact Gradiant
+								</a></li>
+
+								<li><a onclick="load_book(7, 25, '8.2.7: Poor Correspondence between Local and Global Structure')">
+								    Poor Correspondence between Local and Global Structure
+								</a></li>
+
+								<li><a onclick="load_book(7, 26, '8.2.8: Theorectical Limits of Optimization')">
+								    Theorectical Limits of Optimization
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+
+					<li>
+						Basic Algorithms
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 26, '8.3.1: Stochastic Gradient Descent')">
+								    Stochastic Gradient Descent
+								</a></li>
+
+								<li><a onclick="load_book(7, 27, '8.3.2: Momentum')">
+								    Momentum
+								</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 27, '8.3.3: Nesterov Momentum')">
+								    Nesterov Momentum
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li><a onclick="load_book(7, 27, '8.4: Parameter Initialization Strategies')">
+					    Parameter Initialization Strategies
+					</a></li>
+
+
+					<li>
+						Algorithms with Adaptive Learning Rates
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 28, '8.5.1: AdaGrad')">
+								    AdaGrad
+								</a></li>
+
+								<li><a onclick="load_book(7, 28, '8.5.2: RMSProp')">
+								    RMSProp
+								</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 29, '8.5.3: Adam')">
+								    Adam
+								</a></li>
+
+								<li><a onclick="load_book(7, 29, '8.5.4: Choosing the Right Optimization Algorithm')">
+								    Choosing the Right Optimization Algorithm
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="manifest_chapter">
+		<h4 class="manifest_chapter_header" onclick="toggle_manifest_chapter(this);"> 
+		    <i class="fa fa-chevron-right"> </i> 
+		    Chapter 9: Convolutional Network
+		</h4>
+
+
+		<div class="row manifest_content" style="display:none">
+			<div class="col-xs-6">
+				<ul class="manifest_ul">
+					<li><a onclick="load_book(7, 30, '9.1: The Convolution Operation')">
+					    The Convolution Operation
+					</a></li>
+
+					<li><a onclick="load_book(7, 30, '9.2: Motivation')">
+					    Motivation
+					</a></li>
+
+					<li><a onclick="load_book(7, 30, '9.3: Pooling')">
+					    Pooling
+					</a></li>
+
+					<li><a onclick="load_book(7, 31, '9.4: Convolution and Pooling as an Infinitely Strong Prior')">
+					    Convolution and Pooling as an Infinitely Strong Prior
+					</a></li>
+
+					<li><a onclick="load_book(7, 31, '9.5: Variants of the Basic Convolution Function')">
+					    Variants of the Basic Convolution Function
+					</a></li>
+
+					<li><a onclick="load_book(7, 32, '9.6: Structured Outputs')">
+					    Structured Outputs
+					</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6">
+				<ul class="manifest_ul">
+
+					<li><a onclick="load_book(7, 32, '9.6: Structured Outputs')">
+					    Structured Outputs
+					</a></li>
+
+					<li><a onclick="load_book(7, 32, '9.7: Data Types')">
+					    Data Types
+					</a></li>
+
+					<li><a onclick="load_book(7, 32, '9.8: Efficient Convolution Algorithms')">
+					    Efficient Convolution Algorithms
+					</a></li>
+
+					<li><a onclick="load_book(7, 32, '9.9: Random or Unsupervised Features')">
+					    Random or Unsupervised Features
+					</a></li>
+
+					<li><a onclick="load_book(7, 32, '9.10: The Neuroscientific Basis for Convolutional Networks')">
+					    The Neuroscientific Basis for Convolutional Networks
+					</a></li>
+
+					<li><a onclick="load_book(7, 33, '9.11: Convolutional Networks and the History of Deep Learning')">
+					    Convolutional Networks and the History of Deep Learning
+					</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="manifest_chapter">
+		<h4 class="manifest_chapter_header" onclick="toggle_manifest_chapter(this);"> 
+		    <i class="fa fa-chevron-right"> </i> 
+		    Chapter 10: Sequential Modeling: Recurrent and Recursive Nets
+		</h4>
+
+		<div class="row manifest_content" style="display:none">
+			<div class="col-xs-12">
+				<ul class="manifest_ul">
+
+					<li><a onclick="load_book(7, 33, '10.1: Unfolding Computational Graphs')">
+					    Unfolding Computational Graphs
+					</a></li>
+
+					<li>
+					    Recurrent Neural Networks
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 34, '10.2.1: Teacher Forcing and Networks with Output Recurrence')">
+								    Teacher Forcing and Networks with Output Recurrence
+								</a></li>
+
+								<li><a onclick="load_book(7, 34, '10.2.2: Computing the Gradient in a Recurrent Neural Network')">
+								    Computing the Gradient in a Recurrent Neural Network
+								</a></li>
+
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 34, '10.2.3: Recurrent Networks as Directed Graphical Model')">
+								    Recurrent Networks as Directed Graphical Model
+								</a></li>
+
+								<li><a onclick="load_book(7, 35, '10.2.4: Modelling Sequences Conditioned on Context with RNNs')">
+								    Modelling Sequences Conditioned on Context with RNNs
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li><a onclick="load_book(7, 35, '10.3: Bidirectional RNNs')">
+					    Bidirectional RNNs
+					</a></li>
+
+					<li><a onclick="load_book(7, 35, '10.4: Encoder-Decoder Sequence-to-Sequence Architectures')">
+					    Encoder-Decoder Sequence-to-Sequence Architectures
+					</a></li>
+
+					<li><a onclick="load_book(7, 36, '10.5: Deep Recurrent Networks')">
+					    Deep Recurrent Networks
+					</a></li>
+
+					<li><a onclick="load_book(7, 36, '10.6: Recursive Neural Networks')">
+					    Recursive Neural Networks
+					</a></li>
+
+					<li><a onclick="load_book(7, 36, '10.7: The Challenge of Long-Term Dependencies')">
+					    The Challenge of Long-Term Dependencies
+					</a></li>
+
+					<li><a onclick="load_book(7, 36, '10.8: Echo State Networks')">
+					    Echo State Networks
+					</a></li>
+
+					<li>
+						Leaky Units and Other Strategies for Multiple Time Scales
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 36, '10.9.1: Adding Skip Connections through Time')">
+								    Adding Skip Connections through Time
+								</a></li>
+
+								<li><a onclick="load_book(7, 36, '10.9.2: Leaky Units and a Spectrum of Different Time Scales')">
+								    Leaky Units and a Spectrum of Different Time Scales
+								</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 37, '10.9.3: Removing Connections')">
+								    Removing Connections
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+
+					<li>
+						The Long Short-Term Memory and Other Gated RNNs
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 37, '10.10.1: LSTM')">
+								    LSTM
+								</a></li>
+
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 37, '10.10.2: Other Gated RNNs')">
+								    Other Gated RNNs
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li>
+						 Optimization for Long-Term Dependencies
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 38, '10.11.1: Clipping Gradients')">
+								    Clipping Gradients
+								</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 38, '10.11.2: Regularizing to Encourage Information Flow')">
+								    Regularizing to Encourage Information Flow
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li><a onclick="load_book(7, 38, '10.12: Explicit Memory')">
+					    Explicit Memory
+					</a></li>
+
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="manifest_chapter">
+		<h4 class="manifest_chapter_header" onclick="toggle_manifest_chapter(this);"> 
+		    <i class="fa fa-chevron-right"> </i> 
+		    Chapter 11: Practical Methodology
+		</h4>
+
+		<div class="row manifest_content" style="display:none">
+			<div class="col-xs-12">
+				<ul class="manifest_ul">
+
+					<li><a onclick="load_book(7, 39, '11.1: Performance Metrics')">
+					    Performance Metrics
+					</a></li>
+
+					<li><a onclick="load_book(7, 39, '11.2: Default Baseline Models')">
+					    Default Baseline Models
+					</a></li>
+
+					<li><a onclick="load_book(7, 39, '11.3: Determine whether to Gather More Data')">
+					    Determine whether to Gather More Data
+					</a></li>
+
+					<li>
+					    Selecting Hyperparameters
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 39, '11.4.1: Manual Hyperparameter Tuning')">
+								    Manual Hyperparameter Tuning
+								</a></li>
+								<li><a onclick="load_book(7, 40, '11.4.2: Automatic Hyperparameters Optimization Algorithms')">
+								    Automatic Hyperparameters Optimization Algorithms
+								</a></li>
+								<li><a onclick="load_book(7, 40, '11.4.3: Grid Search')">
+								    Grid Search
+								</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 40, '11.4.4: Random Search')">
+								    Random Search
+								</a></li>
+
+								<li><a onclick="load_book(7, 40, '11.4.5: Model-Based Hyperparameter Optimization')">
+								    Model-Based Hyperparameter Optimization
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li><a onclick="load_book(7, 41, '11.5: Debugging Strategies')">
+					    Debugging Strategies
+					</a></li>
+
+					<li><a onclick="load_book(7, 41, '11.6: Example: Multi-Digit Number Recognition')">
+					    Example: Multi-Digit Number Recognition
+					</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="manifest_chapter">
+		<h4 class="manifest_chapter_header" onclick="toggle_manifest_chapter(this);"> 
+		    <i class="fa fa-chevron-down"> </i> 
+		    Chapter 12: Applications
+		</h4>
+
+		<div class="row manifest_content">
+			<div class="col-xs-12">
+				<ul class="manifest_ul">
+					<li>
+					    Large-Scale Deep Learning
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 42, '12.1: Large-Scale Deep Learning')">
+								    Large-Scale Deep Learning
+								</a></li>
+
+								<li><a onclick="load_book(7, 42, '12.1.1: Fast CPU Implementations')">
+								    Fast CPU Implementations
+								</a></li>
+
+								<li><a onclick="load_book(7, 42, '12.1.2: GPU Implementations')">
+								    GPU Implementations
+								</a></li>
+
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 42, '12.1.4: Model Compression')">
+								    Model Compression
+								</a></li>
+
+								<li><a onclick="load_book(7, 42, '12.1.5: Dynammic Structure')">
+								    Dynammic Structure
+								</a></li>
+
+								<li><a onclick="load_book(7, 42, '12.1.6: Specialized Hardware Implementations of Deep Networks')">
+								    Specialized Hardware Implementations of Deep Networks
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li>
+					    Computer Vision
+					</li>
+					<div class="row">
+						<div class="col-xs-12">
+							<ul class="manifest_ul">
+								<li>
+									Preprocessing
+								</li>
+								<ul>
+									<div class="row">
+										<div class="col-xs-12">
+
+											<li><a onclick="load_book(7, 43, '12.2.1.1: Contrast Normalization')">
+											    Contrast Normalization
+											</a></li>
+
+											<li><a onclick="load_book(7, 43, '12.2.1.2: Dataset Augmentation')">
+											    Dataset Augmentation
+											</a></li>
+
+
+										</div>
+									</div>
+								</ul>
+							</ul>
+						</div>
+					</div>
+
+					<li><a onclick="load_book(7, 43, '12.3: Speech Recognition')">
+					    Speech Recognition
+					</a></li>
+
+
+					<li>
+					   Natural Language Processing
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 44, '12.4.1: n-grams')">
+								    n-grams
+								</a></li>
+
+								<li><a onclick="load_book(7, 44, '12.4.2: Neural Language Models')">
+								    Neural Language Models
+								</a></li>
+
+								<li>
+								    High-Dimensional Outputs
+								</li>
+								<ul>
+									<li><a onclick="load_book(7, 45, '12.4.3.1: Use of a Short List')">
+									    Use of a Short List
+									</a></li>
+
+									<li><a onclick="load_book(7, 45, '12.4.3.2: Hierarchical Softmax')">
+									    Hierarchical Softmax
+									</a></li>
+
+									<li><a onclick="load_book(7, 45, '12.4.3.3: Importance Sampling')">
+									    Importance Sampling
+									</a></li>
+
+									<li><a onclick="load_book(7, 45, '12.4.3.4: Noise-Contrastive Estimation and Ranking Loss')">
+									    Noise-Contrastive Estimation and Ranking Loss
+									</a></li>
+								</ul>
+
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 46, '12.4.4: Combining Neural Language Models with n-grams')">
+								    Combining Neural Language Models with n-grams
+								</a></li>
+
+								<li>
+								    Neural Machine Translation
+								</li>
+								<ul>
+									<li><a onclick="load_book(7, 46, '12.4.5.1: Using an Attention Mechanism and Aligning Pieces of Data')">
+									    Using an Attention Mechanism and Aligning Pieces of Data
+									</a></li>
+								</ul>
+
+								<li><a onclick="load_book(7, 47, '12.4.6: Historical Perspective')">
+								    Historical Perspective
+								</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<li>
+						 Other Applications
+					</li>
+					<div class="row">
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li>
+								    Recommender Systems
+								</li>
+								<ul>
+									<li><a onclick="load_book(7, 48, '12.5.1.1: Exploration versus Exploitation')">
+									    Exploration versus Exploitation
+									</a></li>
+								</ul>
+
+							</ul>
+						</div>
+						<div class="col-xs-6">
+							<ul class="manifest_ul">
+								<li><a onclick="load_book(7, 48, '12.5.2: Knowledge Representation, Reasoning and Question Answering')">
+								    Knowledge Representation, Reasoning and Question Answering
+								</a></li>
+							</ul>
+						</div>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</div>

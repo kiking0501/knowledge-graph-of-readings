@@ -31,41 +31,54 @@
                 'title': "01_concepts_of_modern_mathematics_ian_stewart",
                 'glink': "https://drive.google.com/file/d/1aj999WVy5KR5qG4QfV5iwjFjwrwMma9m/preview?usp=drive_link&rm=demo", // 01
                 'color': "#b4dcca",
+
+                'pdf': true, 'manifest': true,
             },
             2: {
                 'title': "02_introduction_to_topology_bert_mendelson",
                 'glink': "https://drive.google.com/file/d/1mn0MC9f2v9irbptyqeXW5oPvcU5QNjv6/preview?usp=drive_link&rm=demo", // 02
                 'color': "#e1923f",
+                'pdf': true, 'manifest': true,
             },
             3: {
                 'title': "03_introduction_to_real_analysis_robert_g_bartle",
                 'glink': "https://drive.google.com/file/d/1qHSV4srOr5LFaFLBKFjylXn4jMzScSH0/preview?usp=drive_link&rm=demo", // 03
                 'color': "#c2c303",
+                'pdf': true, 'manifest': true,
             },
             4: {
                 'title': "04_introduction_to_machine_learning_yaoliang_yu",
                 'glink': "https://drive.google.com/file/d/1Xtn_gUVcnvax-njcEFu5LEQgNlbsrnbY/preview?usp=drive_link&rm=demo", // 04
                 'color':"#d7d6d6", // "grey"
+                'pdf': true, 'manifest': true,
             },
             5: {
                 'title': "05_introduction_to_graph_theory_richard_j_trudeau",
                 'glink': "https://drive.google.com/file/d/1XlnAMA9w0gUu6YYxcB7Tz13DIUErb2FC/preview?usp=drive_link&rm=demo", // 05
                 'color': "#cee5ef",
+                'pdf': true, 'manifest': true,
             },
             6: {
                 'title': "06_deep_learning_ian_goodfellow_yoshua_bengio_aaron_courville_partI",
                 'glink': "https://drive.google.com/file/d/1OOXOT1ZmrSgsRtNByNtl6yuEra6tkQp2/preview?usp=drive_link&rm=demo", // 06
                 'color': "#6fa8db",
+                'pdf': true, 'manifest': true,
             },
             7: {
                 'title': "07_deep_learning_ian_goodfellow_yoshua_bengio_aaron_courville_partII",
                 'glink': "https://drive.google.com/file/d/1o8oTBOk8puK0i_ALPneYCJ5yvAp2Wcoi/preview?usp=drive_link&rm=demo", // 07
                 'color': "#BB94C0",
+                'pdf': true, 'manifest': true,
             },
             8: {
                 'title': "08_a_book_of_abstract_algebra_by_charles_c_pinter",
                 'glink': "https://drive.google.com/file/d/1BVUROJxIt7DKtht_vYHkAXhukVUjR-Rd/preview?usp=drive_link&rm=demo", // 08
                 'color': "lightgrey",
+                'pdf': true, 'manifest': true,
+            },
+            "b1": {
+                'title': "b1_the_personal_mba_josh_kaufman",
+                'manifest': true,
             }
             
         }
@@ -79,6 +92,7 @@
             8,
             5,
             1,
+            'b1',
         ]
         function show_description_with_thumbnail(title) {
             function add_thumbnail(title) {
@@ -95,48 +109,110 @@
             $("#cover_" + title).css("background-color", "black");
         }
 
-        function load_book(book_key, page) {
+        function load_book(book_key, page, selected_text) {
+            if (!(book_key in reading_info)) {
+                alert("book_key {" + book_key + "} is invalid!");
+                book_key = 2;
+            }
             var title = reading_info[book_key]['title'];
-            var glink = reading_info[book_key]['glink'];
+            show_description_with_thumbnail(title);
+
             if (typeof page === 'undefined') {
-                page = 1;
+                page = -1;
                 $("#message_selected_page").hide();
             }
 
-            const pdf_options = {
-                pdfOpenParams: {
-                    view: 'FitV',
-                    pagemode: 'bookmarks',
-                    page: page,
-                }
-            };
-            const fallbackLink = {
-                'fallbackLink': '<embed src="' + glink + '" width="100%" height="1200"/> '
-            };
-            PDFObject.embed(
-                "./notes_pdf/kiking_notes_" + title + ".pdf",
-                "#notes_pdf",
-                Object.assign({}, pdf_options, fallbackLink)
-            );
+            // load manfiest and/or pdf
+            if (reading_info[book_key]['manifest'] && page < 0) {  // only trigger at initial load
+                $("#notes_manifest").load("notes_manifest/manifest_" + title + ".html");
+            }
+            if (reading_info[book_key]['pdf']) {
+                var glink = reading_info[book_key]['glink'];
 
-            show_description_with_thumbnail(title);
+                const pdf_options = {
+                    pdfOpenParams: {
+                        view: 'FitH',
+                        // pagemode: 'bookmarks',
+                        page: page,
+                    }
+                };
+                const fallbackLink = {
+                    'fallbackLink': '<embed src="' + glink + '" width="100%" height="1200"/> '
+                };
+                PDFObject.embed(
+                    "./notes_pdf/kiking_notes_" + title + ".pdf",
+                    "#notes_pdf",
+                    Object.assign({}, pdf_options, fallbackLink)
+                );
+            }
+
+            // show toggle button only if both manifest & pdf exist
+            if (reading_info[book_key]['manifest'] && reading_info[book_key]['pdf']) {
+                $("#choose_manifest_or_pdf").show();    
+            } else {
+                $("#choose_manifest_or_pdf").hide();    
+            }
+
+            // decide manifest view or pdf view
+            if (page < 0) {
+                $("#message_selected_page").hide();
+                
+                // if manifest exist, show manifest
+                if (reading_info[book_key]['manifest']) {
+                    view_for_manifest(title);
+                } else {
+                    view_for_pdf();
+                }
+            } else {
+                // page-specific view, show PDF
+                view_for_pdf();
+
+                $("#message_selected_page .title").html(selected_text);
+                $("#message_selected_page .page").html(page);
+                $("#message_selected_page").show();
+            }
+        }
+        function view_for_pdf() {
+            $("#view_manifest").show(); $("#view_pdf").hide();
             $("#notes_pdf").show(); $("#notes_manifest").hide();
         }
 
-        function load_book_manifest(title) {
-            show_description_with_thumbnail(title);
-            $("#notes_manifest").load("notes_manifest/html_" + title + ".html");
+        function view_for_manifest() {
+            $("#message_selected_page").hide();
+
+            $("#view_pdf").show(); $("#view_manifest").hide(); 
             $("#notes_manifest").show(); $("#notes_pdf").hide();
         }
 
         function toggle_manifest_chapter(div) {
-            $(div).parent().find(".manifest_content").toggle(".1s");
+            var parent = $(div).parent();
+            var content = parent.find(".manifest_content")
+            if(content.css('display') == 'none'){
+              parent.find("i").removeClass("fa-chevron-right");
+              parent.find("i").addClass("fa-chevron-down");
+            } else {
+              parent.find("i").removeClass("fa-chevron-down");
+              parent.find("i").addClass("fa-chevron-right");
+            }
+            content.toggle(".1s");
+        }
+
+        function toggle_graph() {
+            var content = $("#graph_container");
+            if(content.css('display') == 'none'){
+              content.show();
+              $("#toggle_graph_icon").find("i").removeClass("fa-chevron-right");
+              $("#toggle_graph_icon").find("i").addClass("fa-chevron-down");
+            } else {
+              content.hide();
+              $("#toggle_graph_icon").find("i").removeClass("fa-chevron-down");
+              $("#toggle_graph_icon").find("i").addClass("fa-chevron-right");
+            }
         }
 
     </script>
 
     <body>
-
         <div>
             <h1 class="title"><a href="../" style="text-decoration: none; color:inherit">[ kiking ]</a> Knowledge Graph of Readings</h1>
             <h4>
@@ -145,87 +221,30 @@
 
 
             </h4>
+            <hr>
+            <h4 id="toggle_graph_icon" style="cursor:pointer" onclick="toggle_graph();"> 
+                <i class="fa fa-chevron-down"> </i> 
+                Knowledge Graph
+            </h4>
 
+            <div class="row" id="graph_container" style="resize: vertical;"> 
+                <div class="col-xs-12" id="section_graph"> </div>
+            </div>
             <div id="main_content" class="row">
-                <div class="" id="section_display" >
+                <div class="col-md-6" id="section_display">
                     <hr>
- 
-                    <ul class="nav nav-pills" id="nav_pills_display">
-                      <li class="active" id="display_graph"><a href="#">Knowledge Graph</a></li>
-                      <li class="" id="display_standard"><a href="#">Bookshelf</a></li>
-                    </ul>
-
-                    <br>
-
-                    <span>
-
-                        <span id="expand_toggle" style="display:none;">
-                            <i class="fa fa-arrows-alt" aria-hidden="true"></i> Expand View
-                        </span>
-                        <span id="parallel_toggle" style="">
-                            <i class="fa fa-columns" aria-hidden="true"></i> Parallel View
-                        </span>
-                    </span>
-
-                    <br> <br>
- 
-                    <div class="row display_tab" id="section_graph" style="display:none;">
+                    <div class="row display_tab" id="section_book_cover">
                     </div>
-                    <div class="row display_tab" id="section_book_cover" style="display:none;">
-                    </div>
-                    <div class="row display_tab" id="section_addl_book_cover" style="display:none;">
-                        <div class="col-xs-3 book_cover" id="cover_b1_the_personal_mba_josh_kaufman">
-                             <img id="img_b1_the_personal_mba_josh_kaufman"
-                                  src="media/covers/cover_b1_the_personal_mba_josh_kaufman.png"
-                                  title=""
-                                  style="cursor:pointer; padding-top:10px; padding-bottom:10px;"
-                                  onclick="load_book_manifest('b1_the_personal_mba_josh_kaufman')"
-                                  width="100%">
-                        </div>
-                    </div>
-                    <div class="row display_tab" id="section_change_log" style="display:none;">
-                        <hr>
-                        <span style="font-size:18px">
-                        Reading History
-                        </span>
-                        <h4>
-                            [B1] <i>2025-03-16</i>: Updated [[ The Personal MBA ]] - Josh Kaufman
-                        <h4>
-                            [08] <i>2024-11-12</i>: Updated [[ A Book of Abstract Algebra ]] - Charles C. Pinter
-                        </h4>
-                        <h4>
-                            [07] <i>2024-09-22</i>: Updated [[ Deep Learning ]] - Ian Goodfellow, Yoshua Bengio, Aaron Courville, Part II
-                        </h4>
-                        <h4>
-                            [06] <i>2024-08-29</i>: Updated [[ Deep Learning ]] - Ian Goodfellow, Yoshua Bengio, Aaron Courville, Part I
-                        </h4>
-                        <h4>
-                            [05] <i>2024-08-09</i>: Updated [[ Introduction to Graph Theory ]] - Richard J. Trudeau
-                        </h4>
-                        <h4>
-                            [04] <i>2024-07-29</i>: Updated [[ Introduction to Machine Learning ]] - Yaoliang Yu
-                        </h4>
-                        <h4>
-                            [03] <i>2024-07-07</i>: Updated [[ Introduction to Real Analaysis ]] - Robert G Bartle, Donald R. Sherbert
-                        </h4>
-                        <h4>
-                            [02] <i>2024-07-02</i>: Updated [[ Introduction to Topology ]] - Bert Mendelson
-                        </h4>
-                        <h4>
-                            [01] <i>2024-03-12</i>: Updated [[ Concepts of Modern Mathematics ]] - Ian Stewart            
-                        </h4>
-                    </div>
-
                 </div>
 
-                <div class="" id="section_reading_notes">
+                <div class="col-md-6" id="section_reading_notes">
                     <hr>
 
                     <div class="row">
                         <div class="col-sm-2 book_thumbnail">
                         </div>
                         <div class="col-sm-10">
-                             <span class="book_description" id="description_01_concepts_of_modern_mathematics_ian_stewart" style="font-size:18px; display:none;">
+                            <span class="book_description" id="description_01_concepts_of_modern_mathematics_ian_stewart" style="font-size:18px; display:none;">
                             [[ Concepts of Modern Mathematics ]] - Ian Stewart <br>
                             <i>Last update: 2024-03-12</i>
                             </span>
@@ -270,6 +289,16 @@
 
                             <span id="message_selected_page" style="display:none;"> Selecting: [Page <span class="page"></span>] <span class="title"></span> </span>
                         </div>
+
+                        <span id="choose_manifest_or_pdf" style="display:none;">
+                            <span id="view_pdf" style="display:none;" onclick="view_for_pdf()">
+                                <i class="fa fa-pencil-square" aria-hidden="true"></i> Handwritten Notes
+                            </span>
+                            <span id="view_manifest" style="" onclick="view_for_manifest()">
+                                <i class="fa fa-list-ul" aria-hidden="true"></i> Table of Content
+                            </span>
+                        </span>
+
                         <br>
                     </div>
 
@@ -280,6 +309,39 @@
                     </div>
                 </div>
 
+            </div>
+
+            <div class="row display_tab" id="section_change_log" style="display:none;">
+                <hr>
+                <span style="font-size:18px">
+                Reading History
+                </span>
+                <h4>
+                    [B1] <i>2025-03-16</i>: Updated [[ The Personal MBA ]] - Josh Kaufman
+                <h4>
+                    [08] <i>2024-11-12</i>: Updated [[ A Book of Abstract Algebra ]] - Charles C. Pinter
+                </h4>
+                <h4>
+                    [07] <i>2024-09-22</i>: Updated [[ Deep Learning ]] - Ian Goodfellow, Yoshua Bengio, Aaron Courville, Part II
+                </h4>
+                <h4>
+                    [06] <i>2024-08-29</i>: Updated [[ Deep Learning ]] - Ian Goodfellow, Yoshua Bengio, Aaron Courville, Part I
+                </h4>
+                <h4>
+                    [05] <i>2024-08-09</i>: Updated [[ Introduction to Graph Theory ]] - Richard J. Trudeau
+                </h4>
+                <h4>
+                    [04] <i>2024-07-29</i>: Updated [[ Introduction to Machine Learning ]] - Yaoliang Yu
+                </h4>
+                <h4>
+                    [03] <i>2024-07-07</i>: Updated [[ Introduction to Real Analaysis ]] - Robert G Bartle, Donald R. Sherbert
+                </h4>
+                <h4>
+                    [02] <i>2024-07-02</i>: Updated [[ Introduction to Topology ]] - Bert Mendelson
+                </h4>
+                <h4>
+                    [01] <i>2024-03-12</i>: Updated [[ Concepts of Modern Mathematics ]] - Ian Stewart            
+                </h4>
             </div>
         </div>
 

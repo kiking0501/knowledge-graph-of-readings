@@ -22,14 +22,7 @@ img.resize {
 .pdfobject-container { height: 1200px;}
 .pdfobject { border: 1px solid #666; }
 
-#nav_pills_display {
-    display: flex;
-    justify-content: center;
-/*    background-color: white;*/
-}
-#nav_pills_display li{
-    background-color: white;
-}
+
 .book_thumbnail img{
     height: 100px;
     width: auto;
@@ -41,22 +34,26 @@ img.resize {
     color: lightblue;
 }
 
-#expand_toggle {
-    padding-left: 5px;
+#choose_manifest_or_pdf {
+    float:right;
+    padding-right:20px;
     color: lightblue;
     cursor: pointer;
     font-weight: bold;
 }
-#parallel_toggle {
-    padding-left: 5px;
-    color: lightblue;
-    cursor: pointer;
-    font-weight: bold;
+#notes_manifest {
+    border:1px solid grey;
+    padding:10px
 }
-
 .manifest_ul li a{
     color: lightblue;
+    cursor: pointer;
 }
 .manifest_chapter_header {
     cursor: pointer;
 }
+
+a.manifest_chapter_header {
+    color: lightblue;
+}
+

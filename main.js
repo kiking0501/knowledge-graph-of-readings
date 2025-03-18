@@ -1,48 +1,19 @@
         
 $( document ).ready(function() {
-    display_book_covers(display_graph);
-    $("#nav_pills_display").find("li").on('click', function(){
-        change_nav_pill(this);
+    var params = {
+        "book_key": 2, // default value
+        "display_graph": 1, // default display
+    };
+    let urlParams = new URLSearchParams(window.location.search.substring(1));
+    urlParams.forEach((value, key) => {
+        params[key] = value;
     });
-    $("#display_graph").click();
 
-    var init_pos = 2;
-    load_book(init_pos);
+    display_book_covers(display_graph);
+    if (params["display_graph"] != 1) toggle_graph();
 
-    $("#expand_toggle").on('click', function() {adjust_column_display(true);});
-    $("#parallel_toggle").on('click', function() {adjust_column_display(false);});
-    adjust_column_display(false);
+    load_book(params["book_key"]);
 })
-
-function change_nav_pill(obj) {
-    $("#nav_pills_display").find("li").removeClass("active");
-    $(obj).addClass("active");
-
-    $(".display_tab").hide();
-    if ($(obj).attr('id') == "display_standard") {
-        $("#section_book_cover").show();
-         $("#section_change_log").show();
-
-        $("#section_addl_book_cover").show(); 
-    }
-    if ($(obj).attr('id') == "display_graph") {
-        $("#section_graph").show();
-    }
-}
-
-function adjust_column_display(expand) {
-    if (expand) {
-        $("#expand_toggle").hide(); $("#parallel_toggle").show();
-        $("#section_display").removeClass("col-lg-6");
-        $("#section_reading_notes").removeClass("col-lg-6");
-    }
-    else {
-        $("#expand_toggle").show(); $("#parallel_toggle").hide();
-        $("#section_display").addClass("col-lg-6");
-        $("#section_reading_notes").addClass("col-lg-6");
-    }
-    window.dispatchEvent(new Event('resize'));
-}
 
 
 import * as THREE from '//unpkg.com/three/build/three.module.js';
@@ -59,10 +30,10 @@ function display_graph() {
         const material = new THREE.SpriteMaterial({ map: imgTexture });
         const sprite = new THREE.Sprite(material);
 
-        var fixedWidth = 120
+        var fixedWidth = 120;
         sprite.scale.set( 
             fixedWidth,
-            imgElement.height * (fixedWidth / imgElement.naturalWidth)
+            imgElement.naturalHeight * (fixedWidth / imgElement.naturalWidth)
         );
         return sprite;
     }
@@ -79,7 +50,7 @@ function display_graph() {
     }
 
     const graph_file = './graph/complete_graph.json'
-    const graph_container = document.getElementById('section_display');
+    const graph_container = document.getElementById('graph_container');
 
     const Graph = ForceGraph3D(
         { 
@@ -88,13 +59,13 @@ function display_graph() {
         }
     )(document.getElementById('section_graph'))
       .width(graph_container.clientWidth)
-      .height(1200)
+      // .height(1200)
+      .height(graph_container.clientHeight / 2)
       .backgroundColor('black')
       .showNavInfo(true)
       .jsonUrl(graph_file)
-      .dagMode('td') 
-      .cameraPosition({x: 1000, y: 0, z: 1800}) //y: 1200, 
-      // .cameraPosition({x: 0, y: 1200, z: 1200}) //y: 1200, 
+      .dagMode('zout')
+      .cameraPosition({x: 0, y: 0, z: 800}) 
       .linkColor((link) => {
         if (link.type == "contains") { return reading_info[link.source[0]]['color'] };
         if (link.type == "related") { return 'red'}
@@ -116,11 +87,9 @@ function display_graph() {
         }
       })
       .onNodeClick((node) => {
+        console.log(node);
         if (node.type == "text") {
-            load_book(node.book_key, node.bookmark_page);
-            $("#message_selected_page .title").html(node.bookmark_name);
-            $("#message_selected_page .page").html(node.bookmark_page);
-            $("#message_selected_page").show();
+            load_book(node.book_key, node.bookmark_page, node.bookmark_name);
 
             // Aim at node from outside it
               const distance = 300;
@@ -138,7 +107,6 @@ function display_graph() {
             
         } else {
             load_book(node.book_key);
-            $("#parallel_toggle").click();
         };
       })
 
@@ -164,9 +132,10 @@ function display_book_covers(callback) {
         $(img).attr("id", "img_" + title);
         $(img).attr("src","./media/covers/cover_" + title + ".jpg");
         $(img).attr("title", $("#description_" + title).text());
-        $(img).attr("onclick", "load_book(" + book_key + ")");
+        $(img).attr("onclick", "load_book('" + book_key + "')");
         section_book_covers.append(book_cover.html());
     }
+    $("#section_change_log").show();
     callback();
 }
 
