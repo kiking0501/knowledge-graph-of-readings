@@ -16,8 +16,11 @@ $( document ).ready(function() {
 })
 
 
-import * as THREE from '//unpkg.com/three/build/three.module.js';
-import SpriteText from "//unpkg.com/three-spritetext/dist/three-spritetext.mjs";
+import * as THREE from "./js_three/three.module.js";
+import SpriteText from "./js_three/three-spritetext.mjs";
+
+// import * as THREE from '//unpkg.com/three/build/three.module.js';
+// import SpriteText from "//unpkg.com/three-spritetext/dist/three-spritetext.mjs";
 
 function display_graph() {
 
