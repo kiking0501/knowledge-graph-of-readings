@@ -77,13 +77,56 @@
                 'color': "lightgrey",
                 'pdf': true, 'manifest': true,
             },
+            "t0": {
+                'title': "t0_better_decision_fewer_regrets_andy_stanley",
+                'manifest': true,
+            },
+            "t1": {
+                'title': "t1_thinking_fast_and_slow_daniel_kahneman",
+                'manifest': true,
+            },
             "b1": {
                 'title': "b1_the_personal_mba_josh_kaufman",
                 'manifest': true,
-            }
-            
-        }
+            },
+            "b2": {
+                'title': "b2_the_underlying_logic_lau",
+                'manifest': true,
+            },
+            "b3": {
+                'title': "b3_high_output_management_andrew_s_grove",
+                'manifest': true,
+            },
+            "e0": {
+                'title': "e0_the_software_engineers_guidebook_gergely_orosz",
+                'manifest': true,
+            },
+            "e1": {
+                'title': "e1_engineers_survival_guide_merih_taze",
+                'manifest': true,
+            },
+            "e2": {
+                'title': "e2_how_to_argue_with_a_cat_jay_heinrichs",
+                'manifest': true,
+            },
+            "p0": {
+                'title': "p0_the_4hour_work_week_timothy_ferriss",
+                'manifest': true,
+            },
+            "p1": {
+                'title': "p1_getting_things_done_david_allen",
+                'manifest': true,
+            },
+            "p2": {
+                'title': "p2_make_time_jake_knapp_john_zeratsky",
+                'manifest': true,
+            },
+            "p3": {
+                'title': "p3_atomic_habits_james_clear",
+                'manifest': true,
+            },
 
+        }
         const order = [
             7,
             4,
@@ -93,8 +136,15 @@
             8,
             5,
             1,
-            'b1',
         ]
+        const order_b = [
+            't0', 'b1', 'b2', 'b3', 'e0', 'e1',
+            'e2', 'p0', 'p1', 'p2', 'p3', 't1',
+        ]
+        const todos = new Set([
+            'b2', 'b3', 'e0', 'e1',
+            'e2', 'p0', 'p1', 'p2', 'p3', 't1',
+        ])
         function show_description_with_thumbnail(title) {
             function add_thumbnail(title) {
                 const thumbnail = $("#img_" + title).clone();
@@ -234,8 +284,16 @@
             <div id="main_content" class="row">
                 <div class="col-md-6" id="section_display">
                     <hr>
-                    <div class="row display_tab" id="section_book_cover">
-                    </div>
+                    <div class="row display_tab" id="section_book_cover"> </div>
+
+                    <hr>
+                    <h4>
+                        <i class="fa fa-chevron-down"> </i>
+                        For-Practitioners
+                    <h4>
+                    <div class="row display_tab" id="section_extra_book_cover"> </div>
+
+
                 </div>
 
                 <div class="col-md-6" id="section_reading_notes">
@@ -286,6 +344,11 @@
                             <i>Last update: 2025-03-16</i>
                             </span>
 
+                            <span class="book_description" id="description_t0_better_decision_fewer_regrets_andy_stanley" style="font-size:18px; display:none;">
+                            [[ better decisions, fewer regrets ]] - Andy Stanley <br>
+                            <i>Last update: 2025-05-12</i>
+                            </span>
+
                             <br>
 
                             <span id="message_selected_page" style="display:none;"> Selecting: [Page <span class="page"></span>] <span class="title"></span> </span>
@@ -318,6 +381,9 @@
                 Reading History
                 </span>
                 <h4>
+                    [---] <i>2025-05-12</i>: Added a [[ For-Practitioners ]] section for readings related to <i>Thinking</i> / <i>Business</i> / <i>Engineer Career</i>  /  <i>Productiviy</i>
+                </h4>
+                <h4>
                     [B1] <i>2025-03-16</i>: Updated [[ The Personal MBA ]] - Josh Kaufman
                 <h4>
                     [08] <i>2024-11-12</i>: Updated [[ A Book of Abstract Algebra ]] - Charles C. Pinter
@@ -347,8 +413,13 @@
         </div>
 
 
-        <div id="template_book_cover" style="display:none">
+        <div id="template_book_cover_3" style="display:none">
             <div class="col-xs-3 book_cover">
+                 <img id="" src="" title="" style="cursor:pointer; padding-top:10px; padding-bottom:10px;" width="100%">
+            </div>
+        </div>
+        <div id="template_book_cover_2" style="display:none">
+            <div class="col-xs-2 book_cover">
                  <img id="" src="" title="" style="cursor:pointer; padding-top:10px; padding-bottom:10px;" width="100%">
             </div>
         </div>
