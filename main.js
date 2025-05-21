@@ -146,7 +146,7 @@ function display_book_covers(callback) {
         var book_key = order[i];
         var book_cover = $("#template_book_cover_3").clone();
         book_cover.removeAttr("id");
-        
+
         fill_book_cover(book_key, book_cover);
 
         row_div.append(book_cover.html());
@@ -160,11 +160,11 @@ function display_book_covers(callback) {
     var section_extra_book_covers = $("#section_extra_book_cover")
     section_extra_book_covers.html("");
     row_div = $('<div>', { class: 'row' });
-    for (let i = 0; i < order_b.length; i++) {  
+    for (let i = 0; i < order_b.length; i++) {
         var book_key = order_b[i];
         var book_cover = $("#template_book_cover_2").clone();
         book_cover.removeAttr("id");
-      
+
         fill_book_cover(book_key, book_cover);
 
         row_div.append(book_cover.html());
