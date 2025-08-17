@@ -57,3 +57,13 @@ a.manifest_chapter_header {
     color: lightblue;
 }
 
+.badge {
+    cursor: pointer;
+    background-color: gray;
+}
+.badge.active {
+    cursor: pointer;
+    background-color: lightblue;
+    color: #484646;
+}
+

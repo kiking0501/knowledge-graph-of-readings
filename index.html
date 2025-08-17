@@ -79,6 +79,7 @@
             },
             "t0": {
                 'title': "t0_better_decision_fewer_regrets_andy_stanley",
+                "color": "#6cc0d3",
                 'manifest': true,
             },
             "t1": {
@@ -87,34 +88,42 @@
             },
             "bt": {
                 'title': "bt_principles_life_and_work_ray_dalio",
+                "color": "#e22318",
                 'manifest': true,
             },
             "b1": {
                 'title': "b1_the_personal_mba_josh_kaufman",
+                "color": "#a0783f",
                 'manifest': true,
             },
             "b2": {
                 'title': "b2_the_underlying_logic_lau",
+                "color": "#989595",
                 'manifest': true,
             },
             "b3": {
                 'title': "b3_high_output_management_andrew_s_grove",
+                "color": "#314e90",
                 'manifest': true,
             },
             "e0": {
                 'title': "e0_the_software_engineers_guidebook_gergely_orosz",
+                "color": "#212832",
                 'manifest': true,
             },
             "e1": {
                 'title': "e1_engineers_survival_guide_merih_taze",
+                "color": "#3c3e43",
                 'manifest': true,
             },
             "e2": {
                 'title': "e2_how_to_argue_with_a_cat_jay_heinrichs",
+                "color": "#c9e1eb",
                 'manifest': true,
             },
             "p0": {
                 'title': "p0_the_4hour_work_week_timothy_ferriss",
+                "color": "#fbd2a1",
                 'manifest': true,
             },
             "p1": {
@@ -131,23 +140,18 @@
             },
             "l1": {
                 "title": "l1_on_life_leo_tolstoy",
+                "color": "white",
                 "manifest": true,
             }
 
         }
         const order = [
-            7,
-            4,
-            6,
-            3,
-            2,
-            8,
-            5,
-            1,
+            7, 4, 6, 3,
+            2, 8, 5, 1,
         ]
-        const order_b = [
-            'l1', 'bt', 't0', 'p0', 'b1', 'b2', 'b3', 'e2',
-             'e0', 'e1',
+        const order_practitioners = [
+            'l1', 't0', 'bt', 'p0', 'b1', 'b2', 
+            'b3', 'e2', 'e0', 'e1',
             // , 'p1', 'p2', 'p3', 't1',
         ]
         const todos = new Set([
@@ -230,6 +234,11 @@
                 $("#message_selected_page .page").html(page);
                 $("#message_selected_page").show();
             }
+
+            // adjust what graph to show
+            if (!isNaN(book_key)) show_graph_by_pill('');
+            else show_graph_by_pill('_practitioners');
+
         }
         function view_for_pdf() {
             $("#view_manifest").show(); $("#view_pdf").hide();
@@ -257,17 +266,28 @@
         }
 
         function toggle_graph() {
-            var content = $("#graph_container");
+            var content = $("#all_graph_container");
+            
             if(content.css('display') == 'none'){
               content.show();
               $("#toggle_graph_icon").find("i").removeClass("fa-chevron-right");
               $("#toggle_graph_icon").find("i").addClass("fa-chevron-down");
             } else {
-              content.hide();
+              content.hide(); 
               $("#toggle_graph_icon").find("i").removeClass("fa-chevron-down");
               $("#toggle_graph_icon").find("i").addClass("fa-chevron-right");
             }
         }
+
+        function show_graph_by_pill(active_suffix) {
+            var hide_suffix = active_suffix ? "" : "_practitioners";
+            $("#graph_container" + active_suffix).css("display", "");
+            $("#graph_container" + hide_suffix).css("display", "none");
+
+            $("#badge_pill" + active_suffix).addClass("active");
+            $("#badge_pill" + hide_suffix).removeClass("active");           
+        }
+
 
     </script>
 
@@ -281,14 +301,25 @@
 
             </h4>
             <hr>
-            <h4 id="toggle_graph_icon" style="cursor:pointer" onclick="toggle_graph();"> 
+
+            <h4> 
+                <span  id="toggle_graph_icon" style="cursor:pointer" onclick="toggle_graph();">
                 <i class="fa fa-chevron-down"> </i> 
                 Knowledge Graph
+                </span> 
+                <span id="badge_pill" class="badge rounded-pill" onclick="show_graph_by_pill('');">Mathematics / Machine Learning</span>
+                <span id="badge_pill_practitioners" class="badge rounded-pill" onclick="show_graph_by_pill('_practitioners');">For-Practitioners</span>
             </h4>
 
-            <div class="row" id="graph_container" style="resize: vertical;"> 
-                <div class="col-xs-12" id="section_graph"> </div>
+            <div id="all_graph_container">
+                <div class="row" id="graph_container" style="resize: vertical; "> 
+                    <div class="col-xs-12" id="section_graph"> </div>
+                </div>
+                <div class="row" id="graph_container_practitioners" style="resize: vertical;"> 
+                    <div class="col-xs-12" id="section_graph_practitioners"> </div>
+                </div>
             </div>
+            
             <div id="main_content" class="row">
                 <div class="col-md-6" id="section_display">
                     <hr>

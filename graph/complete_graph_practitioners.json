@@ -1,0 +1,6077 @@
+{
+	"nodes": [
+		{
+			"id": "l1",
+			"book_key": "l1",
+			"type": "img"
+		},
+		{
+			"id": "bt",
+			"book_key": "bt",
+			"type": "img"
+		},
+		{
+			"id": "t0",
+			"book_key": "t0",
+			"type": "img"
+		},
+		{
+			"id": "p0",
+			"book_key": "p0",
+			"type": "img"
+		},
+		{
+			"id": "b1",
+			"book_key": "b1",
+			"type": "img"
+		},
+		{
+			"id": "b2",
+			"book_key": "b2",
+			"type": "img"
+		},
+		{
+			"id": "b3",
+			"book_key": "b3",
+			"type": "img"
+		},
+		{
+			"id": "e2",
+			"book_key": "e2",
+			"type": "img"
+		},
+		{
+			"id": "e0",
+			"book_key": "e0",
+			"type": "img"
+		},
+		{
+			"id": "e1",
+			"book_key": "e1",
+			"type": "img"
+		},
+		{
+			"id": "l1-1",
+			"title": "Fundamental Contradiction of Human Life",
+			"book_key": "l1",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "l1-3",
+			"title": "Delusions of the Scribes",
+			"book_key": "l1",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "l1-16",
+			"title": "Animal Personality is an Instrument of Life",
+			"book_key": "l1",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "l1-18",
+			"title": "Demands of the Rational Consciousness",
+			"book_key": "l1",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "l1-25",
+			"title": "Love is the only full activity of the True Life",
+			"book_key": "l1",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "l1-27",
+			"title": "Death is the Entrance into a new Relation",
+			"book_key": "l1",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "l1-35",
+			"title": "Physical Sufferings form the Necessary Condition of the Life and Good of Men",
+			"book_key": "l1",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "bt-1",
+			"title": "Where I'm coming from",
+			"book_key": "bt",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "bt-2",
+			"title": "Life principles",
+			"book_key": "bt",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "bt-3",
+			"title": "Work principles",
+			"book_key": "bt",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-1",
+			"title": "Embrace Reality",
+			"book_key": "bt",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-1-1",
+			"title": "Be Hyperrealist",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-1-3",
+			"title": "Be Radically Open-minded and Transparent",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-1-4",
+			"title": "Look to nature",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-1-5",
+			"title": "Evolving is Life's greatest ...",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-1-7",
+			"title": "Pain + Reflection = Progress",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-1-8",
+			"title": "Weigh second- and third-order consequences",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-1-9",
+			"title": "Own your outcomes",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-1-10",
+			"title": "Look at the machine from the higher level",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-3",
+			"title": "Be Radically Open-minded",
+			"book_key": "bt",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-3-1",
+			"title": "Recognize your two barriers",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-3-3",
+			"title": "Appreciate thoughtful disagreement",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-3-4",
+			"title": "Triangulate your view with believable people",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-3-5",
+			"title": "Recognize closed-mindedness and open-mindedness",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-4",
+			"title": "People are wired very differently",
+			"book_key": "bt",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-4-1",
+			"title": "Knowing how you and others are wired",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "bt-2-4-2",
+			"title": "Meaningful work and meaningful relationships",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "bt-2-4-3",
+			"title": "Understand the great brain battles",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-4-5",
+			"title": "Getting the right people in the right roles in support of your goal",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-5",
+			"title": "Make decisions effectively",
+			"book_key": "bt",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-5-1",
+			"title": "Biggest threat: harmful emotions",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-5-2",
+			"title": "Situation at hand",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-5-3",
+			"title": "Situation through time",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-5-4",
+			"title": "Navigate levels effectively",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-5-5",
+			"title": "Best tools: Logic, Reason, Common Sense",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-5-6",
+			"title": "Decisions as expected value calculations",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-5-7",
+			"title": "Prioritize: additional information VS the cost of not deciding",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-5-10",
+			"title": "Believability weight your decision making",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-5-11",
+			"title": "Convert your principles into algorithms",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-2-5-12",
+			"title": "Be cautious about trusting AI",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-1",
+			"title": "Organization = machine of culture and people",
+			"book_key": "bt",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-2",
+			"title": "Tough love is effective",
+			"book_key": "bt",
+			"bookmark_level": 2,
+			"type": "text"
+		},			
+		{
+			"id": "bt-3-3",
+			"title": "Believability-weighted idea meritocracy",
+			"book_key": "bt",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-4",
+			"title": "Make your passion and your work one and the same and do it with people you want to be with",
+			"book_key": "bt",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-5",
+			"title": "Get the Culture Right",
+			"book_key": "bt",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-6",
+			"title": "Get the People Right",
+			"book_key": "bt",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-6-1",
+			"title": "WHO > What",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-6-2",
+			"title": "Hire Right",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-6-2-1",
+			"title": "Match the person to the design",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-6-2-3",
+			"title": "Think like Sports Manager",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-6-2-4",
+			"title": "Pay attention to people's Track Record",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},			
+		{
+			"id": "bt-3-6-2-6",
+			"title": "Compensation: provide both Stability and Opportunity",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-6-2-8",
+			"title": "Think about how to keep Great People",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-6-3",
+			"title": "Train, Test, Evaluate, Sort People",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},	
+		{
+			"id": "bt-3-6-3-1",
+			"title": "You and the people you manage will go through personal evolution",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},	
+		{
+			"id": "bt-3-6-3-2",
+			"title": "Provide constant feedback",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},	
+		{
+			"id": "bt-3-6-3-3",
+			"title": "Evaluate accurately, not kindly",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-6-3-10",
+			"title": "Goal of a transfer",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},		
+		{
+			"id": "bt-3-7",
+			"title": "Build and Evolve Your Machine",
+			"book_key": "bt",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-1",
+			"title": "Manage like Operating a Machine",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-1-3",
+			"title": "Manage vs Micro-manage vs Not Manage",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-1-4",
+			"title": "Know what your people are like",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-1-5",
+			"title": "Clearly assign responsibilities",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-1-6",
+			"title": "Prob deep and hard to learn your machine",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-1-7",
+			"title": "Think like an owner, and expect the same",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-1-8",
+			"title": "Recognize Key-man risk",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-1-9",
+			"title": "Treat everyone appropriately instead of same",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-1-11",
+			"title": "Hold yourself and your people accountable",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-1-12",
+			"title": "Communicate the plan clearly, and have clear metrics",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-2",
+			"title": "Don't tolerate Problems",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "bt-3-7-3",
+			"title": "Diagnose Problems",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-4",
+			"title": "Design Improvements to your machine",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-4-2",
+			"title": "Systemize your principles",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-4-4",
+			"title": "Design is an iterative process",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-4-5",
+			"title": "Goals, rather than Tasks",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-4-7",
+			"title": "Create guardrails only when needed",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-4-9",
+			"title": "Good controls against dishonesty",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-5",
+			"title": "Do What You Set Out to Do",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-5-2",
+			"title": "Recognize that everyone has too much to do",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-5-4",
+			"title": "Allow time for rest and renovation",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-6",
+			"title": "Use Tools and Protocols",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-7",
+			"title": "Don't Overlook Governance",
+			"book_key": "bt",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "bt-3-7-7-1",
+			"title": "Must have Checks and Balances",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},	
+		{
+			"id": "bt-3-7-7-2",
+			"title": "A Great Group of Leaders > A Single CEO",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+			{
+			"id": "bt-3-7-7-3",
+			"title": "Great Partnership > Principles/Rules/Checks/Balances",
+			"book_key": "bt",
+			"bookmark_level": 4,
+			"type": "text"
+		},		
+		{
+			"id": "t0-1",
+			"title": "More than a Decision",
+			"book_key": "t0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "t0-1-1",
+			"title": "It's Complicated",
+			"book_key": "t0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "t0-1-2",
+			"title": "Poor Planning",
+			"book_key": "t0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "t0-1-3",
+			"title": "Selling It",
+			"book_key": "t0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "t0-1-4",
+			"title": "Surprise!",
+			"book_key": "t0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "t0-1-5",
+			"title": "Surprise!",
+			"book_key": "t0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "t0-2",
+			"title": "The Integrity Question: Am I Being Honest with Myself...Really?",
+			"book_key": "t0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "t0-2-1",
+			"title": "'The heart is deceitful...'",
+			"book_key": "t0",
+			"bookmark_level": 3,
+			"type": "text"
+		},				
+		{
+			"id": "t0-3",
+			"title": "The Legacy Question: What Story Do I Want to Tell?",
+			"book_key": "t0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "t0-3-1",
+			"title": "'How then could I do such a wicked thing and sin against God?...'",
+			"book_key": "t0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "t0-4",
+			"title": "The Conscience Question: Is There a Tension That Deserves My Attention?",
+			"book_key": "t0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "t0-4-1",
+			"title": "'The LORD forbid that I should do such a thing...'",
+			"book_key": "t0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "t0-5",
+			"title": "The Maturity Question: What Is the Wise Thing to Do?",
+			"book_key": "t0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "t0-5-1",
+			"title": "'... how you live - not as unwise but as wise...'",
+			"book_key": "t0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "t0-6",
+			"title": "The Relationship Question: What Does Love Require of Me?",
+			"book_key": "t0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "t0-6-1",
+			"title": "'By this everyone will know that you are my disciples...'",
+			"book_key": "t0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-1",
+			"title": "D is for Definition",
+			"book_key": "p0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "p0-2",
+			"title": "E is for Elimination",
+			"book_key": "p0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "p0-3",
+			"title": "A is for Automation",
+			"book_key": "p0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "p0-4",
+			"title": "L is for Liberation",
+			"book_key": "p0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "p0-5",
+			"title": "An Email You Need to Read",
+			"book_key": "p0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "p0-1-1",
+			"title": "Cautions and Comparisons",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},				
+		{
+			"id": "p0-1-2",
+			"title": "Rules That Change the Rules: Everything Popular is Wrong",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-1-3",
+			"title": "Dodging Bullets: Fear-Setting and Escaping Paralysis",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-1-4",
+			"title": "System Reset: Being Unreasonable and Unambiguous",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-2-1",
+			"title": "End of Time Management: Illusions and Italians",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-2-2",
+			"title": "Low-Information Diet: Cultivating Selective Ignorance",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-2-3",
+			"title": "Interrupting Interruption and the Art of Refusal",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-3-1",
+			"title": "Outsourcing Life",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-3-2",
+			"title": "Finding the Muse",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-3-3",
+			"title": "Testing the Muse",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-3-4",
+			"title": "MBA - Management by Absence",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-4-1",
+			"title": "How to Escape the Office",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-4-2",
+			"title": "Killing Your Job",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-4-3",
+			"title": "Mini-Retirements",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-4-4",
+			"title": "Adding Life After Subtracting Work",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "p0-4-5",
+			"title": "Top 13 New Rich Mistakes",
+			"book_key": "p0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1",
+			"title": "Value Creation",
+			"book_key": "b1",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b1-2",
+			"title": "Marketing",
+			"book_key": "b1",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b1-3",
+			"title": "Sales",
+			"book_key": "b1",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b1-4",
+			"title": "Value Delivery",
+			"book_key": "b1",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b1-5",
+			"title": "Finance",
+			"book_key": "b1",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b1-6",
+			"title": "The Human Mind",
+			"book_key": "b1",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b1-7",
+			"title": "Working With Yourself",
+			"book_key": "b1",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b1-8",
+			"title": "Working With Others",
+			"book_key": "b1",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b1-9",
+			"title": "Understanding Systems",
+			"book_key": "b1",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b1-10",
+			"title": "Analyzing Systems",
+			"book_key": "b1",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b1-11",
+			"title": "Improving Systems",
+			"book_key": "b1",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-1",
+			"title": "5 Parts of Every Business",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-2",
+			"title": "Economically Valuable Skills",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-3",
+			"title": "The Iron Law of the Market",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "b1-1-4",
+			"title": "Core Human Drives",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-5",
+			"title": "Social Status",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-6",
+			"title": "10 Ways to Evaluate a Market",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-7",
+			"title": "The Hidden Benefit of Competition",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-8",
+			"title": "The Mercenary Rule",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-9",
+			"title": "The Crusader Rule",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-10",
+			"title": "12 Standard Forms of Value",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-11",
+			"title": "Hassle Premium",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-12",
+			"title": "Perceived Value",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-13",
+			"title": "Modularity",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-14",
+			"title": "Bundling and Unbundling",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-15",
+			"title": "Intermediation and Disintermediation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-16",
+			"title": "Prototype",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-17",
+			"title": "Iteration Cycle",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-18",
+			"title": "Iteration Velocity",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-19",
+			"title": "Feedback",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-20",
+			"title": "Alternatives",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-21",
+			"title": "Trade-offs",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-22",
+			"title": "Economic Values",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-23",
+			"title": "Relative Importance Testing",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-24",
+			"title": "Critical Assumptions",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-25",
+			"title": "Shadow Testing",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-26",
+			"title": "Minimum Viable Offer",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-27",
+			"title": "Incremental Augmentation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-1-28",
+			"title": "Field Testing",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-1",
+			"title": "Attention",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-2",
+			"title": "Receptivity",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-3",
+			"title": "Remarkability",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-4",
+			"title": "Probable Purchaser",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-5",
+			"title": "Preoccupation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-6",
+			"title": "Levels of Awareness",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-7",
+			"title": "End Result",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-8",
+			"title": "Demonstration",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-9",
+			"title": "Qualification",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-10",
+			"title": "Point of Market Entry",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-11",
+			"title": "Addressability",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-12",
+			"title": "Desire",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-13",
+			"title": "Visualization",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-14",
+			"title": "Framing",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-15",
+			"title": "Free",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-16",
+			"title": "Permission",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-17",
+			"title": "Hook",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-18",
+			"title": "Call to Action",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-19",
+			"title": "Narrative",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-20",
+			"title": "Controversy",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-2-21",
+			"title": "Reputation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-3-1",
+			"title": "Transaction",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-2",
+			"title": "Trust",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-3",
+			"title": "Common Ground",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-4",
+			"title": "Pricing Uncertainty Principle",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-5",
+			"title": "4 Pricing Methods",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-6",
+			"title": "Price Transition Shock",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-7",
+			"title": "Value-Based Selling",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-8",
+			"title": "Education-Based Selling",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-9",
+			"title": "Next Best Alternative",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-10",
+			"title": "Exclusivity",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-11",
+			"title": "Three Universal Currencies",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-12",
+			"title": "Three Dimensions of Negotiation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-13",
+			"title": "Buffer",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-14",
+			"title": "Persuasion Resistance",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-15",
+			"title": "Reciprocation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-16",
+			"title": "Damaging Admission",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-17",
+			"title": "Option Fatigue",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-18",
+			"title": "Barriers to Purchase",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-19",
+			"title": "Risk Reversal",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-3-20",
+			"title": "Reactivation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-1",
+			"title": "Value Stream",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-2",
+			"title": "Distribution Channel",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-3",
+			"title": "The Expectation Effect",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-4",
+			"title": "Predictability",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-5",
+			"title": "Quality",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-6",
+			"title": "Quality Signals",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-7",
+			"title": "Throughput",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-8",
+			"title": "Duplication",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-9",
+			"title": "Multiplication",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-10",
+			"title": "Scale",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-11",
+			"title": "Accumulation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-12",
+			"title": "Amplification",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-13",
+			"title": "Barrier to Competition",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-14",
+			"title": "Force Multiplier",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-4-15",
+			"title": "SystemizationTriage",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-5-1",
+			"title": "Profit",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-2",
+			"title": "Profit Margin",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-3",
+			"title": "Value Capture",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-4",
+			"title": "Sufficiency",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-5",
+			"title": "Valuation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-6",
+			"title": "Cash Flow Statement",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-7",
+			"title": "Income Statement",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-8",
+			"title": "Balance Sheet",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-9",
+			"title": "Financial Ratios",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-10",
+			"title": "Cost-Benefit Analysis",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-11",
+			"title": "4 Methods to Increase Revenue",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-12",
+			"title": "Pricing Power",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-13",
+			"title": "Lifetime Value",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-14",
+			"title": "Allowable Acquisition Cost",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-15",
+			"title": "Overhead",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-16",
+			"title": "Costs: Fixed and Variable",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-17",
+			"title": "Incremental Degradation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-18",
+			"title": "Breakeven",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-19",
+			"title": "Amortization",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-20",
+			"title": "Purchasing Power",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-21",
+			"title": "Cash Flow Cycle",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-22",
+			"title": "Segregation of Duties",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-23",
+			"title": "Limited Authorization",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-24",
+			"title": "Opportunity Cost",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-25",
+			"title": "Time Value of Money",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-26",
+			"title": "Compounding",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-27",
+			"title": "Leverage",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-28",
+			"title": "Hierarchy of Funding",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-29",
+			"title": "Bootstrapping",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-30",
+			"title": "Return on Investment",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-31",
+			"title": "Sunk Cost",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-5-32",
+			"title": "Internal Controls",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-1",
+			"title": "Caveman Syndrome",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-2",
+			"title": "Performance Requirements",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-3",
+			"title": "The Onion Brain",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-4",
+			"title": "Perceptual Control",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-5",
+			"title": "Reference Level",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-6",
+			"title": "Conservation of Energy",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-7",
+			"title": "Guiding Structure",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-8",
+			"title": "Reorganization",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-9",
+			"title": "Conflict",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-10",
+			"title": "Pattern Matching",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-11",
+			"title": "Mental Simulation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-12",
+			"title": "Interpretation and Reinterpretation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-13",
+			"title": "Motivation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-14",
+			"title": "Inhibition",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-15",
+			"title": "Status Signals",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-16",
+			"title": "Status Malfunction",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-17",
+			"title": "Loss Aversion",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-18",
+			"title": "Threat Lockdown",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-19",
+			"title": "Cognitive Scope Limitation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-20",
+			"title": "Association",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-21",
+			"title": "Absence Blindness",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-22",
+			"title": "Contrast",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-23",
+			"title": "Scarcity",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-6-24",
+			"title": "Novelty",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-1",
+			"title": "Akrasia",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-2",
+			"title": "Monoidealism",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-3",
+			"title": "Cognitive Switching Penalty",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-4",
+			"title": "Four Methods of Completion",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-5",
+			"title": "Most Important Tasks",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-6",
+			"title": "Goals",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-7",
+			"title": "States of Being",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-8",
+			"title": "Habits",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-9",
+			"title": "Priming",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-10",
+			"title": "Decision",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-11",
+			"title": "Five-Fold Why",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-12",
+			"title": "Five-Fold How",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-13",
+			"title": "Next Action",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-14",
+			"title": "Externalization",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-15",
+			"title": "Self-Elicitation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-16",
+			"title": "Thought Experiment",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-17",
+			"title": "Parkinson's Law",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-18",
+			"title": "Doomsday Scenario",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-19",
+			"title": "Excessive Self-Regard Tendency",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-20",
+			"title": "Confirmation Bias",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-21",
+			"title": "Hindsight Bias",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-22",
+			"title": "Performance Load",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-23",
+			"title": "Energy Cycles",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-24",
+			"title": "Stress and Recovery",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-25",
+			"title": "Testing",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-26",
+			"title": "Mystique",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-27",
+			"title": "Hedonic Treadmill",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-28",
+			"title": "Comparison Fallacy",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-29",
+			"title": "Locus of Control",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-30",
+			"title": "Attachment",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-31",
+			"title": "Personal Research and Development",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-32",
+			"title": "Limiting Belief",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-33",
+			"title": "Malinvestment",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-34",
+			"title": "The Necessity of Choice",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-7-35",
+			"title": "The Arrival Fallacy",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-1",
+			"title": "Power",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-2",
+			"title": "Comparative Advantage",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-3",
+			"title": "Communication Overhead",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-4",
+			"title": "Importance",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-5",
+			"title": "Safety",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-6",
+			"title": "Golden Trifecta",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-7",
+			"title": "Reason Why",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-8",
+			"title": "Commander's Intent",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-9",
+			"title": "Earned Regard",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-10",
+			"title": "Bystander Apathy",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-11",
+			"title": "Planning Fallacy",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-12",
+			"title": "Forcing Function",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-13",
+			"title": "Referrals",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-14",
+			"title": "Clanning",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-15",
+			"title": "Convergence and Divergence",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-16",
+			"title": "Social Proof",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-17",
+			"title": "Authority",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-18",
+			"title": "Commitment and Consistency",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-19",
+			"title": "Incentive-Caused Bias",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-20",
+			"title": "Modal Bias",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-21",
+			"title": "Attribution Error",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-22",
+			"title": "The Mind-Reading Fallacy",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-23",
+			"title": "Boundary Setting",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-24",
+			"title": "The Principle of Charity",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-25",
+			"title": "Option Orientation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-26",
+			"title": "Management",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-8-27",
+			"title": "Performance-Based Hiring",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-1",
+			"title": "Gall's Law",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-2",
+			"title": "Flow",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-3",
+			"title": "Stock",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-4",
+			"title": "Slack",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-5",
+			"title": "Constraint",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-6",
+			"title": "Feedback Loop",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-7",
+			"title": "Autocatalysis",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-8",
+			"title": "Environment",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-9",
+			"title": "Selection Test",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-10",
+			"title": "Entropy",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-11",
+			"title": "Uncertainty",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-12",
+			"title": "Change",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-13",
+			"title": "Interdependence",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-14",
+			"title": "Counterparty Risk",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-15",
+			"title": "Second-Order Effects",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-16",
+			"title": "Externality",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-9-17",
+			"title": "Normal Accidents",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-1",
+			"title": "Deconstruction",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-2",
+			"title": "Measurement",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-3",
+			"title": "Key Performance Indicator",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-4",
+			"title": "Garbage In, Garbage Out",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-5",
+			"title": "Tolerance",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-6",
+			"title": "Variance",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-7",
+			"title": "Analytical Honesty",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-8",
+			"title": "Context",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-9",
+			"title": "Sampling",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-10",
+			"title": "Margin of Error",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-11",
+			"title": "Ratio",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-12",
+			"title": "Typicality",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-13",
+			"title": "Correlation and Causation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-14",
+			"title": "Norms",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-15",
+			"title": "Proxy",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-16",
+			"title": "Segmentation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-10-17",
+			"title": "Humanization",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-1",
+			"title": "Intervention Bias",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-2",
+			"title": "Optimization",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-3",
+			"title": "Refactoring",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-4",
+			"title": "The Critical Few",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-5",
+			"title": "Diminishing Returns",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-6",
+			"title": "Progressive Load",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-7",
+			"title": "Friction",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-8",
+			"title": "Automation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-9",
+			"title": "The Paradox of Automation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-10",
+			"title": "The Irony of Automation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-11",
+			"title": "Standard Operating Procedure",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-12",
+			"title": "Checklist",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-13",
+			"title": "Process Overhead",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-14",
+			"title": "Cessation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-15",
+			"title": "Resilience",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-16",
+			"title": "Fail-safes",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-17",
+			"title": "Stress Testing",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-18",
+			"title": "Scenario Planning",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-19",
+			"title": "Exploration / Exploitation",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-20",
+			"title": "Sustainable Growth Cycle",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-21",
+			"title": "The Middle Path",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b1-11-22",
+			"title": "The Experimental Mindset",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-1",
+			"title": "是非對錯",
+			"book_key": "b2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b2-2",
+			"title": "思考問題",
+			"book_key": "b2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b2-3",
+			"title": "個體進化",
+			"book_key": "b2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b2-4",
+			"title": "理解他人",
+			"book_key": "b2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b2-5",
+			"title": "社會協作",
+			"book_key": "b2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-1-1",
+			"title": "一個人心中，應該有三種“對錯觀”",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-1-2",
+			"title": "人性、道德和法律",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-1-3",
+			"title": "人生的三層智慧：博弈、定力、選擇",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-1-4",
+			"title": "公理體系 VS 邏輯推演",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-2-1",
+			"title": "事實、觀點、立場和信仰",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-2-2",
+			"title": "如何防止“注射式洗腦”",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-2-3",
+			"title": "如何赢得一場辮論",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-2-4",
+			"title": "普通和優秀的差距，在於解決方式的不同",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-2-5",
+			"title": "如何快速洞察本質",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-2-6",
+			"title": "流程、制度與系統",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-2-7",
+			"title": "邏輯思考與邏輯閉環",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-2-8",
+			"title": "複利思維",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-2-9",
+			"title": "概率思維",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-2-10",
+			"title": "數學思維",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-2-11",
+			"title": "系統思維",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-3-1",
+			"title": "人生商業模式 ＝ 能力 x 效率 x 杠杆",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-3-2",
+			"title": "把工作當成玩",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-3-3",
+			"title": "如何做好時間管理",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-3-4",
+			"title": "指數級增長，正態分佈和冪律分佈",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-3-5",
+			"title": "把事做對，創作 10 倍價值",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-3-6",
+			"title": "人脈的本質是給予價值，平等交換",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-3-7",
+			"title": "知識、技能和態度",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-3-8",
+			"title": "心態高過雲端，姿態埋入地底",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-3-9",
+			"title": "人人都應該是自己的 CEO",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-3-10",
+			"title": "藝術家為人類帶來自由",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-4-1",
+			"title": "理解 What、 Why、 How, 才能知行合一",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-4-2",
+			"title": "幽默，是溢出的智慧",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-4-3",
+			"title": "所謂洞察本質，就是會打比方",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-4-4",
+			"title": "邊界感的本質，是對所有權的認知",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-4-5",
+			"title": "每個創業者背後，都有大量多巴胺的支撐",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-5-1",
+			"title": "世界三大法則：自然法則，族群法則，普遍法則",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-5-2",
+			"title": "找到並利用自己的戰略勢能",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-5-3",
+			"title": "產品價格到底應該由甚麼決定",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-5-4",
+			"title": "利潤，來自沒有競爭",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-5-5",
+			"title": "沒有 KPI，也能管好公司",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-5-6",
+			"title": "讓優秀員工成為事業合伙人",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-5-7",
+			"title": "勤勞能創富，但勤勞者能分到財富嗎",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-5-8",
+			"title": "一切的分錢方式，無外乎優先和劣後",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-5-9",
+			"title": "信用，是一個人最大的資產",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-5-10",
+			"title": "公平、公正與公開",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-5-11",
+			"title": "效率與公平",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+
+		{
+			"id": "b2-5-12",
+			"title": "對酒的本質，是服從性測試",
+			"book_key": "b2",
+			"bookmark_level": 3,
+			"type": "text"
+		}
+	],
+	"links": [
+		{
+			"source": "l1",
+			"target": "l1-1",
+			"type": "contains"
+		},
+		{
+			"source": "l1",
+			"target": "l1-3",
+			"type": "contains"
+		},
+		{
+			"source": "l1",
+			"target": "l1-16",
+			"type": "contains"
+		},
+		{
+			"source": "l1",
+			"target": "l1-18",
+			"type": "contains"
+		},
+		{
+			"source": "l1",
+			"target": "l1-25",
+			"type": "contains"
+		},
+		{
+			"source": "l1",
+			"target": "l1-27",
+			"type": "contains"
+		},
+		{
+			"source": "l1",
+			"target": "l1-35",
+			"type": "contains"
+		},
+		{
+			"source": "bt",
+			"target": "bt-1",
+			"type": "contains"
+		},
+		{
+			"source": "bt",
+			"target": "bt-2",
+			"type": "contains"
+		},
+		{
+			"source": "bt",
+			"target": "bt-3",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2",
+			"target": "bt-2-1",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-1",
+			"target": "bt-2-1-1",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-1",
+			"target": "bt-2-1-3",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-1",
+			"target": "bt-2-1-4",
+			"type": "contains"
+		},		
+		{
+			"source": "bt-2-1",
+			"target": "bt-2-1-5",
+			"type": "contains"
+		},		
+		{
+			"source": "bt-2-1",
+			"target": "bt-2-1-7",
+			"type": "contains"
+		},		
+		{
+			"source": "bt-2-1",
+			"target": "bt-2-1-8",
+			"type": "contains"
+		},		
+		{
+			"source": "bt-2-1",
+			"target": "bt-2-1-9",
+			"type": "contains"
+		},		
+		{
+			"source": "bt-2-1",
+			"target": "bt-2-1-10",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2",
+			"target": "bt-2-3",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-3",
+			"target": "bt-2-3-1",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-3",
+			"target": "bt-2-3-3",
+			"type": "contains"
+		},	
+		{
+			"source": "bt-2-3",
+			"target": "bt-2-3-4",
+			"type": "contains"
+		},	
+		{
+			"source": "bt-2-3",
+			"target": "bt-2-3-5",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2",
+			"target": "bt-2-4",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-4",
+			"target": "bt-2-4-1",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-4",
+			"target": "bt-2-4-2",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-4",
+			"target": "bt-2-4-3",
+			"type": "contains"
+		},			
+		{
+			"source": "bt-2-4",
+			"target": "bt-2-4-5",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2",
+			"target": "bt-2-5",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-5",
+			"target": "bt-2-5-1",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-5",
+			"target": "bt-2-5-2",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-5",
+			"target": "bt-2-5-3",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-5",
+			"target": "bt-2-5-4",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-5",
+			"target": "bt-2-5-5",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-5",
+			"target": "bt-2-5-6",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-5",
+			"target": "bt-2-5-7",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-5",
+			"target": "bt-2-5-10",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-5",
+			"target": "bt-2-5-11",
+			"type": "contains"
+		},
+		{
+			"source": "bt-2-5",
+			"target": "bt-2-5-12",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3",
+			"target": "bt-3-1",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3",
+			"target": "bt-3-2",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3",
+			"target": "bt-3-3",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3",
+			"target": "bt-3-4",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3",
+			"target": "bt-3-5",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3",
+			"target": "bt-3-6",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-6",
+			"target": "bt-3-6-1",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-6",
+			"target": "bt-3-6-2",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-6-2",
+			"target": "bt-3-6-2-1",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-6-2",
+			"target": "bt-3-6-2-3",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-6-2",
+			"target": "bt-3-6-2-4",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-6-2",
+			"target": "bt-3-6-2-6",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-6-2",
+			"target": "bt-3-6-2-8",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-6",
+			"target": "bt-3-6-3",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-6-3",
+			"target": "bt-3-6-3-1",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-6-3",
+			"target": "bt-3-6-3-2",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-6-3",
+			"target": "bt-3-6-3-3",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-6-3",
+			"target": "bt-3-6-3-10",
+			"type": "contains"
+		},			
+		{
+			"source": "bt-3",
+			"target": "bt-3-7",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7",
+			"target": "bt-3-7-1",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-1",
+			"target": "bt-3-7-1-3",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-1",
+			"target": "bt-3-7-1-4",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-1",
+			"target": "bt-3-7-1-5",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-1",
+			"target": "bt-3-7-1-6",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-1",
+			"target": "bt-3-7-1-7",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-1",
+			"target": "bt-3-7-1-8",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-1",
+			"target": "bt-3-7-1-9",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-1",
+			"target": "bt-3-7-1-11",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-1",
+			"target": "bt-3-7-1-12",
+			"type": "contains"
+		},		
+		{
+			"source": "bt-3-7",
+			"target": "bt-3-7-2",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7",
+			"target": "bt-3-7-3",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7",
+			"target": "bt-3-7-4",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-4",
+			"target": "bt-3-7-4-2",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-4",
+			"target": "bt-3-7-4-4",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-4",
+			"target": "bt-3-7-4-5",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-4",
+			"target": "bt-3-7-4-7",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-4",
+			"target": "bt-3-7-4-9",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7",
+			"target": "bt-3-7-5",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-5",
+			"target": "bt-3-7-5-2",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-5",
+			"target": "bt-3-7-5-4",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7",
+			"target": "bt-3-7-6",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7",
+			"target": "bt-3-7-7",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-7",
+			"target": "bt-3-7-7-1",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-7",
+			"target": "bt-3-7-7-2",
+			"type": "contains"
+		},
+		{
+			"source": "bt-3-7-7",
+			"target": "bt-3-7-7-3",
+			"type": "contains"
+		},
+		{
+			"source": "t0",
+			"target": "t0-1",
+			"type": "contains"
+		},
+		{
+			"source": "t0-1",
+			"target": "t0-1-1",
+			"type": "contains"
+		},
+		{
+			"source": "t0-1",
+			"target": "t0-1-2",
+			"type": "contains"
+		},
+		{
+			"source": "t0-1",
+			"target": "t0-1-3",
+			"type": "contains"
+		},
+		{
+			"source": "t0-1",
+			"target": "t0-1-4",
+			"type": "contains"
+		},
+		{
+			"source": "t0-1",
+			"target": "t0-1-5",
+			"type": "contains"
+		},
+		{
+			"source": "t0",
+			"target": "t0-2",
+			"type": "contains"
+		},
+		{
+			"source": "t0-2",
+			"target": "t0-2-1",
+			"type": "contains"
+		},
+		{
+			"source": "t0",
+			"target": "t0-3",
+			"type": "contains"
+		},
+		{
+			"source": "t0-3",
+			"target": "t0-3-1",
+			"type": "contains"
+		},
+		{
+			"source": "t0",
+			"target": "t0-4",
+			"type": "contains"
+		},
+		{
+			"source": "t0-4",
+			"target": "t0-4-1",
+			"type": "contains"
+		},
+		{
+			"source": "t0",
+			"target": "t0-5",
+			"type": "contains"
+		},
+		{
+			"source": "t0-5",
+			"target": "t0-5-1",
+			"type": "contains"
+		},
+		{
+			"source": "t0",
+			"target": "t0-6",
+			"type": "contains"
+		},
+		{
+			"source": "t0-6",
+			"target": "t0-6-1",
+			"type": "contains"
+		},
+		{
+			"source": "p0",
+			"target": "p0-1",
+			"type": "contains"
+		},
+		{
+			"source": "p0",
+			"target": "p0-2",
+			"type": "contains"
+		},
+		{
+			"source": "p0",
+			"target": "p0-3",
+			"type": "contains"
+		},
+		{
+			"source": "p0",
+			"target": "p0-4",
+			"type": "contains"
+		},
+		{
+			"source": "p0",
+			"target": "p0-5",
+			"type": "contains"
+		},
+		{
+			"source": "p0-1",
+			"target": "p0-1-1",
+			"type": "contains"
+		},
+		{
+			"source": "p0-1",
+			"target": "p0-1-2",
+			"type": "contains"
+		},
+		{
+			"source": "p0-1",
+			"target": "p0-1-3",
+			"type": "contains"
+		},
+		{
+			"source": "p0-1",
+			"target": "p0-1-4",
+			"type": "contains"
+		},
+		{
+			"source": "p0-2",
+			"target": "p0-2-1",
+			"type": "contains"
+		},
+		{
+			"source": "p0-2",
+			"target": "p0-2-2",
+			"type": "contains"
+		},
+		{
+			"source": "p0-2",
+			"target": "p0-2-3",
+			"type": "contains"
+		},
+		{
+			"source": "p0-3",
+			"target": "p0-3-1",
+			"type": "contains"
+		},	
+		{
+			"source": "p0-3",
+			"target": "p0-3-2",
+			"type": "contains"
+		},
+		{
+			"source": "p0-3",
+			"target": "p0-3-3",
+			"type": "contains"
+		},
+		{
+			"source": "p0-3",
+			"target": "p0-3-4",
+			"type": "contains"
+		},
+		{
+			"source": "p0-4",
+			"target": "p0-4-1",
+			"type": "contains"
+		},
+		{
+			"source": "p0-4",
+			"target": "p0-4-2",
+			"type": "contains"
+		},
+		{
+			"source": "p0-4",
+			"target": "p0-4-3",
+			"type": "contains"
+		},
+		{
+			"source": "p0-4",
+			"target": "p0-4-4",
+			"type": "contains"
+		},
+		{
+			"source": "p0-4",
+			"target": "p0-4-5",
+			"type": "contains"
+		},
+		{
+			"source": "b1",
+			"target": "b1-1",
+			"type": "contains"
+		},
+		{
+			"source": "b1",
+			"target": "b1-2",
+			"type": "contains"
+		},
+		{
+			"source": "b1",
+			"target": "b1-3",
+			"type": "contains"
+		},
+		{
+			"source": "b1",
+			"target": "b1-4",
+			"type": "contains"
+		},
+		{
+			"source": "b1",
+			"target": "b1-5",
+			"type": "contains"
+		},
+		{
+			"source": "b1",
+			"target": "b1-6",
+			"type": "contains"
+		},
+		{
+			"source": "b1",
+			"target": "b1-7",
+			"type": "contains"
+		},
+		{
+			"source": "b1",
+			"target": "b1-8",
+			"type": "contains"
+		},
+		{
+			"source": "b1",
+			"target": "b1-9",
+			"type": "contains"
+		},
+		{
+			"source": "b1",
+			"target": "b1-10",
+			"type": "contains"
+		},
+		{
+			"source": "b1",
+			"target": "b1-11",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-1",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-2",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-3",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-4",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-5",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-6",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-7",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-8",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-9",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-10",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-11",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-12",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-13",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-14",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-15",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-16",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-17",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-18",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-19",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-20",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-21",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-22",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-23",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-24",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-25",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-26",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-27",
+			"type": "contains"
+		},
+		{
+			"source": "b1-1",
+			"target": "b1-1-28",
+			"type": "contains"
+		},	
+        {
+			"source": "b1-2",
+			"target": "b1-2-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-6",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-7",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-8",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-9",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-10",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-11",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-12",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-13",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-14",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-15",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-16",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-17",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-18",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-19",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-20",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-2",
+			"target": "b1-2-21",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-6",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-7",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-8",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-9",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-10",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-11",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-12",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-13",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-14",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-15",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-16",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-17",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-18",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-19",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-3",
+			"target": "b1-3-20",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-6",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-7",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-8",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-9",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-10",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-11",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-12",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-13",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-14",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-4",
+			"target": "b1-4-15",
+			"type": "contains"
+        },
+        {
+			"source": "b1-5",
+			"target": "b1-5-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-6",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-7",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-8",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-9",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-10",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-11",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-12",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-13",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-14",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-15",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-16",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-17",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-18",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-19",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-20",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-21",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-22",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-23",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-24",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-25",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-26",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-27",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-28",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-29",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-30",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-31",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-5",
+			"target": "b1-5-32",
+			"type": "contains"
+        },
+        {
+			"source": "b1-6",
+			"target": "b1-6-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-6",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-7",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-8",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-9",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-10",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-11",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-12",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-13",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-14",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-15",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-16",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-17",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-18",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-19",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-20",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-21",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-22",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-23",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-6",
+			"target": "b1-6-24",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-6",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-7",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-8",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-9",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-10",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-11",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-12",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-13",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-14",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-15",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-16",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-17",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-18",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-19",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-20",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-21",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-22",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-23",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-24",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-25",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-26",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-27",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-28",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-29",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-30",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-31",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-32",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-33",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-34",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-7",
+			"target": "b1-7-35",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-6",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-7",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-8",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-9",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-10",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-11",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-12",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-13",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-14",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-15",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-16",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-17",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-18",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-19",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-20",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-21",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-22",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-23",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-24",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-25",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-26",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-8",
+			"target": "b1-8-27",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-6",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-7",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-8",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-9",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-10",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-11",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-12",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-13",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-14",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-15",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-16",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-9",
+			"target": "b1-9-17",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-6",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-7",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-8",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-9",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-10",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-11",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-12",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-13",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-14",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-15",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-16",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-10",
+			"target": "b1-10-17",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-6",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-7",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-8",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-9",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-10",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-11",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-12",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-13",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-14",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-15",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-16",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-17",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-18",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-19",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-20",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-21",
+			"type": "contains"
+        },
+
+        {
+			"source": "b1-11",
+			"target": "b1-11-22",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2",
+			"target": "b2-1",
+			"type": "contains"
+        },
+        {
+			"source": "b2",
+			"target": "b2-2",
+			"type": "contains"
+        },
+        {
+			"source": "b2",
+			"target": "b2-3",
+			"type": "contains"
+        },
+        {
+			"source": "b2",
+			"target": "b2-4",
+			"type": "contains"
+        },
+        {
+			"source": "b2",
+			"target": "b2-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-1",
+			"target": "b2-1-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-1",
+			"target": "b2-1-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-1",
+			"target": "b2-1-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-1",
+			"target": "b2-1-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-2",
+			"target": "b2-2-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-2",
+			"target": "b2-2-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-2",
+			"target": "b2-2-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-2",
+			"target": "b2-2-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-2",
+			"target": "b2-2-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-2",
+			"target": "b2-2-6",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-2",
+			"target": "b2-2-7",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-2",
+			"target": "b2-2-8",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-2",
+			"target": "b2-2-9",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-2",
+			"target": "b2-2-10",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-2",
+			"target": "b2-2-11",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-3",
+			"target": "b2-3-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-3",
+			"target": "b2-3-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-3",
+			"target": "b2-3-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-3",
+			"target": "b2-3-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-3",
+			"target": "b2-3-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-3",
+			"target": "b2-3-6",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-3",
+			"target": "b2-3-7",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-3",
+			"target": "b2-3-8",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-3",
+			"target": "b2-3-9",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-3",
+			"target": "b2-3-10",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-4",
+			"target": "b2-4-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-4",
+			"target": "b2-4-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-4",
+			"target": "b2-4-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-4",
+			"target": "b2-4-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-4",
+			"target": "b2-4-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-5",
+			"target": "b2-5-1",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-5",
+			"target": "b2-5-2",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-5",
+			"target": "b2-5-3",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-5",
+			"target": "b2-5-4",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-5",
+			"target": "b2-5-5",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-5",
+			"target": "b2-5-6",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-5",
+			"target": "b2-5-7",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-5",
+			"target": "b2-5-8",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-5",
+			"target": "b2-5-9",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-5",
+			"target": "b2-5-10",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-5",
+			"target": "b2-5-11",
+			"type": "contains"
+        },
+
+        {
+			"source": "b2-5",
+			"target": "b2-5-12",
+			"type": "contains"
+        },
+		{
+			"source": "bt-3-3",
+			"target": "bt-2-3-4",
+			"type": "related",
+			"remark": "Believability-weighted idea meritocracy/Triangulate your view with believable people"	
+		},
+		{
+			"source": "bt-3-5",
+			"target": "bt-2",
+			"type": "related",
+			"remark": "Get the Culture Right/Life Principles"	
+		},
+		{
+			"source": "bt-2-1-5",
+			"target": "l1-3",
+			"type": "related",
+			"remark": "Evolve is life's greatest.../Delusion of Scribes"
+		},
+		{
+			"source": "bt-2-3-1",
+			"target": "l1-16",
+			"type": "related",
+			"remark": "Recognize your two barriers/Animal Personality is an Instrument of Life"
+		},
+
+		{
+			"source": "bt-3-2",
+			"target": "l1-25",
+			"remark": "Tough love is effective/Love is the only full activity of the True Life",
+			"type": "related"
+		},
+		{
+			"target": "t0-1",
+			"source": "bt-2-5",
+			"type": "related",
+			"remark": "Make Decisions Effectively/More than a Decision"	
+		},
+		{
+			"target": "t0-2",
+			"source": "bt-2-1-1",
+			"type": "related",
+			"remark": "Be Hyperrealist/The Integrity Question: Am I Being Honest with Myself...Really?"	
+		},		
+		{
+			"source": "t0-6",
+			"target": "l1-25",
+			"type": "related",
+			"remark": "The Relationship Question: What Does Love Require of Me?/Love is the only full activity of the True Life"	
+		},
+		{
+			"source": "p0-1-4",
+			"target": "t0-3",
+			"type": "related",
+			"remark": "System Reset: Being Unreasonable and Unambiguous/The Legacy Question: What Story Do I Want to Tell?"
+		},
+		{
+			"source": "p0-3-4",
+			"target": "bt-3-7-7",
+			"type": "related",
+			"remark": "MBA: Manage By Absence / Don't Overlook Governance"
+		},
+		{
+			"source": "p0-5",
+			"target": "bt-3-7-5-4",
+			"type": "related",
+			"remark": "An Email You Need to Read / Allow time for rest and renovation"
+		},
+		{
+			"source": "b1-6",
+			"target": "l1-16",
+			"type": "related",
+			"remark": "The Human Mind/Animal Personality is an Instrument of Life"
+		},
+		{
+			"source": "b1-7",
+			"target": "p0-2",
+			"type": "related",
+			"remark": "Working With Yourself/E is for Elimination"
+		},
+		{
+			"source": "b1-8",
+			"target": "bt-2-4",
+			"type": "related",
+			"remark": "Working With Others/People are wired very differently"
+		},
+		{
+			"source": "b1-9",
+			"target": "bt-3-7-1-6",
+			"type": "related",
+			"remark": "Understanding Systems/Prob deep and hard to learn your machine"
+		},	
+		{
+			"source": "b1-10",
+			"target": "bt-3-7-3",
+			"type": "related",
+			"remark": "Analyzing Systems/Diagnose your problem"
+		},
+		{
+			"source": "b1-11",
+			"target": "bt-3-7-4",
+			"type": "related",
+			"remark": "Improving Systems/Design Improvements to your machine"
+		},
+		{
+			"source": "b1-1-17",
+			"target": "bt-3-7-4-4",
+			"type": "related",
+			"title": "Iteration Cycle/Design is an iterative process"
+		},
+		{
+			"source": "b1-5-24",
+			"target": "bt-2-5-7",
+			"type": "related",
+			"title": "Opportunity Cost/Design is an iterative process/Prioritize: additional information VS the cost of not deciding"
+		},
+		{
+			"target": "b1-6-3",
+			"source": "bt-2-3-1",
+			"type": "related",
+			"title": "Recognize your two barriers/The Onion Brain"
+		},
+		{
+			"source": "b1-7-10",
+			"target": "bt-2-5",
+			"type": "related",
+			"title": "Decision/Making Decisions Effectively"
+		},		
+		{
+			"source": "b1-8-26",
+			"target": "bt-3-7-1",
+			"type": "related",
+			"title": "Management/Manage like Operating a Machine"
+		},
+		{
+			"source": "b1-8-27",
+			"target": "bt-3-6-2",
+			"type": "related",
+			"title": "Performance-Based Hiring/Hire Right"
+		},
+		{
+			"source": "b1-9-15",
+			"target": "bt-2-1-8",
+			"type": "related",
+			"title": "Second-Order Effects/Weigh second- and third-order consequences"
+		},
+		{
+			"source": "b1-10-2",
+			"target": "bt-3-7-6",
+			"type": "related",
+			"title": "Measurement/Use Tools and Protocols"
+		},
+		{
+			"target": "b1-11-10",
+			"source": "p0-3",
+			"type": "related",
+			"title": "The Irony of Automation/A is for Automation"
+		},
+		{
+			"source": "b2-2-7",
+			"target": "bt-2-3",
+			"type": "related",
+			"title": "邏輯思考與邏輯閉環/Be Radically Open-minded"
+		},
+		{
+			"source": "b2-2-9",
+			"target": "bt-2-5-6",
+			"type": "related",
+			"title": "概率思維/Make your Decisions as Expected Value Calculation"
+		},
+		{
+			"source": "b2-3-1",
+			"target": "b1-4",
+			"type": "related",
+			"title": "人生商業模式 ＝ 能力 x 效率 x 杠杆/Value Delivery"
+		},
+		{
+			"source": "b2-3-2",
+			"target": "bt-3-4",
+			"type": "related",
+			"title": "把工作當成玩/Make your passion and your work one and the same "
+		},
+		{
+			"source": "b2-3-3",
+			"target": "p0-2-1",
+			"type": "related",
+			"title": "如何做好時間管理/End of Time Management: Illusions and Italians"
+		},
+		{
+			"source": "b2-3-7",
+			"target": "bt-3-6-2-1",
+			"type": "related",
+			"title": "知識、技能和態度/Match the people to the design"
+		},
+		{
+			"source": "b2-5-2",
+			"target": "b1-8-2",
+			"type": "related",
+			"title": "找到並利用自己的戰略勢能/Comparative Advantage"
+		},
+		{
+			"source": "b2-5-4",
+			"target": "b1-5-11",
+			"type": "related",
+			"title": "利潤，來自沒有競爭/Four Methods to Increase Revenue"
+		},
+		{
+			"source": "b1-10-3",
+			"target": "b2-5-5",
+			"type": "related",
+			"title": "Key Performance Indicator/沒有 KPI，也能管好公司"
+		},
+		{
+			"source": "bt-3-6-2-6",
+			"target": "b2-5-5",
+			"type": "related",
+			"title": "Compensation: provide both Stability and Opportunity/沒有 KPI，也能管好公司"
+		},
+		{
+			"source": "bt-3-7-1-9",
+			"target": "b2-5-10",
+			"type": "related",
+			"title": "Treat everyone appropriately instead of same/公平、公正與公開"
+		}
+
+	]
+}

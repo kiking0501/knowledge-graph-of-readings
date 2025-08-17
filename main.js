@@ -1,7 +1,7 @@
         
 $( document ).ready(function() {
     var params = {
-        "book_key": 2, // default value
+        "book_key": "2", // default value
         "display_graph": 1, // default display
     };
     let urlParams = new URLSearchParams(window.location.search.substring(1));
@@ -19,10 +19,35 @@ $( document ).ready(function() {
 import * as THREE from "./js_three/three.module.js";
 import SpriteText from "./js_three/three-spritetext.mjs";
 
-// import * as THREE from '//unpkg.com/three/build/three.module.js';
-// import SpriteText from "//unpkg.com/three-spritetext/dist/three-spritetext.mjs";
 
 function display_graph() {
+
+    var suffix_list = ["", "_practitioners"];
+    var background_colors = ["black", "black"];
+    var dag_modes = ["zout", "zout"];
+    var relate_colors = ["red", "white"];
+
+    for (let i = 0; i < suffix_list.length; i++) {
+
+        var Graph = ForceGraph3D(
+            { 
+                controlType: 'orbit', 
+                rendererConfig: { antialias: true, alpha: true },
+            }
+        )(document.getElementById('section_graph' + suffix_list[i]))
+        .jsonUrl('./graph/complete_graph' + suffix_list[i] + '.json');
+
+        _display_graph( 
+            Graph, 
+            document.getElementById('graph_container' + suffix_list[i]), 
+            background_colors[i],
+            dag_modes[i],
+            relate_colors[i],
+        );
+    }
+}
+
+function _display_graph(Graph, graph_container_obj, background_color, dagMode, relate_color) {
 
     function getImgSprite(book_key) {
         var title = reading_info[book_key]['title'];
@@ -46,32 +71,23 @@ function display_graph() {
         sprite.material.depthWrite = false; // make sprite background transparent
         sprite.color = color;
         sprite.textHeight = 11 - level;
-        sprite.strokeColor = 'black';
+        sprite.strokeColor = background_color;
         sprite.strokeWidth = 2;
 
         return sprite;
     }
 
-    const graph_file = './graph/complete_graph.json'
-    const graph_container = document.getElementById('graph_container');
-
-    const Graph = ForceGraph3D(
-        { 
-            controlType: 'orbit', 
-            rendererConfig: { antialias: true, alpha: true },
-        }
-    )(document.getElementById('section_graph'))
-      .width(graph_container.clientWidth)
-      // .height(1200)
-      .height(graph_container.clientHeight / 2)
-      .backgroundColor('black')
+    Graph
+      .width(graph_container_obj.clientWidth)
+      .height(graph_container_obj.clientHeight / 2)
+      .backgroundColor(background_color)
       .showNavInfo(true)
-      .jsonUrl(graph_file)
-      .dagMode('zout')
-      .cameraPosition({x: 0, y: 0, z: 800}) 
+      .dagMode(dagMode)
+      .cameraPosition({x: 0, y: -1500, z: 800}) 
       .linkColor((link) => {
-        if (link.type == "contains") { return reading_info[link.source[0]]['color'] };
-        if (link.type == "related") { return 'red'}
+        if (link.type == "contains") { return reading_info[link.source.split("-")[0]]['color']; 
+        };
+        if (link.type == "related") { return relate_color }
         if (link.type == "read_sequence") { return 'lightgrey' }
       })
       .linkOpacity(.5)
@@ -90,7 +106,6 @@ function display_graph() {
         }
       })
       .onNodeClick((node) => {
-        console.log(node);
         if (node.type == "text") {
             load_book(node.book_key, node.bookmark_page, node.bookmark_name);
 
@@ -115,7 +130,7 @@ function display_graph() {
 
     Graph.d3Force('charge').strength(-100);
     window.addEventListener('resize', () => {
-        Graph.width(graph_container.clientWidth);
+        Graph.width(graph_container_obj.clientWidth);
     });
 }
 
@@ -160,8 +175,8 @@ function display_book_covers(callback) {
     var section_extra_book_covers = $("#section_extra_book_cover")
     section_extra_book_covers.html("");
     row_div = $('<div>', { class: 'row' });
-    for (let i = 0; i < order_b.length; i++) {
-        var book_key = order_b[i];
+    for (let i = 0; i < order_practitioners.length; i++) {
+        var book_key = order_practitioners[i];
         var book_cover = $("#template_book_cover_2").clone();
         book_cover.removeAttr("id");
 
