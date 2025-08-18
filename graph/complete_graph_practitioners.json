@@ -65,6 +65,13 @@
 			"type": "text"
 		},
 		{
+			"id": "l1-10",
+			"title": "Reason is that law cognized by Man",
+			"book_key": "l1",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
 			"id": "l1-16",
 			"title": "Animal Personality is an Instrument of Life",
 			"book_key": "l1",
@@ -1619,7 +1626,14 @@
 
 		{
 			"id": "b1-4-15",
-			"title": "SystemizationTriage",
+			"title": "Systemization",
+			"book_key": "b1",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b1-4-16",
+			"title": "Triage",
 			"book_key": "b1",
 			"bookmark_level": 3,
 			"type": "text"
@@ -3386,7 +3400,443 @@
 			"book_key": "b2",
 			"bookmark_level": 3,
 			"type": "text"
-		}
+		},
+
+		{
+			"id": "b3-1",
+			"title": "The Breakfast Factory",
+			"book_key": "b3",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b3-2",
+			"title": "Management is a Team Game",
+			"book_key": "b3",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b3-3",
+			"title": "Team of Teams",
+			"book_key": "b3",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b3-4",
+			"title": "The Players",
+			"book_key": "b3",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "b3-1-1",
+			"title": "The Basics of Production: Delivering a Breakfast",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b3-1-1-1",
+			"title": "The Three-Minute Egg",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-1-1-2",
+			"title": "Production Operations",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-1-1-3",
+			"title": "A Few Complications",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-1-1-4",
+			"title": "Adding Value",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-1-2",
+			"title": "Managing the Breakfast Factory",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b3-1-2-1",
+			"title": "Indicators as a Key Tool",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-1-2-2",
+			"title": "The Black Box",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-1-2-3",
+			"title": "Controlling Future Output",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+
+		{
+			"id": "b3-1-2-4",
+			"title": "Assuring Quality",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-1-2-5",
+			"title": "Productivity",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-1",
+			"title": "Managerial Leverage",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-1-1",
+			"title": "Manager's Output",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-1-2",
+			"title": "Leverage of Managerial Activity",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-1-3",
+			"title": "Number of Subordinates",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-1-4",
+			"title": "Interruptions - The Plague",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-2",
+			"title": "Meetings - The Medium of Managerial Work",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-2-1",
+			"title": "Process-Oriented Meetings",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-2-2",
+			"title": "One-On-Ones",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-2-3",
+			"title": "Staff Meetings",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-2-4",
+			"title": "Operation Reviews",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-2-5",
+			"title": "Mission-Oriented Meetings",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-3",
+			"title": "Decision, Decisions",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-3-1",
+			"title": "Ideal Model",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-3-2",
+			"title": "The Peer-Group Syndrome",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-3-3",
+			"title": "Striving for the Output",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-4",
+			"title": "Planning: Today's Actions for Tomorrow's Output",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-4-1",
+			"title": " Planning Process",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-4-2",
+			"title": "Output of the Planning Process",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-2-4-3",
+			"title": "Management by Objectives",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-3-1",
+			"title": "The Breakfast Factgory Goes National",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b3-3-2",
+			"title": "Hybrid Organizations",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b3-3-3",
+			"title": "Dual Reporting",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b3-3-4",
+			"title": "Modes of Control",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b3-3-4-1",
+			"title": "Free-Market Forces",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-3-4-2",
+			"title": "Cultural Values",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},		
+		{
+			"id": "b3-3-4-3",
+			"title": "Most Appropriate Mode of Control",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},		
+		{
+			"id": "b3-3-4-4",
+			"title": "Modes of Control at Work",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-4-1",
+			"title": "The Sports Analogy",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "b3-4-1-1",
+			"title": "Physiologial Needs",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-4-1-2",
+			"title": "Security / Safety Needs",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-4-1-3",
+			"title": "Social / Affiliation Needs",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-4-1-4",
+			"title": "Esteem / Recognition Needs",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-4-1-5",
+			"title": "Self-Actualization Needs",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-4-1-6",
+			"title": "Money and Task-Relevant Feedback",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-4-1-7",
+			"title": "Fear",
+			"book_key": "b3",
+			"bookmark_level": 4,
+			"type": "text"
+		},
+		{
+			"id": "b3-4-2",
+			"title": "Task-Relevant Maturity",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "b3-4-3",
+			"title": "Performance Appraisal",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "b3-4-4",
+			"title": "Why Bother?",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "b3-4-5",
+			"title": "Assessing Performance",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "b3-4-6",
+			"title": "Delivering the Assessment",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "b3-4-7",
+			"title": "'On the One Hand... On the Other Hand...'",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "b3-4-8",
+			"title": "The Blast",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "b3-4-9",
+			"title": "Reviewing the Aces",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "b3-4-10",
+			"title": "Other Thoughts and Practices",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "b3-4-11",
+			"title": "Two Difficult Tasks: Interviewing/'I Quit!'",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "b3-4-12",
+			"title": "Compensation as Task-Relevant Feedback",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		},		
+		{
+			"id": "b3-4-13",
+			"title": "Why Training Is the Boss's Job",
+			"book_key": "b3",
+			"bookmark_level": 3,
+			"type": "text"
+		}			
 	],
 	"links": [
 		{
@@ -4527,6 +4977,11 @@
         {
 			"source": "b1-4",
 			"target": "b1-4-15",
+			"type": "contains"
+        },
+        {
+			"source": "b1-4",
+			"target": "b1-4-16",
 			"type": "contains"
         },
         {
@@ -5849,6 +6304,317 @@
 			"target": "b2-5-12",
 			"type": "contains"
         },
+        {
+			"source": "b3",
+			"target": "b3-1",
+			"type": "contains"
+        },
+        {
+			"source": "b3",
+			"target": "b3-2",
+			"type": "contains"
+        },
+        {
+			"source": "b3",
+			"target": "b3-3",
+			"type": "contains"
+        },
+        {
+			"source": "b3",
+			"target": "b3-4",
+			"type": "contains"
+        },
+        {
+			"source": "b3-1",
+			"target": "b3-1-1",
+			"type": "contains"
+        },
+        {
+			"source": "b3-1-1",
+			"target": "b3-1-1-1",
+			"type": "contains"
+        },
+        {
+			"source": "b3-1-1",
+			"target": "b3-1-1-2",
+			"type": "contains"
+        },
+        {
+			"source": "b3-1-1",
+			"target": "b3-1-1-3",
+			"type": "contains"
+        },
+        {
+			"source": "b3-1-1",
+			"target": "b3-1-1-4",
+			"type": "contains"
+        },
+        {
+			"source": "b3-1",
+			"target": "b3-1-2",
+			"type": "contains"
+        },
+        {
+			"source": "b3-1-2",
+			"target": "b3-1-2-1",
+			"type": "contains"
+        },
+        {
+			"source": "b3-1-2",
+			"target": "b3-1-2-2",
+			"type": "contains"
+        },
+        {
+			"source": "b3-1-2",
+			"target": "b3-1-2-3",
+			"type": "contains"
+        },
+        {
+			"source": "b3-1-2",
+			"target": "b3-1-2-4",
+			"type": "contains"
+        },
+        {
+			"source": "b3-1-2",
+			"target": "b3-1-2-5",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2",
+			"target": "b3-2-1",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2",
+			"target": "b3-2-2",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2",
+			"target": "b3-2-3",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2",
+			"target": "b3-2-4",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-1",
+			"target": "b3-2-1-1",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-1",
+			"target": "b3-2-1-2",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-1",
+			"target": "b3-2-1-3",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-1",
+			"target": "b3-2-1-4",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-2",
+			"target": "b3-2-2-1",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-2",
+			"target": "b3-2-2-2",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-2",
+			"target": "b3-2-2-3",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-2",
+			"target": "b3-2-2-4",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-2",
+			"target": "b3-2-2-5",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-3",
+			"target": "b3-2-3-1",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-3",
+			"target": "b3-2-3-2",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-3",
+			"target": "b3-2-3-3",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-4",
+			"target": "b3-2-4-1",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-4",
+			"target": "b3-2-4-2",
+			"type": "contains"
+        },
+        {
+			"source": "b3-2-4",
+			"target": "b3-2-4-3",
+			"type": "contains"
+        },
+		{
+			"source": "b3-3",
+			"target": "b3-3-1",
+			"type": "contains"
+        },
+		{
+			"source": "b3-3",
+			"target": "b3-3-2",
+			"type": "contains"
+        },
+		{
+			"source": "b3-3",
+			"target": "b3-3-3",
+			"type": "contains"
+        },
+		{
+			"source": "b3-3",
+			"target": "b3-3-4",
+			"type": "contains"
+        },
+		{
+			"source": "b3-3-4",
+			"target": "b3-3-4-1",
+			"type": "contains"
+        },        
+		{
+			"source": "b3-3-4",
+			"target": "b3-3-4-2",
+			"type": "contains"
+        },
+		{
+			"source": "b3-3-4",
+			"target": "b3-3-4-3",
+			"type": "contains"
+        },
+		{
+			"source": "b3-3-4",
+			"target": "b3-3-4-4",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4",
+			"target": "b3-4-1",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4-1",
+			"target": "b3-4-1-1",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4-1",
+			"target": "b3-4-1-2",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4-1",
+			"target": "b3-4-1-3",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4-1",
+			"target": "b3-4-1-4",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4-1",
+			"target": "b3-4-1-5",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4-1",
+			"target": "b3-4-1-6",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4-1",
+			"target": "b3-4-1-7",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4",
+			"target": "b3-4-2",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4",
+			"target": "b3-4-3",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4",
+			"target": "b3-4-4",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4",
+			"target": "b3-4-5",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4",
+			"target": "b3-4-6",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4",
+			"target": "b3-4-7",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4",
+			"target": "b3-4-8",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4",
+			"target": "b3-4-9",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4",
+			"target": "b3-4-10",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4",
+			"target": "b3-4-11",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4",
+			"target": "b3-4-12",
+			"type": "contains"
+        },
+		{
+			"source": "b3-4",
+			"target": "b3-4-13",
+			"type": "contains"
+        },
+
 		{
 			"source": "bt-3-3",
 			"target": "bt-2-3-4",
@@ -5867,6 +6633,13 @@
 			"type": "related",
 			"remark": "Evolve is life's greatest.../Delusion of Scribes"
 		},
+		{
+			"source": "bt-2-5-5",
+			"target": "l1-10",
+			"type": "related",
+			"remark": "Best tools: Logic, Reason, Common Sense/Reason is that Law cognized by Man"
+		},
+		
 		{
 			"source": "bt-2-3-1",
 			"target": "l1-16",
@@ -5891,6 +6664,12 @@
 			"source": "bt-2-1-1",
 			"type": "related",
 			"remark": "Be Hyperrealist/The Integrity Question: Am I Being Honest with Myself...Really?"	
+		},
+		{
+			"source": "t0-5",
+			"target": "l1-10",
+			"type": "related",
+			"remark": "The Maturity Question: What Is the Wise Thing to Do?/Reason is that Law cognized by Man"	
 		},		
 		{
 			"source": "t0-6",
@@ -6071,6 +6850,66 @@
 			"target": "b2-5-10",
 			"type": "related",
 			"title": "Treat everyone appropriately instead of same/公平、公正與公開"
+		},
+		{
+			"source": "b3-1-2-1",
+			"target": "b1-10-3",
+			"type": "related",
+			"title": "Indicators as a Key Tool/Key Performance Indicator"
+		},
+		{
+			"source": "b3-1-2-2",
+			"target": "b1-4-15",
+			"type": "related",
+			"title": "The Black Box/Systemization"
+		},
+		{
+			"source": "b3-1-2-4",
+			"target": "b1-4-5",
+			"type": "related",
+			"title": "Assuring Quality/Quality"
+		},
+		{
+			"source": "b3-1-2-5",
+			"target": "b1-4-7",
+			"type": "related",
+			"title": "Productivity/Throughput"
+		},
+		{
+			"source": "b3-2",
+			"target": "bt-3-1",
+			"type": "related",
+			"title": "Management is a Team Game/Organization = machine of culture and people"
+		},
+		{
+			"source": "b3-3-1",
+			"target": "b1-4-10",
+			"type": "related",
+			"title": "The Breakfast Factgory Goes National/Scale"
+		},
+		{
+			"source": "b3-3-4-2",
+			"target": "bt-3-5",
+			"type": "related",
+			"title": "Cultural Values/To Get the Culture Right"
+		},
+		{
+			"source": "bt-3-6-2-3",
+			"target": "b3-4-1",
+			"type": "related",
+			"title": "Think like Sports Manager/Sports Analogy"
+		},
+		{
+			"target": "bt-3-6-3-3",
+			"source": "b3-4-5",
+			"type": "related",
+			"title": "Assessing Performance/Evaluate accurately, not kindly"
+		},
+		{
+			"source": "b3-4-12",
+			"target": "bt-3-6-2-6",
+			"type": "related",
+			"title": "Compensation as Task-Relevant Feedback/Compensation: provide both Stability and Opportunity"
 		}
 
 	]

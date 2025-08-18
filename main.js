@@ -24,7 +24,7 @@ function display_graph() {
 
     var suffix_list = ["", "_practitioners"];
     var background_colors = ["black", "black"];
-    var dag_modes = ["zout", "zout"];
+    var dag_modes = ["td", "td"];
     var relate_colors = ["red", "white"];
 
     for (let i = 0; i < suffix_list.length; i++) {
@@ -83,7 +83,7 @@ function _display_graph(Graph, graph_container_obj, background_color, dagMode, r
       .backgroundColor(background_color)
       .showNavInfo(true)
       .dagMode(dagMode)
-      .cameraPosition({x: 0, y: -1500, z: 800}) 
+      .cameraPosition({x: 815, y: 777, z: 930}) 
       .linkColor((link) => {
         if (link.type == "contains") { return reading_info[link.source.split("-")[0]]['color']; 
         };
@@ -126,6 +126,7 @@ function _display_graph(Graph, graph_container_obj, background_color, dagMode, r
         } else {
             load_book(node.book_key);
         };
+        // console.log(Graph.cameraPosition());
       })
 
     Graph.d3Force('charge').strength(-100);
