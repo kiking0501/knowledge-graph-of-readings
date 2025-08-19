@@ -7302,9 +7302,21 @@
 		},
 		{
 			"source": "b2-2-7",
+			"target": "bt-2-5-5",
+			"type": "related",
+			"title": "邏輯思考與邏輯閉環/Best tools: Logic, Reason, Common Sense"
+		},
+		{
+			"source": "b2-2-7",
 			"target": "bt-2-3",
 			"type": "related",
 			"title": "邏輯思考與邏輯閉環/Be Radically Open-minded"
+		},
+		{
+			"source": "b2-2-11",
+			"target": "b1-4-15",
+			"type": "related",
+			"title": "系統思維/Systemization"
 		},
 		{
 			"source": "b2-2-9",
