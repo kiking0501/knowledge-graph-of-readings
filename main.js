@@ -97,7 +97,7 @@ function _build_graph(graph, graph_container_obj, suffix, dagMode, relate_color)
       .backgroundColor("black")
       .showNavInfo(true)
       .dagMode(dagMode)
-      .cameraPosition({x: 815, y: 777, z: 930})
+      .cameraPosition({x: 700, y: 700, z: 1300})
       .linkColor((link) => {
         if (link.type == "contains") { 
             var node_id = link.source.id? link.source.id : link.source
@@ -107,7 +107,7 @@ function _build_graph(graph, graph_container_obj, suffix, dagMode, relate_color)
         if (link.type == "read_sequence") { return 'lightgrey' }
       })
       .linkWidth((link)=> {
-        return is_solid_link(link, Graph["selected" + suffix])? 2 : 0.5
+        return is_solid_link(link, Graph["selected" + suffix])? 1.5 : 0.5
       })
       .linkOpacity(.5)
       .linkDirectionalParticles((link)=> {
@@ -122,7 +122,7 @@ function _build_graph(graph, graph_container_obj, suffix, dagMode, relate_color)
         const opacity = (
             Graph["selected" + suffix] == node.book_key ||
             !Graph["selected" + suffix]
-        )? 1.0 : 0.5; 
+        )? 1.0 : 0.4; 
         if (node.type == "img") {
             return getImgSprite(node.book_key, opacity);
         }

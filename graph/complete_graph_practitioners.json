@@ -689,7 +689,7 @@
 		},
 		{
 			"id": "t0-1-5",
-			"title": "Surprise!",
+			"title": "Your Fingerprints on the Future",
 			"book_key": "t0",
 			"bookmark_level": 3,
 			"type": "text"
@@ -3836,7 +3836,308 @@
 			"book_key": "b3",
 			"bookmark_level": 3,
 			"type": "text"
-		}			
+		},
+		{
+			"id": "e0-1",
+			"title": "Developer Career Fundamentals",
+			"book_key": "e0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e0-1-1",
+			"title": "Career paths",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-1-2",
+			"title": "Owning your career",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-1-3",
+			"title": "Performance reviews",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-1-4",
+			"title": "Promotions",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-1-5",
+			"title": " Thriving in different environments",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-1-6",
+			"title": "Switching jobs",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-2",
+			"title": "Software Developer",
+			"book_key": "e0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e0-2-1",
+			"title": "Getting things done",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-2-2",
+			"title": "Coding",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-2-3",
+			"title": "Software development",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-2-4",
+			"title": "Tools of the productive engineer",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-3",
+			"title": "Senior Engineer",
+			"book_key": "e0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e0-3-1",
+			"title": "Getting things done",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-3-2",
+			"title": "Collaboration and teamwork",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-3-3",
+			"title": "Software engineering",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-3-4",
+			"title": "Testing",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-3-5",
+			"title": "Software architecture",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-4",
+			"title": "Tech Lead",
+			"book_key": "e0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e0-4-1",
+			"title": "Project management",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-4-2",
+			"title": "Shipping to production",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-4-3",
+			"title": "Stakeholder management",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-4-4",
+			"title": "Team structure",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-4-5",
+			"title": "Team dynamics",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-5",
+			"title": "Staff and Principal Engineers",
+			"book_key": "e0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e0-5-1",
+			"title": "Understanding the business",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-5-2",
+			"title": "Collaboration",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-5-3",
+			"title": "Software engineering",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-5-4",
+			"title": "Reliable software systems",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-5-5",
+			"title": "Software architecture",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-6",
+			"title": "Conclusion",
+			"book_key": "e0",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e0-6-1",
+			"title": "Lifelong learning",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e0-6-2",
+			"title": "Further reading",
+			"book_key": "e0",
+			"bookmark_level": 3,
+			"type": "text"
+		},
+		{
+			"id": "e2-1",
+			"title": "Practice Agreeability",
+			"book_key": "e2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e2-2",
+			"title": "The Art of Stalking",
+			"book_key": "e2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e2-3",
+			"title": "Defuse Anger",
+			"book_key": "e2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e2-4",
+			"title": "Fit In with the Clan",
+			"book_key": "e2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e2-5",
+			"title": "Earn Loyalty",
+			"book_key": "e2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e2-6",
+			"title": "Argue Logically",
+			"book_key": "e2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e2-7",
+			"title": "Avoid Manipulation",
+			"book_key": "e2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e2-8",
+			"title": "Talk with Your Body",
+			"book_key": "e2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e2-9",
+			"title": "Make Them Heed",
+			"book_key": "e2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "e2-10",
+			"title": "Follow the Steps: The Cat Persuation Checklist",
+			"book_key": "e2",
+			"bookmark_level": 2,
+			"type": "text"
+		}
 	],
 	"links": [
 		{
@@ -6614,7 +6915,221 @@
 			"target": "b3-4-13",
 			"type": "contains"
         },
-
+		{
+			"source": "e0",
+			"target": "e0-1",
+			"type": "contains"
+        },
+		{
+			"source": "e0-1",
+			"target": "e0-1-1",
+			"type": "contains"
+        },
+		{
+			"source": "e0-1",
+			"target": "e0-1-2",
+			"type": "contains"
+        },
+		{
+			"source": "e0-1",
+			"target": "e0-1-3",
+			"type": "contains"
+        },
+		{
+			"source": "e0-1",
+			"target": "e0-1-4",
+			"type": "contains"
+        },
+		{
+			"source": "e0-1",
+			"target": "e0-1-5",
+			"type": "contains"
+        },
+		{
+			"source": "e0-1",
+			"target": "e0-1-6",
+			"type": "contains"
+        },
+		{
+			"source": "e0",
+			"target": "e0-2",
+			"type": "contains"
+        },
+		{
+			"source": "e0-2",
+			"target": "e0-2-1",
+			"type": "contains"
+        },
+		{
+			"source": "e0-2",
+			"target": "e0-2-2",
+			"type": "contains"
+        },
+		{
+			"source": "e0-2",
+			"target": "e0-2-3",
+			"type": "contains"
+        },
+		{
+			"source": "e0-2",
+			"target": "e0-2-4",
+			"type": "contains"
+        },
+		{
+			"source": "e0",
+			"target": "e0-3",
+			"type": "contains"
+        },
+		{
+			"source": "e0-3",
+			"target": "e0-3-1",
+			"type": "contains"
+        },
+		{
+			"source": "e0-3",
+			"target": "e0-3-2",
+			"type": "contains"
+        },
+		{
+			"source": "e0-3",
+			"target": "e0-3-3",
+			"type": "contains"
+        },
+		{
+			"source": "e0-3",
+			"target": "e0-3-4",
+			"type": "contains"
+        },
+		{
+			"source": "e0-3",
+			"target": "e0-3-5",
+			"type": "contains"
+        },
+		{
+			"source": "e0",
+			"target": "e0-4",
+			"type": "contains"
+        },
+		{
+			"source": "e0-4",
+			"target": "e0-4-1",
+			"type": "contains"
+        },
+		{
+			"source": "e0-4",
+			"target": "e0-4-2",
+			"type": "contains"
+        },
+		{
+			"source": "e0-4",
+			"target": "e0-4-3",
+			"type": "contains"
+        },
+		{
+			"source": "e0-4",
+			"target": "e0-4-4",
+			"type": "contains"
+        },
+		{
+			"source": "e0-4",
+			"target": "e0-4-5",
+			"type": "contains"
+        },
+		{
+			"source": "e0",
+			"target": "e0-5",
+			"type": "contains"
+        },
+		{
+			"source": "e0-5",
+			"target": "e0-5-1",
+			"type": "contains"
+        },
+		{
+			"source": "e0-5",
+			"target": "e0-5-2",
+			"type": "contains"
+        },
+		{
+			"source": "e0-5",
+			"target": "e0-5-3",
+			"type": "contains"
+        },
+		{
+			"source": "e0-5",
+			"target": "e0-5-4",
+			"type": "contains"
+        },
+		{
+			"source": "e0-5",
+			"target": "e0-5-5",
+			"type": "contains"
+        },
+		{
+			"source": "e0",
+			"target": "e0-6",
+			"type": "contains"
+        },
+		{
+			"source": "e0-6",
+			"target": "e0-6-1",
+			"type": "contains"
+        },
+		{
+			"source": "e0-6",
+			"target": "e0-6-2",
+			"type": "contains"
+        },
+		{
+			"source": "e2",
+			"target": "e2-1",
+			"type": "contains"
+        },
+		{
+			"source": "e2",
+			"target": "e2-2",
+			"type": "contains"
+        },
+		{
+			"source": "e2",
+			"target": "e2-3",
+			"type": "contains"
+        },
+		{
+			"source": "e2",
+			"target": "e2-4",
+			"type": "contains"
+        },
+		{
+			"source": "e2",
+			"target": "e2-5",
+			"type": "contains"
+        },
+		{
+			"source": "e2",
+			"target": "e2-6",
+			"type": "contains"
+        },
+		{
+			"source": "e2",
+			"target": "e2-7",
+			"type": "contains"
+        },
+		{
+			"source": "e2",
+			"target": "e2-8",
+			"type": "contains"
+        },
+		{
+			"source": "e2",
+			"target": "e2-9",
+			"type": "contains"
+        },
+		{
+			"source": "e2",
+			"target": "e2-10",
+			"type": "contains"
+        },
 		{
 			"source": "bt-3-3",
 			"target": "bt-2-3-4",
@@ -6910,6 +7425,115 @@
 			"target": "bt-3-6-2-6",
 			"type": "related",
 			"title": "Compensation as Task-Relevant Feedback/Compensation: provide both Stability and Opportunity"
+		},
+		{
+			"source": "e0-1-3",
+			"target": "b3-4-5",
+			"type": "related",
+			"title": "Performance Review/Assessing Performance"
+		},
+		{
+			"target": "e0-3-1",
+			"source": "e0-2-1",
+			"type": "related",
+			"title": "Getting Things Done/Getting Things Done"
+		},
+		{
+			"target": "e0-3-3",
+			"source": "e0-2-3",
+			"type": "related",
+			"title": "Software engineering/Software development"
+		},
+		{
+			"source": "e0-3-2",
+			"target": "e0-5-2",
+			"type": "related",
+			"title": "Collaboration and Teamwork/Collaboration"
+		},
+		{
+			"source": "e0-3-5",
+			"target": "e0-5-5",
+			"type": "related",
+			"title": "Software Architecture/Software Architecture"
+		},
+		{
+			"source": "e0-4-3",
+			"target": "b3-2-3",
+			"type": "related",
+			"title": "Stakeholder management/Decision, Decisions"
+		},
+		{
+			"source": "e0-4-4",
+			"target": "bt-3-7",
+			"type": "related",
+			"title": "Team structure/Build and Evolve your machine"
+		},
+		{
+			"source": "e0-5-1",
+			"target": "b1-1",
+			"type": "related",
+			"title": "Understanding the Business/Value Creation"
+		},
+
+		{
+			"source": "e0-5-2",
+			"target": "b1-8",
+			"type": "related",
+			"title": "Collaboration/Working with Others"
+		},
+		{
+			"source": "e0-5-3",
+			"target": "e0-3-3",
+			"type": "related",
+			"title": "Software engineering/Software Engineering"
+		},
+		{
+			"source": "e0-5-4",
+			"target": "b1-11",
+			"type": "related",
+			"title": "Reliable software systems/Improving Systems"
+		},
+		{
+			"source": "e0-6-1",
+			"target": "bt-3-7-5-4",
+			"type": "related",
+			"title": "Give yourself a break/Allow time for rest and renovation"
+		},
+		{
+			"source": "e1",
+			"target": "e0-1",
+			"type": "related",
+			"title": "Engineers Survival Guide/Developer Career Fundamentalsn"
+		},		
+		{
+			"source": "e1",
+			"target": "e0-2",
+			"type": "related",
+			"title": "Engineers Survival Guide/Software Developer"
+		},
+		{
+			"source": "e1",
+			"target": "e0-3-2",
+			"type": "related",
+			"title": "Engineers Survival Guide/Collaboration and teamwork"
+		},
+		{
+			"source": "e1",
+			"target": "e0-6-1",
+			"type": "related",
+			"title": "Engineers Survival Guide/Lifelong Learning"
+		},
+		{
+			"target": "e2",
+			"source": "b2-2-3",
+			"type": "related",
+			"title": "如何赢得一場辮論/How to Argue with a CAT"
+		},
+		{
+			"target": "e2",
+			"source": "b1-8",
+			"type": "related",
+			"title": "Working with Others/How to Argue with a CAT"
 		}
 
 	]
