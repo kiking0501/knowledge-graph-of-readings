@@ -57,6 +57,11 @@ a.manifest_chapter_header {
     color: lightblue;
 }
 
+.p_year {
+    color: silver;
+    font-style: italic;
+}
+
 .badge {
     cursor: pointer;
     background-color: gray;

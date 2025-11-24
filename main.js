@@ -135,21 +135,6 @@ function _build_graph(graph, graph_container_obj, suffix, dagMode, relate_color)
       .onNodeClick((node) => {
         if (node.type == "text") {
             load_book(node.book_key, node.bookmark_page, node.bookmark_name);
-
-            // Camera move - Aim at node from outside it
-              // const distance = 300;
-              // const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
-
-              // const newPos = node.x || node.y || node.z
-              //   ? { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }
-              //   : { x: 0, y: 0, z: distance }; // special case if node is in (0,0,0)
-
-              // graph.cameraPosition(
-              //   newPos, // new position
-              //   node, // lookAt ({ x, y, z })
-              //   2000  // ms transition duration
-              // );
-            
         } else {
             load_book(node.book_key);
         };
@@ -202,13 +187,13 @@ function display_book_covers(callback) {
     var row_div = $('<div>', { class: 'row' });
     for (let i = 0; i < order.length; i++) {
         var book_key = order[i];
-        var book_cover = $("#template_book_cover_3").clone();
+        var book_cover = $("#template_book_cover_2").clone();
         book_cover.removeAttr("id");
 
         fill_book_cover(book_key, book_cover);
 
         row_div.append(book_cover.html());
-        if (!((i+1) % 4)) {
+        if (!((i+1) % 6)) {
           section_book_covers.append(row_div);
           row_div = $('<div>', { class: 'row' });
         }
