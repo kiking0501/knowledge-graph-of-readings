@@ -12,7 +12,13 @@ $( document ).ready(function() {
     display_book_covers(build_graph);
     if (params["display_graph"] != 1) toggle_graph();
 
+    $("#book_description_container").load("./book_description.html", function (r, s, x) {
+        load_book_description(params["book_key"]);        
+    });
     load_book(params["book_key"]);
+
+    $("#change_log_container").load("./change_log.html");
+
 })
 
 
@@ -133,6 +139,7 @@ function _build_graph(graph, graph_container_obj, suffix, dagMode, relate_color)
         }
       })
       .onNodeClick((node) => {
+        load_book_description(node.book_key);
         if (node.type == "text") {
             load_book(node.book_key, node.bookmark_page, node.bookmark_name);
         } else {
@@ -175,7 +182,7 @@ function display_book_covers(callback) {
         $(img).attr("title", $("#description_" + title).text());
 
         if (!todos.has(book_key)) {
-            $(img).attr("onclick", "load_book('" + book_key + "')");
+            $(img).attr("onclick", "load_book_description('" + book_key + "'); load_book('" + book_key + "')");
         } else {
             $(img).css("cursor", "not-allowed")
         }
