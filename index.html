@@ -141,6 +141,10 @@
             "l0": {
                 "title": "l0_ultimate_visual_history_of_the_world_jean_pierre_isbouts",
                 "color": "lightgrey",
+            },
+            "hb": {
+                "title": "hb_holy_bible",
+                "color": "yellow",
             }
 
         }
@@ -149,7 +153,7 @@
             2, 8, 5, 1
         ]
         const order_practitioners = [
-            'l0', 'l1', 't0', 'bt', 'p0', 'b1', 
+            'l0', 'hb', 'l1', 't0', 'bt', 'p0', 'b1', 
             'b2', 'b3', 'e2', 'e0', 'e1',
             // , 'p1', 'p2', 'p3', 't1',
         ]
@@ -253,16 +257,18 @@
         }
 
         function toggle_manifest_chapter(div) {
-            var parent = $(div).parent();
-            var content = parent.find(".manifest_content")
+            var content = $(div).next(".manifest_content")
             if(content.css('display') == 'none'){
-              parent.find("i").removeClass("fa-chevron-right");
-              parent.find("i").addClass("fa-chevron-down");
+              $(div).find("i").removeClass("fa-chevron-right");
+              $(div).find("i").addClass("fa-chevron-down");
             } else {
-              parent.find("i").removeClass("fa-chevron-down");
-              parent.find("i").addClass("fa-chevron-right");
+              $(div).find("i").removeClass("fa-chevron-down");
+              $(div).find("i").addClass("fa-chevron-right");
             }
             content.toggle(".1s");
+        }
+        function xtoggle_manifest_chapter(div) {
+            // placeholder event
         }
 
         function toggle_graph() {
