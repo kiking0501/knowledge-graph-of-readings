@@ -33,125 +33,110 @@
                 'glink': "https://drive.google.com/file/d/1aj999WVy5KR5qG4QfV5iwjFjwrwMma9m/preview?usp=drive_link&rm=demo", // 01
                 'color': "#b4dcca",
 
-                'pdf': true, 'manifest': true,
+                'pdf': true,
             },
             2: {
                 'title': "02_introduction_to_topology_bert_mendelson",
                 'glink': "https://drive.google.com/file/d/1mn0MC9f2v9irbptyqeXW5oPvcU5QNjv6/preview?usp=drive_link&rm=demo", // 02
                 'color': "#e1923f",
-                'pdf': true, 'manifest': true,
+                'pdf': true,
             },
             3: {
                 'title': "03_introduction_to_real_analysis_robert_g_bartle",
                 'glink': "https://drive.google.com/file/d/1qHSV4srOr5LFaFLBKFjylXn4jMzScSH0/preview?usp=drive_link&rm=demo", // 03
                 'color': "#c2c303",
-                'pdf': true, 'manifest': true,
+                'pdf': true,
             },
             4: {
                 'title': "04_introduction_to_machine_learning_yaoliang_yu",
                 'glink': "https://drive.google.com/file/d/1Xtn_gUVcnvax-njcEFu5LEQgNlbsrnbY/preview?usp=drive_link&rm=demo", // 04
                 'color':"#d7d6d6", // "grey"
-                'pdf': true, 'manifest': true,
+                'pdf': true,
             },
             5: {
                 'title': "05_introduction_to_graph_theory_richard_j_trudeau",
                 'glink': "https://drive.google.com/file/d/1XlnAMA9w0gUu6YYxcB7Tz13DIUErb2FC/preview?usp=drive_link&rm=demo", // 05
                 'color': "#cee5ef",
-                'pdf': true, 'manifest': true,
+                'pdf': true,
             },
             6: {
                 'title': "06_deep_learning_ian_goodfellow_yoshua_bengio_aaron_courville_partI",
                 'glink': "https://drive.google.com/file/d/1OOXOT1ZmrSgsRtNByNtl6yuEra6tkQp2/preview?usp=drive_link&rm=demo", // 06
                 'color': "#6fa8db",
-                'pdf': true, 'manifest': true,
+                'pdf': true,
             },
             7: {
                 'title': "07_deep_learning_ian_goodfellow_yoshua_bengio_aaron_courville_partII",
                 'glink': "https://drive.google.com/file/d/1o8oTBOk8puK0i_ALPneYCJ5yvAp2Wcoi/preview?usp=drive_link&rm=demo", // 07
                 'color': "#BB94C0",
-                'pdf': true, 'manifest': true,
+                'pdf': true,
             },
             8: {
                 'title': "08_a_book_of_abstract_algebra_by_charles_c_pinter",
                 'glink': "https://drive.google.com/file/d/1BVUROJxIt7DKtht_vYHkAXhukVUjR-Rd/preview?usp=drive_link&rm=demo", // 08
                 'color': "lightgrey",
-                'pdf': true, 'manifest': true,
+                'pdf': true,
             },
             9: {
                 'title': "09_how_to_solve_it_g_polya",
                 'color': "#6688c8",
-                "manifest": true,
             },
+            
             "t0": {
                 'title': "t0_better_decision_fewer_regrets_andy_stanley",
                 "color": "#6cc0d3",
-                'manifest': true,
             },
             "t1": {
                 'title': "t1_thinking_fast_and_slow_daniel_kahneman",
-                'manifest': true,
             },
             "bt": {
                 'title': "bt_principles_life_and_work_ray_dalio",
                 "color": "#e22318",
-                'manifest': true,
             },
             "b1": {
                 'title': "b1_the_personal_mba_josh_kaufman",
                 "color": "#a0783f",
-                'manifest': true,
             },
             "b2": {
                 'title': "b2_the_underlying_logic_lau",
                 "color": "#8f8f90",
-                'manifest': true,
             },
             "b3": {
                 'title': "b3_high_output_management_andrew_s_grove",
                 "color": "#4385de",
-                'manifest': true,
             },
             "e0": {
                 'title': "e0_the_software_engineers_guidebook_gergely_orosz",
                 "color": "#d9b431",
-                'manifest': true,
             },
             "e1": {
                 'title': "e1_engineers_survival_guide_merih_taze",
                 "color": "#3c3e43",
-                'manifest': true,
             },
             "e2": {
                 'title': "e2_how_to_argue_with_a_cat_jay_heinrichs",
                 "color": "#c9e1eb",
-                'manifest': true,
             },
             "p0": {
                 'title': "p0_the_4hour_work_week_timothy_ferriss",
                 "color": "#f89e62",
-                'manifest': true,
             },
             "p1": {
                 'title': "p1_getting_things_done_david_allen",
-                'manifest': true,
             },
             "p2": {
                 'title': "p2_make_time_jake_knapp_john_zeratsky",
-                'manifest': true,
             },
             "p3": {
                 'title': "p3_atomic_habits_james_clear",
-                'manifest': true,
             },
             "l1": {
                 "title": "l1_on_life_leo_tolstoy",
                 "color": "white",
-                "manifest": true,
             },
             "l0": {
                 "title": "l0_ultimate_visual_history_of_the_world_jean_pierre_isbouts",
                 "color": "lightgrey",
-                "manifest": true,
             }
 
         }
@@ -200,7 +185,7 @@
             }
 
             // load manfiest and/or pdf
-            if (reading_info[book_key]['manifest'] && page < 0) {  // only trigger at initial load
+            if (page < 0) {  // only trigger at initial load
                 $("#notes_manifest").load("notes_manifest/manifest_" + title + ".html");
             }
             if (reading_info[book_key]['pdf']) {
@@ -224,7 +209,7 @@
             }
 
             // show toggle button only if both manifest & pdf exist
-            if (reading_info[book_key]['manifest'] && reading_info[book_key]['pdf']) {
+            if (reading_info[book_key]['pdf']) {
                 $("#choose_manifest_or_pdf").show();    
             } else {
                 $("#choose_manifest_or_pdf").hide();    
@@ -234,12 +219,9 @@
             if (page < 0) {
                 $("#message_selected_page").hide();
                 
-                // if manifest exist, show manifest
-                if (reading_info[book_key]['manifest']) {
-                    view_for_manifest(title);
-                } else {
-                    view_for_pdf();
-                }
+                // show manifest by default
+                view_for_manifest(title);
+                // view_for_pdf();
             } else {
                 // page-specific view, show PDF
                 view_for_pdf();
