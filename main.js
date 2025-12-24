@@ -27,31 +27,51 @@ import SpriteText from "./js_three/three-spritetext.mjs";
 
 const Graph = {};
 
-function build_graph() {
+function _assign_math_graph_data() {
+    Graph["graph"] = ForceGraph3D(
+        { 
+            controlType: 'orbit', 
+            rendererConfig: { antialias: true, alpha: true },
+        }
+    )(document.getElementById('section_graph'), { controlType: 'orbit' })
+    .jsonUrl('./graph/complete_graph.json');
 
-    var suffix_list = ["", "_practitioners"];
-    var dag_modes = ["td", "td"];
-    var relate_colors = ["red", "white"];
-
-    for (let i = 0; i < suffix_list.length; i++) {
-        Graph["graph" + suffix_list[i]] = ForceGraph3D(
+    return Promise.resolve();
+}
+function _assign_practitioners_graph_data() {
+    return $.getJSON('./graph/complete_graph_practitioners.json', function(pData) {
+        Graph["graph_practitioners"] = ForceGraph3D(
             { 
                 controlType: 'orbit', 
                 rendererConfig: { antialias: true, alpha: true },
             }
-        )(document.getElementById('section_graph' + suffix_list[i]), { controlType: 'orbit' })
-        .jsonUrl('./graph/complete_graph' + suffix_list[i] + '.json');
+        )(document.getElementById('section_graph_practitioners'), { controlType: 'orbit' })
+        .graphData(pData);
+    });
+}
 
-        _build_graph( 
-            Graph["graph" + suffix_list[i]], 
-            document.getElementById('graph_container' + suffix_list[i]),
-            suffix_list[i],
+async function build_graph() {
+
+    var graph_func_list = [_assign_math_graph_data, _assign_practitioners_graph_data];
+    var suffix_list = ["", "_practitioners"];
+    var dag_modes = ["td", "td"];
+    var relate_colors = ["red", "white"];
+
+    const tasks = suffix_list.map(async (suffix, i) => {
+        await graph_func_list[i](); 
+
+        Graph["graph" + suffix] = _build_graph(
+            Graph["graph" + suffix],
+            document.getElementById('graph_container' + suffix),
+            suffix,
             dag_modes[i],
-            relate_colors[i],
+            relate_colors[i]
         );
+        
+        Graph["selected" + suffix] = null;
 
-        Graph["selected" + suffix_list[i]] = null;
-    }
+    });
+    await Promise.all(tasks);
 }
 
 function _build_graph(graph, graph_container_obj, suffix, dagMode, relate_color) {
@@ -98,8 +118,8 @@ function _build_graph(graph, graph_container_obj, suffix, dagMode, relate_color)
     }
 
     graph
-      .width(graph_container_obj.clientWidth)
-      .height(graph_container_obj.clientHeight / 2)
+      .width(document.documentElement.clientWidth - 150)
+      .height(document.documentElement.clientHeight / 2)
       .backgroundColor("black")
       .showNavInfo(true)
       .dagMode(dagMode)
@@ -157,8 +177,9 @@ function _build_graph(graph, graph_container_obj, suffix, dagMode, relate_color)
 
 
     graph.d3Force('charge').strength(-100);
+
     window.addEventListener('resize', () => {
-        graph.width(graph_container_obj.clientWidth);
+        graph.width(document.documentElement.clientWidth - 150);
     });
 }
 
