@@ -7546,7 +7546,36 @@
 			"source": "b1-8",
 			"type": "related",
 			"title": "Working with Others/How to Argue with a CAT"
+		},
+		{
+			"source": "t0-2",
+			"target": "hb-old-24",
+			"type": "related",
+			"title": "The Integrity Question/Jeremiah"
+		},
+		{
+			"source": "t0-3",
+			"target": "hb-old-1",
+			"type": "related",
+			"title": "The Legacy Question/Genesis"
+		},
+		{
+			"source": "t0-4",
+			"target": "hb-old-9",
+			"type": "related",
+			"title": "The Conscience Question/1 Samuel"
+		},
+		{
+			"source": "t0-5",
+			"target": "hb-new-10",
+			"type": "related",
+			"title": "The Maturity Question/Ephesians"
+		},
+		{
+			"source": "t0-6",
+			"target": "hb-new-4",
+			"type": "related",
+			"title": "The Relationship Question/John"
 		}
-
 	]
 }

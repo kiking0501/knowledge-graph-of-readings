@@ -1,0 +1,827 @@
+{
+    "nodes": [
+        {
+            "id": "hb",
+            "book_key": "hb",
+            "type": "img"
+        },
+        {
+            "id": "hb-old",
+            "title": "Old Testament",
+            "book_key": "hb",
+            "bookmark_level": 1,
+            "type": "text"
+        },
+        {
+            "id": "hb-new",
+            "title": "New Testament",
+            "book_key": "hb",
+            "bookmark_level": 1,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-1",
+            "title": "Genesis-創世記",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-2",
+            "title": "Exodus-出埃及記",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-3",
+            "title": "Leviticus-利未記",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-4",
+            "title": "Numbers-民數記",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-5",
+            "title": "Deuteronomy-申命記",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-6",
+            "title": "Joshua-約書亞記",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-7",
+            "title": "Judges-士師記",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-8",
+            "title": "Ruth-路得記",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-9",
+            "title": "1-Samuel-撒母耳記上",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-10",
+            "title": "2-Samuel-撒母耳記下",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-11",
+            "title": "1-Kings-列王記上",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-12",
+            "title": "2-Kings-列王記下",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-13",
+            "title": "1-Chronicles-歷代志上",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-14",
+            "title": "2-Chronicles-歷代志下",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-15",
+            "title": "Ezra-以斯拉記",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-16",
+            "title": "Nehemiah-尼希米記",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-17",
+            "title": "Esther-以斯帖記",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-18",
+            "title": "Job-約伯記",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-19",
+            "title": "Psalms-詩篇",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-20",
+            "title": "Proverbs-箴言",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-21",
+            "title": "Ecclesiastes-傳道書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-22",
+            "title": "Song-of-Songs-雅歌",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-23",
+            "title": "Isaiah-以賽亞書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-24",
+            "title": "Jeremiah-耶利米書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-25",
+            "title": "Lamentations-耶利米哀歌",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-26",
+            "title": "Ezekiel-以西結書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-27",
+            "title": "Daniel-但以理書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-28",
+            "title": "Hosea-何西阿書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-29",
+            "title": "Joel-約珥書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-30",
+            "title": "Amos-阿摩司書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-31",
+            "title": "Obadian-俄巴底亞書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-32",
+            "title": "Jonah-約拿書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-33",
+            "title": "Micah-彌迦書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-34",
+            "title": "Nahum-那鴻書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-35",
+            "title": "Habakkuk-哈巴谷書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-36",
+            "title": "Zephaniah-西番雅書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-37",
+            "title": "Hagga-哈該書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-38",
+            "title": "Zechariah-撒迦利亞書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-old-39",
+            "title": "Malach-瑪拉基書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-1",
+            "title": "Matthew-馬太福音",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-2",
+            "title": "Mark-馬可福音",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-3",
+            "title": "Luke-路加福音",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-4",
+            "title": "John-約翰福音",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-5",
+            "title": "Acts-使徒行傳",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-6",
+            "title": "Romans-羅馬書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-7",
+            "title": "1-Corinthians-哥林多前書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-8",
+            "title": "2-Corinthians-哥林多後書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-9",
+            "title": "Galatians-加拉太書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-10",
+            "title": "Ephesians-以弗所書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-11",
+            "title": "Philippians-腓立比書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-12",
+            "title": "Colossians-歌羅西書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-13",
+            "title": "1-Thessalonians-帖撒羅尼迦前書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-14",
+            "title": "2-Thessalonians-帖撒羅尼迦後書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-15",
+            "title": "1-Timothy-提摩太前書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-16",
+            "title": "2-Timothy-提摩太後書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-17",
+            "title": "Titus-提多書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-18",
+            "title": "Philemon-腓利門書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-19",
+            "title": "Hebrews-希伯來書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-20",
+            "title": "James-雅各書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-21",
+            "title": "1-Peter-彼得前書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-22",
+            "title": "2-Peter-彼得後書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-23",
+            "title": "1-John-約翰一書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-24",
+            "title": "2-John-約翰二書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-25",
+            "title": "3-John-約翰三書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-26",
+            "title": "Jude-猶大書",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        },
+        {
+            "id": "hb-new-27",
+            "title": "Relevation-啟示錄",
+            "book_key": "hb",
+            "bookmark_level": 2,
+            "type": "text"
+        }
+    ],
+    "links": [
+        {
+            "source": "hb",
+            "target": "hb-old",
+            "type": "contains"
+        },
+        {
+            "source": "hb",
+            "target": "hb-new",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-1",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-2",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-3",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-4",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-5",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-6",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-7",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-8",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-9",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-10",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-11",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-12",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-13",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-14",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-15",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-16",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-17",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-18",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-19",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-20",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-21",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-22",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-23",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-24",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-25",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-26",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-27",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-28",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-29",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-30",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-31",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-32",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-33",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-34",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-35",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-36",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-37",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-38",
+            "type": "contains"
+        },
+        {
+            "source": "hb-old",
+            "target": "hb-old-39",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-1",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-2",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-3",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-4",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-5",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-6",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-7",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-8",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-9",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-10",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-11",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-12",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-13",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-14",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-15",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-16",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-17",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-18",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-19",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-20",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-21",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-22",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-23",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-24",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-25",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-26",
+            "type": "contains"
+        },
+        {
+            "source": "hb-new",
+            "target": "hb-new-27",
+            "type": "contains"
+        }
+    ]
+}

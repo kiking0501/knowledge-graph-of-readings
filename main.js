@@ -38,16 +38,27 @@ function _assign_math_graph_data() {
 
     return Promise.resolve();
 }
-function _assign_practitioners_graph_data() {
-    return $.getJSON('./graph/complete_graph_practitioners.json', function(pData) {
-        Graph["graph_practitioners"] = ForceGraph3D(
-            { 
-                controlType: 'orbit', 
-                rendererConfig: { antialias: true, alpha: true },
-            }
-        )(document.getElementById('section_graph_practitioners'), { controlType: 'orbit' })
-        .graphData(pData);
+
+const getJSONPromise = (url) => Promise.resolve($.getJSON(url));
+async function _assign_practitioners_graph_data() {
+    var data_list = ["complete_graph_practitioners.json", "bible.json"];
+    var pData = {"nodes": [], "links": []};
+
+    const results = await Promise.all(
+        data_list.map(file => getJSONPromise('./graph/' + file))
+    );
+    results.forEach(tmpData => {
+        pData.nodes = pData.nodes.concat(tmpData.nodes);
+        pData.links = pData.links.concat(tmpData.links);
     });
+
+    Graph["graph_practitioners"] = ForceGraph3D(
+        {    
+            controlType: 'orbit', 
+            rendererConfig: { antialias: true, alpha: true },
+        }
+    )(document.getElementById('section_graph_practitioners'), { controlType: 'orbit' })
+    .graphData(pData);
 }
 
 async function build_graph() {
