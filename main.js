@@ -34,23 +34,27 @@ function _assign_math_graph_data() {
             rendererConfig: { antialias: true, alpha: true },
         }
     )(document.getElementById('section_graph'), { controlType: 'orbit' })
-    .jsonUrl('./graph/complete_graph.json');
+    .jsonUrl('./graph/complete_graph.json')
+    .cameraPosition({x: 700, y: 700, z: 1300});
 
     return Promise.resolve();
 }
 
 const getJSONPromise = (url) => Promise.resolve($.getJSON(url));
 async function _assign_practitioners_graph_data() {
-    var data_list = ["complete_graph_practitioners.json", "bible.json"];
+    var data_list = [
+        "complete_graph_practitioners.json",
+        "bible.json",
+        "visual_history.json",
+    ];
     var pData = {"nodes": [], "links": []};
 
-    const results = await Promise.all(
-        data_list.map(file => getJSONPromise('./graph/' + file))
-    );
-    results.forEach(tmpData => {
-        pData.nodes = pData.nodes.concat(tmpData.nodes);
-        pData.links = pData.links.concat(tmpData.links);
+    const tasks = data_list.map(async (file) => {
+        const tmpData = await $.getJSON('./graph/' + file);
+        pData.nodes.push(...tmpData.nodes);
+        pData.links.push(...tmpData.links);
     });
+    await Promise.all(tasks);
 
     Graph["graph_practitioners"] = ForceGraph3D(
         {    
@@ -58,7 +62,8 @@ async function _assign_practitioners_graph_data() {
             rendererConfig: { antialias: true, alpha: true },
         }
     )(document.getElementById('section_graph_practitioners'), { controlType: 'orbit' })
-    .graphData(pData);
+    .graphData(pData)
+    .cameraPosition({x: 700, y: 700, z: 1800});
 }
 
 async function build_graph() {
@@ -134,7 +139,6 @@ function _build_graph(graph, graph_container_obj, suffix, dagMode, relate_color)
       .backgroundColor("black")
       .showNavInfo(true)
       .dagMode(dagMode)
-      .cameraPosition({x: 700, y: 700, z: 1300})
       .linkColor((link) => {
         if (link.type == "contains") { 
             var node_id = link.source.id? link.source.id : link.source

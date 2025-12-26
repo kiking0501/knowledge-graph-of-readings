@@ -7576,6 +7576,41 @@
 			"target": "hb-new-4",
 			"type": "related",
 			"title": "The Relationship Question/John"
+		},
+		{
+		    "source": "hb-old",
+		    "target": "l0-2-4",
+		    "type": "related",
+		    "title": "Old Testament/Egypt in the Late Bronze Age, 2100-1550 B.C.E."
+		},
+		{
+		    "source": "hb-old",
+		    "target": "l0-3-3",
+		    "title": "Old Testament/The New Kingdom of Egypt, 1550-1070 B.C.E."
+		},
+		{
+		    "source": "hb-old",
+		    "target": "l0-3-4",
+		    "type": "related",
+		    "title": "Old Testament/The Birth of Ancient Israel, 1200-586 B.C.E."
+		},
+		{
+		    "source": "hb-old",
+		    "target": "l0-3-8",
+		    "type": "related",
+		    "title": "Old Testament/The Persian Empire, 540-333 B.C.E."
+		},
+		{
+		    "source": "hb-new",
+		    "target": "l0-4-5",
+		    "type": "related",
+		    "title": "New Testament/The Roman Empire, 27 B.C.E.-476 C.E."
+		},
+		{
+		    "source": "hb-new",
+		    "target": "l0-5-1",
+		    "type": "related",
+		    "title": "New Testament/The Birth of Christianity, 28-500 C.E."
 		}
 	]
 }
