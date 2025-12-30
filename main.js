@@ -35,7 +35,7 @@ function _assign_math_graph_data() {
         }
     )(document.getElementById('section_graph'), { controlType: 'orbit' })
     .jsonUrl('./graph/complete_graph.json')
-    .cameraPosition({x: 700, y: 700, z: 1300});
+    .cameraPosition({x: -800, y: 700, z: 800});
 
     return Promise.resolve();
 }

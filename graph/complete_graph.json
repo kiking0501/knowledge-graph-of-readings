@@ -46,6 +46,11 @@
             "type": "img"
         },
         {
+            "id": "11",
+            "book_key": "11",
+            "type": "img"
+        },
+        {
             "id": "1-1",
             "bookmark_name": "Chapter 1: General",
             "bookmark_page": 1,
@@ -3536,6 +3541,167 @@
             "bookmark_level": 2,
             "book_key": "10",
             "type": "text"
+        },
+        {
+            "id": "11-1",
+            "title": "The Question",
+            "bookmark_level": 1,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-2",
+            "title": "Pythagoras",
+            "bookmark_level": 1,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-2-1",
+            "title": "Pythagoras I: Thought and Object",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-2-2",
+            "title": "Pythagoras II: Number and Harmony",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-3",
+            "title": "Plato",
+            "bookmark_level": 1,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-3-1",
+            "title": "Plato I: Structure From Symmetry - Platonic Solids",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-3-2",
+            "title": "Plato II: Escaping the Cave",
+            "bookmark_level": 1,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-4",
+            "title": "Newton",
+            "bookmark_level": 1,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-4-1",
+            "title": "Newton I: Method And Madness",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-4-2",
+            "title": "Newton II: Color",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-4-3",
+            "title": "Newton III: Dynamic Beauty",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-5",
+            "title": "Maxwell",
+            "bookmark_level": 1,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-5-1",
+            "title": "Maxwell I: God's Esthetics",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-5-2",
+            "title": "Maxwell II: The Doors of Perception",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-6",
+            "title": "Symmetry - Quantum Beauty",
+            "bookmark_level": 1,
+            "book_key": "11",
+            "type": "text"
+        },        
+        {
+            "id": "11-6-1",
+            "title": "Quantum Beauty I: Music of the Spheres",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-6-2",
+            "title": "Symmetry I: Einstein's Two-Step",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-6-3",
+            "title": "Quantum Beauty II: Exuberance",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-6-4",
+            "title": "Symmetry II: Local Color",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-6-5",
+            "title": "Quantum Beauty III: Beauty at the Core of Nature",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-6-6",
+            "title": "Symmetric III: Emmy Noether - Time, Energy, and Sanity",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-6-7",
+            "title": "Quantum Beauty IV: In Beauty We Trust",
+            "bookmark_level": 2,
+            "book_key": "11",
+            "type": "text"
+        },
+        {
+            "id": "11-7",
+            "title": "A Beautiful Answer?",
+            "bookmark_level": 1,
+            "book_key": "11",
+            "type": "text"
         }
     ],
     "links": [
@@ -5500,6 +5666,126 @@
             "type": "contains"
         },
         {
+            "source": "11",
+            "target": "11-1",
+            "type": "contains"
+        },
+        {
+            "source": "11",
+            "target": "11-2",
+            "type": "contains"
+        },
+        {
+            "source": "11",
+            "target": "11-3",
+            "type": "contains"
+        },
+        {
+            "source": "11",
+            "target": "11-4",
+            "type": "contains"
+        },
+        {
+            "source": "11",
+            "target": "11-5",
+            "type": "contains"
+        },
+        {
+            "source": "11",
+            "target": "11-5",
+            "type": "contains"
+        },
+        {
+            "source": "11",
+            "target": "11-6",
+            "type": "contains"
+        },
+        {
+            "source": "11",
+            "target": "11-7",
+            "type": "contains"
+        },
+        {
+            "source": "11-2",
+            "target": "11-2-1",
+            "type": "contains"
+        },
+        {
+            "source": "11-2",
+            "target": "11-2-2",
+            "type": "contains"
+        },
+        {
+            "source": "11-3",
+            "target": "11-3-1",
+            "type": "contains"
+        },
+        {
+            "source": "11-3",
+            "target": "11-3-2",
+            "type": "contains"
+        },
+        {
+            "source": "11-4",
+            "target": "11-4-1",
+            "type": "contains"
+        },
+        {
+            "source": "11-4",
+            "target": "11-4-2",
+            "type": "contains"
+        },
+        {
+            "source": "11-4",
+            "target": "11-4-3",
+            "type": "contains"
+        },
+        {
+            "source": "11-5",
+            "target": "11-5-1",
+            "type": "contains"
+        },
+        {
+            "source": "11-5",
+            "target": "11-5-2",
+            "type": "contains"
+        },
+        {
+            "source": "11-6",
+            "target": "11-6-1",
+            "type": "contains"
+        },
+        {
+            "source": "11-6",
+            "target": "11-6-2",
+            "type": "contains"
+        },
+        {
+            "source": "11-6",
+            "target": "11-6-3",
+            "type": "contains"
+        },
+        {
+            "source": "11-6",
+            "target": "11-6-4",
+            "type": "contains"
+        },
+        {
+            "source": "11-6",
+            "target": "11-6-5",
+            "type": "contains"
+        },
+        {
+            "source": "11-6",
+            "target": "11-6-6",
+            "type": "contains"
+        },
+        {
+            "source": "11-6",
+            "target": "11-6-7",
+            "type": "contains"
+        },
+        {
             "source": "1-6",
             "target": "8-17",
             "type": "related",
@@ -5840,6 +6126,36 @@
             "target": "1-10",
             "type": "related",
             "remark": "Finite and Yet Unbounded Universe -> Toplogical Invariant"
-        }                 
+        },
+        {
+            "source": "11-3-1",
+            "target": "5-5",
+            "type": "related",
+            "remark": "Plato I: Structure From Symmetry - Platonic Solids -> Platonic Graphs"
+        },
+        {
+            "source": "11-4-3",
+            "target": "3-6",
+            "type": "related",
+            "remark": "Newton III: Dynamic Beauty -> Differentiation"
+        },
+        {
+            "source": "11-4-3",
+            "target": "3-7",
+            "type": "related",
+            "remark": "Newton III: Dynamic Beauty -> Riemann Integral"
+        },
+        {
+            "source": "11-6-2",
+            "target": "10-1",
+            "type": "related",
+            "remark": "Symmetry I: Einstein's Two-Step -> The Special Theory of Relativity"
+        },
+        {
+            "source": "11-6-2",
+            "target": "10-2",
+            "type": "related",
+            "remark": "Symmetry I: Einstein's Two-Step -> The General Theory of Relativity"
+        }                      
     ]
 }
