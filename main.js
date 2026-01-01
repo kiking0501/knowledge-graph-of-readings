@@ -22,8 +22,9 @@ $( document ).ready(function() {
 })
 
 
-import * as THREE from "./js_three/three.module.js";
-import SpriteText from "./js_three/three-spritetext.mjs";
+import * as THREE from "three";
+import SpriteText from "three-spritetext";
+
 
 const Graph = {};
 
@@ -111,6 +112,7 @@ function _build_graph(graph, graph_container_obj, suffix, dagMode, relate_color)
         );
         return sprite;
     }
+
 
     function getTextSprite(title, color, level, opacity) {
         const sprite = new SpriteText(title);
