@@ -51,6 +51,11 @@
 			"type": "img"
 		},
 		{
+			"id": "l2",
+			"book_key": "l2",
+			"type": "img"
+		},
+		{
 			"id": "l1-1",
 			"title": "Fundamental Contradiction of Human Life",
 			"book_key": "l1",
@@ -4137,6 +4142,181 @@
 			"book_key": "e2",
 			"bookmark_level": 2,
 			"type": "text"
+		},
+		{
+			"id": "l2-1",
+			"title": "Cognitivie Revolution",
+			"book_key": "l2",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "l2-2",
+			"title": "Agricultural Revolution",
+			"book_key": "l2",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "l2-3",
+			"title": "Unification of Humankind",
+			"book_key": "l2",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "l2-4",
+			"title": "Scientific Revolution",
+			"book_key": "l2",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "l2-1-1",
+			"title": "An Animal of No Significance",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-1-2",
+			"title": "The Tree of Knowledge",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-1-3",
+			"title": "A Day in the Life of Adam and Eve",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-1-4",
+			"title": "The Flood",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-2-5",
+			"title": "History's Biggest Fraud",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-2-6",
+			"title": "Building Pyramids",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-2-7",
+			"title": "Memory Overload",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-2-8",
+			"title": "There is No Justice in History",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-3-9",
+			"title": "The Arrow of History",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-3-10",
+			"title": "The Scent of Money",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-3-11",
+			"title": "Imperial Visions",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-3-12",
+			"title": "The Law of Religion",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-3-13",
+			"title": "The Secret of Success",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-4-14",
+			"title": "The Discovery of Ignorance",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-4-15",
+			"title": "The Marriage of Science and Empire",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-4-16",
+			"title": "The Captialist Creed",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-4-17",
+			"title": "The Wheels of Industry",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-4-18",
+			"title": "A Permanant Revolution",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-4-19",
+			"title": "And They Lived Happily Ever After",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-4-20",
+			"title": "The End of Homo Spaiens",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
+		},
+		{
+			"id": "l2-4-21",
+			"title": "Afterword: The Animal that Became a God",
+			"book_key": "l2",
+			"bookmark_level": 2,
+			"type": "text"
 		}
 	],
 	"links": [
@@ -7131,6 +7311,131 @@
 			"type": "contains"
         },
 		{
+			"source": "l2",
+			"target": "l2-1",
+			"type": "contains"
+        },
+		{
+			"source": "l2",
+			"target": "l2-2",
+			"type": "contains"
+        },     
+		{
+			"source": "l2",
+			"target": "l2-3",
+			"type": "contains"
+        },
+		{
+			"source": "l2",
+			"target": "l2-4",
+			"type": "contains"
+        },
+		{
+			"source": "l2-1",
+			"target": "l2-1-1",
+			"type": "contains"
+        },
+		{
+			"source": "l2-1",
+			"target": "l2-1-2",
+			"type": "contains"
+        },
+		{
+			"source": "l2-1",
+			"target": "l2-1-3",
+			"type": "contains"
+        },
+		{
+			"source": "l2-1",
+			"target": "l2-1-4",
+			"type": "contains"
+        },
+		{
+			"source": "l2-2",
+			"target": "l2-2-5",
+			"type": "contains"
+        },
+		{
+			"source": "l2-2",
+			"target": "l2-2-6",
+			"type": "contains"
+        },
+		{
+			"source": "l2-2",
+			"target": "l2-2-7",
+			"type": "contains"
+        },
+		{
+			"source": "l2-2",
+			"target": "l2-2-8",
+			"type": "contains"
+        },
+		{
+			"source": "l2-3",
+			"target": "l2-3-9",
+			"type": "contains"
+        },
+		{
+			"source": "l2-3",
+			"target": "l2-3-10",
+			"type": "contains"
+        },
+		{
+			"source": "l2-3",
+			"target": "l2-3-11",
+			"type": "contains"
+        },
+		{
+			"source": "l2-3",
+			"target": "l2-3-12",
+			"type": "contains"
+        },
+		{
+			"source": "l2-3",
+			"target": "l2-3-13",
+			"type": "contains"
+        },
+		{
+			"source": "l2-4",
+			"target": "l2-4-14",
+			"type": "contains"
+        },
+		{
+			"source": "l2-4",
+			"target": "l2-4-15",
+			"type": "contains"
+        },
+		{
+			"source": "l2-4",
+			"target": "l2-4-16",
+			"type": "contains"
+        },
+		{
+			"source": "l2-4",
+			"target": "l2-4-17",
+			"type": "contains"
+        },
+		{
+			"source": "l2-4",
+			"target": "l2-4-18",
+			"type": "contains"
+        },
+		{
+			"source": "l2-4",
+			"target": "l2-4-19",
+			"type": "contains"
+        },
+		{
+			"source": "l2-4",
+			"target": "l2-4-20",
+			"type": "contains"
+        },
+		{
+			"source": "l2-4",
+			"target": "l2-4-21",
+			"type": "contains"
+        },   
+		{
 			"source": "bt-3-3",
 			"target": "bt-2-3-4",
 			"type": "related",
@@ -7611,6 +7916,48 @@
 		    "target": "l0-5-1",
 		    "type": "related",
 		    "title": "New Testament/The Birth of Christianity, 28-500 C.E."
+		},
+		{
+			"source": "l2-1",
+			"target": "l0-1",
+			"type": "related",
+			"title": "Cognitive Revolution/Dawn of Human Kind, prehistory-3000 B.C.E"
+		},
+		{
+			"source": "l2-2",
+			"target": "l0-1",
+			"type": "related",
+			"title": "Agricultural Revolution/Dawn of Human Kind, prehistory-3000 B.C.E"
+		},
+		{
+			"source": "l2-3-12",
+			"target": "l0-5",
+			"type": "related",
+			"title": "The Law of Religion/Age of Faith, 300-900 C.E"
+		},
+		{
+			"source": "l2-4-15",
+			"target": "l0-7-2",
+			"type": "related",
+			"title": "The Marriage of Science and Empire/ Age of Exploration 大航海時代, 1500-1700"
+		},
+		{
+			"source": "l2-4-16",
+			"target": "l0-7-2",
+			"type": "related",
+			"title": "The Captialist Creed/ Age of Exploration 大航海時代, 1500-1700"
+		},
+		{
+			"source": "l2-4-17",
+			"target": "l0-8-3",
+			"type": "related",
+			"title": "The Wheels of Industry/  Age of Colonization, 1800-1900"
+		},
+		{
+			"source": "l2-4-21",
+			"target": "hb-old",
+			"type": "related",
+			"title": "Afterword: The Animal that Became a God/ Old Testament"
 		}
 	]
 }
