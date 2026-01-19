@@ -193,7 +193,7 @@ function _build_graph(graph, graph_container_obj, suffix, dagMode, relate_color)
     })
 
 
-    graph.d3Force('charge').strength(-100);
+    graph.d3Force('charge').strength(-130);
 
     window.addEventListener('resize', () => {
         graph.width(document.documentElement.clientWidth - 150);

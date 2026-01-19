@@ -51,6 +51,11 @@
             "type": "img"
         },
         {
+            "id": "12",
+            "book_key": "12",
+            "type": "img"
+        },
+        {
             "id": "1-1",
             "bookmark_name": "Chapter 1: General",
             "bookmark_page": 1,
@@ -3702,7 +3707,85 @@
             "bookmark_level": 1,
             "book_key": "11",
             "type": "text"
+        },
+        {
+            "id": "12-1",
+            "title": "Our Picture of the Universe",
+            "bookmark_level": 1,
+            "book_key": "12",
+            "type": "text"
+        },
+        {
+            "id": "12-2",
+            "title": "Space and Time",
+            "bookmark_level": 1,
+            "book_key": "12",
+            "type": "text"
+        },
+        {
+            "id": "12-3",
+            "title": "The Expanding Universe",
+            "bookmark_level": 1,
+            "book_key": "12",
+            "type": "text"
+        },
+        {
+            "id": "12-4",
+            "title": "The Uncertainty Principle",
+            "bookmark_level": 1,
+            "book_key": "12",
+            "type": "text"
+        },
+        {
+            "id": "12-5",
+            "title": "Elementary Particles and the Forces of Nature",
+            "bookmark_level": 1,
+            "book_key": "12",
+            "type": "text"
+        },
+        {
+            "id": "12-6",
+            "title": "Black Holes",
+            "bookmark_level": 1,
+            "book_key": "12",
+            "type": "text"
+        },
+        {
+            "id": "12-7",
+            "title": "Black Holes Ain't So Black",
+            "bookmark_level": 1,
+            "book_key": "12",
+            "type": "text"
+        },
+        {
+            "id": "12-8",
+            "title": "The Origin and Fate of the Universe",
+            "bookmark_level": 1,
+            "book_key": "12",
+            "type": "text"
+        },
+        {
+            "id": "12-9",
+            "title": "The Arrow of Time",
+            "bookmark_level": 1,
+            "book_key": "12",
+            "type": "text"
+        },
+        {
+            "id": "12-10",
+            "title": "Wormholes and Time Travel",
+            "bookmark_level": 1,
+            "book_key": "12",
+            "type": "text"
+        },
+        {
+            "id": "12-11",
+            "title": "The Unification of Physics",
+            "bookmark_level": 1,
+            "book_key": "12",
+            "type": "text"
         }
+
     ],
     "links": [
         {
@@ -5786,6 +5869,61 @@
             "type": "contains"
         },
         {
+            "source": "12",
+            "target": "12-1",
+            "type": "contains"
+        },
+        {
+            "source": "12",
+            "target": "12-2",
+            "type": "contains"
+        },
+        {
+            "source": "12",
+            "target": "12-3",
+            "type": "contains"
+        },
+        {
+            "source": "12",
+            "target": "12-4",
+            "type": "contains"
+        },
+        {
+            "source": "12",
+            "target": "12-5",
+            "type": "contains"
+        },
+        {
+            "source": "12",
+            "target": "12-6",
+            "type": "contains"
+        },
+        {
+            "source": "12",
+            "target": "12-7",
+            "type": "contains"
+        },
+        {
+            "source": "12",
+            "target": "12-8",
+            "type": "contains"
+        },
+        {
+            "source": "12",
+            "target": "12-9",
+            "type": "contains"
+        },
+        {
+            "source": "12",
+            "target": "12-10",
+            "type": "contains"
+        },
+        {
+            "source": "12",
+            "target": "12-11",
+            "type": "contains"
+        },
+        {
             "source": "1-6",
             "target": "8-17",
             "type": "related",
@@ -6147,15 +6285,75 @@
         },
         {
             "source": "11-6-2",
-            "target": "10-1",
+            "target": "10",
             "type": "related",
-            "remark": "Symmetry I: Einstein's Two-Step -> The Special Theory of Relativity"
+            "remark": "Symmetry I: Einstein's Two-Step -> Relativity"
         },
         {
-            "source": "11-6-2",
-            "target": "10-2",
+            "source": "10-1-7",
+            "target": "11-5",
             "type": "related",
-            "remark": "Symmetry I: Einstein's Two-Step -> The General Theory of Relativity"
-        }                      
+            "remark": "Law of Propagation of Light -> Maxwell"
+        },
+        {
+            "source": "12-1",
+            "target": "11-3",
+            "type": "related",
+            "remark": "Our Picture of the Universe -> Plato"
+        },
+        {
+            "source": "12-1",
+            "target": "11-4",
+            "type": "related",
+            "remark": "Our Picture of the Universe -> Newton"
+        },
+        {
+            "source": "12-2",
+            "target": "10",
+            "type": "related",
+            "remark": "Space and Time -> Relativity"
+        },
+        {
+            "source": "12-4",
+            "target": "11-6-1",
+            "type": "related",
+            "remark": "The Uncertainty Principle -> Quantum Beauty I: Music of the Spheres"
+        },
+        {
+            "source": "12-5",
+            "target": "11-6-5",
+            "type": "related",
+            "remark": "Elementary Particles and the Forces of Nature -> Quantum Beauty III: Beauty at the Core of Nature"
+        },
+        {
+            "source": "12-6",
+            "target": "10",
+            "type": "related",
+            "remark": "Black Holes -> Relativity"
+        },
+        {
+            "source": "12-7",
+            "target": "10",
+            "type": "related",
+            "remark": "Black Holes arn't so black -> Relativity"
+        },
+        {
+            "source": "12-7",
+            "target": "11-6-5",
+            "type": "related",
+            "remark": "Black Holes arn't so black -> Quantum Beauty III: Beauty at the Core of Nature"
+        },
+        {
+            "source": "11-6-7",
+            "target": "12-11",
+            "type": "related",
+            "remark": "Quantum Beauty IV: In Beauty We Trust -> The Unification of Physics"
+        },
+        {
+            "source": "12-11",
+            "target": "10-3-31",
+            "type": "related",
+            "remark": " The Unification of Physics-> Finite and Yet Unbounded Universe"
+        }
     ]
 }
