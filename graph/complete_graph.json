@@ -3885,6 +3885,34 @@
             "bookmark_level": 2,
             "book_key": "14",
             "type": "text"
+        },
+        {
+            "id": "14-2-4",
+            "title": "Microscopic Weirdness",
+            "bookmark_level": 2,
+            "book_key": "14",
+            "type": "text"
+        },
+        {
+            "id": "14-2-5",
+            "title": "The Need for a New Theory: General Relativity vs. Quantum Mechanics",
+            "bookmark_level": 2,
+            "book_key": "14",
+            "type": "text"
+        },
+        {
+            "id": "14-3",
+            "title": "The Cosmic Symphony",
+            "bookmark_level": 1,
+            "book_key": "14",
+            "type": "text"
+        },
+        {
+            "id": "14-3-6",
+            "title": "Nothing but Music: The Essentials of Superstring Theory",
+            "bookmark_level": 2,
+            "book_key": "14",
+            "type": "text"
         }
     ],
     "links": [
@@ -6089,6 +6117,21 @@
             "type": "contains"
         },
         {
+            "source": "14-2",
+            "target": "14-2-4",
+            "type": "contains"
+        },
+        {
+            "source": "14-2",
+            "target": "14-2-5",
+            "type": "contains"
+        },
+        {
+            "source": "14-3",
+            "target": "14-3-6",
+            "type": "contains"
+        },
+        {
             "source": "1-6",
             "target": "8-17",
             "type": "related",
@@ -6585,6 +6628,24 @@
             "target": "12-6",
             "type": "related",
             "remark": "Of Warps and Ripples -> Black Holes"
+        },
+        {
+            "source": "14-2-4",
+            "target": "11-6-1",
+            "type": "related",
+            "remark": "Microscopic Weirdness -> Quantum Beauty I: Music of the Spheres"
+        },
+        {
+            "source": "14-2-5",
+            "target": "12-11",
+            "type": "related",
+            "remark": "The Need for a New Theory: General Relativity vs. Quantum Mechanics -> The Unification of Physics"
+        },
+        {
+            "source": "12-11",
+            "target": "14-3-6",
+            "type": "related",
+            "remark": "Nothing but Music: The Essentials of Superstring Theory"
         }
     ]
 }
