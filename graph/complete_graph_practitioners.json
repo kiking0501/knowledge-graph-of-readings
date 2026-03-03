@@ -56,6 +56,11 @@
 			"type": "img"
 		},
 		{
+			"id": "c1",
+			"book_key": "c1",
+			"type": "img"
+		},
+		{
 			"id": "l1-1",
 			"title": "Fundamental Contradiction of Human Life",
 			"book_key": "l1",
@@ -4317,6 +4322,27 @@
 			"book_key": "l2",
 			"bookmark_level": 2,
 			"type": "text"
+		},
+		{
+			"id": "c1-1",
+			"title": "Right and Wrong as a Clue to the Meaning of the Universe",
+			"book_key": "c1",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "c1-2",
+			"title": "What Christians Believe",
+			"book_key": "c1",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "c1-3",
+			"title": "Christian Behaviour",
+			"book_key": "c1",
+			"bookmark_level": 1,
+			"type": "text"
 		}
 	],
 	"links": [
@@ -7434,6 +7460,21 @@
 			"source": "l2-4",
 			"target": "l2-4-21",
 			"type": "contains"
+        },
+		{
+			"source": "c1",
+			"target": "c1-1",
+			"type": "contains"
+        },
+		{
+			"source": "c1",
+			"target": "c1-2",
+			"type": "contains"
+        },
+		{
+			"source": "c1",
+			"target": "c1-3",
+			"type": "contains"
         },   
 		{
 			"source": "bt-3-3",
@@ -7958,6 +7999,24 @@
 			"target": "hb-old",
 			"type": "related",
 			"title": "Afterword: The Animal that Became a God/ Old Testament"
-		}
+		},
+		{
+			"source": "l2-3-12",
+			"target": "c1-2",
+			"type": "related",
+			"title": "The Law of Religion/What Christians Believe"
+		},
+		{
+			"source": "c1-3",
+			"target": "hb-new",
+			"type": "related",
+			"title": "Christian Behavior / New Testament"
+		},
+		{
+			"source": "l2-4-19",
+			"target": "c1-3",
+			"type": "related",
+			"title": "And They Lived Happily Ever After / Christian Behavior"
+		}			
 	]
 }
