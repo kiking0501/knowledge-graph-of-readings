@@ -61,6 +61,11 @@
 			"type": "img"
 		},
 		{
+			"id": "e3",
+			"book_key": "e3",
+			"type": "img"
+		},
+		{
 			"id": "l1-1",
 			"title": "Fundamental Contradiction of Human Life",
 			"book_key": "l1",
@@ -4350,7 +4355,71 @@
 			"book_key": "c1",
 			"bookmark_level": 1,
 			"type": "text"
+		},
+		{
+			"id": "e3-3",
+			"title": "Choose Your Topic",
+			"book_key": "e3",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "e3-4",
+			"title": "Start with Heart",
+			"book_key": "e3",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "e3-5",
+			"title": "Master My Stories",
+			"book_key": "e3",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "e3-6",
+			"title": "Learn to Look",
+			"book_key": "e3",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "e3-7",
+			"title": "Make It Safe",
+			"book_key": "e3",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "e3-8",
+			"title": "STATE My Path",
+			"book_key": "e3",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "e3-9",
+			"title": "Explore Others' Paths",
+			"book_key": "e3",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "e3-10",
+			"title": "Retake Your Pen",
+			"book_key": "e3",
+			"bookmark_level": 1,
+			"type": "text"
+		},
+		{
+			"id": "e3-11",
+			"title": "Move to Action",
+			"book_key": "e3",
+			"bookmark_level": 1,
+			"type": "text"
 		}
+		
 	],
 	"links": [
 		{
@@ -7487,6 +7556,51 @@
 			"source": "c1",
 			"target": "c1-4",
 			"type": "contains"
+        },   
+		{
+			"source": "e3",
+			"target": "e3-3",
+			"type": "contains"
+        },   
+		{
+			"source": "e3",
+			"target": "e3-4",
+			"type": "contains"
+        },   
+		{
+			"source": "e3",
+			"target": "e3-5",
+			"type": "contains"
+        },   
+		{
+			"source": "e3",
+			"target": "e3-6",
+			"type": "contains"
+        },   
+		{
+			"source": "e3",
+			"target": "e3-7",
+			"type": "contains"
+        },   
+		{
+			"source": "e3",
+			"target": "e3-8",
+			"type": "contains"
+        },   
+		{
+			"source": "e3",
+			"target": "e3-9",
+			"type": "contains"
+        },   
+		{
+			"source": "e3",
+			"target": "e3-10",
+			"type": "contains"
+        },   
+		{
+			"source": "e3",
+			"target": "e3-11",
+			"type": "contains"
         },
 		{
 			"source": "bt-3-3",
@@ -8035,6 +8149,36 @@
 			"target": "hb-new",
 			"type": "related",
 			"title": "Christian Behavior / New Testament"
-		}			
+		},
+		{
+			"source": "e3-5",
+			"target": "t0-2",
+			"type": "related",
+			"title": "Master My Stories / The Integrity Question"
+		},
+		{
+			"source": "e2-2",
+			"target": "e3-7",
+			"type": "related",
+			"title": "The Art of Stalking / Make It Safe"
+		},
+		{
+			"source": "e2-6",
+			"target": "e3-8",
+			"type": "related",
+			"title": "Argue Logically / STATE My Path"
+		},
+		{
+			"source": "e3-9",
+			"target": "bt-2-3",
+			"type": "related",
+			"title": "Explore Others' Paths /Be radically open-minded"
+		},
+		{
+			"source": "e3-10",
+			"target": "t0-3",
+			"type": "related",
+			"title": "Retake Your Pen / The Legacy Question: What Story Do I Want to Tell?"
+		}
 	]
 }
